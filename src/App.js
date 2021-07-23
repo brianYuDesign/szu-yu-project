@@ -1,25 +1,18 @@
-import './App.css';
+import "./App.css"
+import Cover from "./pages/Cover"
+import Education from "./pages/Education"
+import Skill from "./pages/Skill"
+import Work from "./pages/Work"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       SzuYu Project 
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+      <Cover />
+      <Education />
+      <Work />
+      <Skill />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
