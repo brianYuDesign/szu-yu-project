@@ -1,0 +1,47 @@
+BrianYu  全端工程師 Taipei, Taiwan
+我從與人互動頻繁的活動圈栽進高級打字員的這條不歸路，想要儘速達成摘星夢想，必需不段付出，用簡言易懂的方式寫code是我的風格
+
+
+Education And Qualifications 
+中國科技大學, 學士, 資訊管理, 2013 ~ 2017
+2014 - Pass - Exam 70-483: Programming in C# 
+2017 - Pass - IPAS 行動裝置程式設計師
+Work Experience
+云桐科技 - 軟體工程師，2020 年 9 月 - 至今
+公平數據平台 - 參與專案規劃，需求討論，前後端，區塊鏈主要開發 (Node.js, NestJs, MySQL, EOSIO, React)。
+
+博弈系統 - 後端主要開發，需求討論(Node.js, NestJs, MySQL, KAFKA)。
+
+我愛數位科技 - 軟體工程師，2018.4 - 2020.8
+借貸系統-參與專案規劃分析與後端主要開發，協助新人快速熟悉環境與環境開發(Node.Js, NestJs, MySQL)
+
+影音串流系統 - 參與專案規劃與前後端主要開發，自動化部屬 (Node.js, Apollo, GraphQl, AWS EC2 ECS, React, MongoDB)。
+
+設備叫修系統 - 規格文件撰寫與前後端主要開發(Node.js, GraphQL,React, Hooks, MongoDB)。
+
+專案流程控制系統 - 開發前端與撰寫測試(React, Redux, enzyme)。
+
+賞屋接待系統 - 參與專案規劃，前後端主要開發，撰寫測試(Salesforce, Apex, VisualForce, BootStrap, LineBot)
+
+卡片掛失系統 - 專案規格撰寫，前後端主要開發(.Net Core2, BootStrap)
+
+電商購物車 - 系統開發與撰寫測試(Salesforce, Apex, VisualForce, LineBot)
+
+,
+線上全球 - 專案業務(Intern)，2017.1 - 2017.7
+開發陌生客戶，電話約訪，介紹軟體服務
+
+協助客戶開發文件與簡報製作
+
+Skill
+Software development (Node.Js/Salesforce/C#/JAVA) 
+Web development (ReactJs, Javascript, HTML/CSS) 
+Other (AWS Service, JenkinsCI, Docker) 
+Development: Javascript, TypeScript, C#, HTML, CSS, Full stack, Salesforce (APEX) 
+Database: MongoDB, MySQL 
+Methodologies: FunctionalPrograming, Refactoring, SOLID, MicroService
+OS: MacOS X, Windows, Linux (Ubuntu)   
+
+Brief
+您好，我叫Brian，目前為在職中的全端工程師，工作經歷兩年半，目前在新創公司，擔任全端開發工程師，主要負責開發區塊鏈公平性可靠平台，熟悉的技術有後端 NodeJs(Typescript) 前端 React 雲端 AWS。
+了解CleanCoding 與 DesignPattern原理，具備獨立開發，分析與解決問題，協同合作等能力， 能應專案需求變化，快速應對與迅速調整，過去曾開發過借貸系統(後端)，影音串流平台(前後端)，設備庫存管理(前後端)，電商購物車(前後端)。除此之外，也時常學習新技術，常在公司內部讀書會技術分享。
