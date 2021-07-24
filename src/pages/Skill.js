@@ -1,7 +1,22 @@
 import React from "react"
 
 const Skill = () => {
-  return <div></div>
+  return (
+    <div className="content_block shadow-md">
+      <div className="text-xl text-center font-bold">Skill</div>
+      <div>
+        {skillList.map((item, index) => (
+          <div
+            className="flex flex-wrap mr-4 ml-4 items-baseline"
+            key={`skill_${index}`}
+          >
+            <div className="text-md font-bold flex-shrink-0">{item.title}:</div>
+            <div className="text-sm">{item.content}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 const skillList = [

@@ -1,7 +1,30 @@
 import React from "react"
 
 const Work = () => {
-  return <div></div>
+  return (
+    <div className="content_block flex flex-wrap justify-center shadow-md">
+      {workList.map((item, index) => (
+        <div key={`work_${index}`}>
+          <>
+            <div className="company_name">{item.companyName}</div>
+            <div className="company_desc">{item.companyDesc}</div>
+            <div className="job_title">{item.jobTitle}</div>
+            <div className="period">{item.period}</div>
+
+            <div className="">
+              {item.projects.map((p, i) => (
+                <div key={`project_${i}`}>
+                  {p.name}
+                  {p.jobDesc}
+                  {p.tech}
+                </div>
+              ))}
+            </div>
+          </>
+        </div>
+      ))}
+    </div>
+  )
 }
 
 const workList = [
@@ -11,7 +34,7 @@ const workList = [
     jobTitle: "軟體工程師",
     jobFeeling: "",
     period: "2020.09 - 至今",
-    project: [
+    projects: [
       {
         name: "公平數據平台",
         jobDesc: "參與專案規劃，需求討論，前後端，區塊鏈主要開發",
@@ -32,7 +55,7 @@ const workList = [
     jobTitle: "軟體工程師",
     jobFeeling: "",
     period: "2018.04 - 2020.08",
-    project: [
+    projects: [
       {
         name: "借貸系統",
         jobDesc:
@@ -77,7 +100,7 @@ const workList = [
     jobTitle: "專案業務(Intern)",
     jobFeeling: "",
     period: "2017.01 - 2017.07",
-    tech: ["LineBot", "Node.js", "Android"]
+    projects: []
   }
 ]
 

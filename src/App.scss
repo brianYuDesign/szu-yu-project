@@ -1,5 +1,38 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  line-height: 1.6;
+  font-family: "El Messiri", sans-serif;
+
+  &::before {
+    content: " ";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("img/bg.webp") 0 0 / cover no-repeat;
+    z-index: -1;
+  }
+}
+
+.content_block {
+  border-radius: 15px;
+  background: #9c9c9c;
+  opacity: 0.9;
+}
+
+.flex_grid {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: wrap;
+
+  > * {
+    border: 0;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .App-logo {
