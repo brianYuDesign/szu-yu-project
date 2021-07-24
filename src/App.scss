@@ -11,6 +11,7 @@
     right: 0;
     bottom: 0;
     background: url("img/bg.webp") 0 0 / cover no-repeat;
+    opacity: 0.9;
     z-index: -1;
   }
 }
@@ -19,6 +20,7 @@
   border-radius: 15px;
   background: #9c9c9c;
   opacity: 0.9;
+  height: 100%;
 }
 
 .flex_grid {

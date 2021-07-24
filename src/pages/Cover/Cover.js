@@ -9,8 +9,8 @@ const Cover = () => {
       </div>
       <div className="flex flex-col justify-center flex-wrap">
         <div className="text-2xl  text-center font-bold ">BrianYu CV</div>
-        <div className="font-normal m-5">
-          我從與人互動頻繁的活動圈栽進高級打字員的這條不歸路，用簡言易懂的方式寫code是我的風格
+        <div className="font-normal m-2">
+          Hi, I'm Brian a full-stack engineer working at YT
         </div>
       </div>
     </div>

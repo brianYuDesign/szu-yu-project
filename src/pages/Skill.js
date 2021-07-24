@@ -3,14 +3,16 @@ import React from "react"
 const Skill = () => {
   return (
     <div className="content_block shadow-md">
-      <div className="text-xl text-center font-bold">Skill</div>
+      <div className="text-xl text-center font-bold">
+        Skill<i class="fa fa-code" aria-hidden="true"></i>
+      </div>
       <div>
         {skillList.map((item, index) => (
           <div
-            className="flex flex-wrap mr-4 ml-4 items-baseline"
+            className="flex flex-wrap mr-5 ml-5 items-baseline"
             key={`skill_${index}`}
           >
-            <div className="text-md font-bold flex-shrink-0">{item.title}:</div>
+            <div className="text-sm font-bold flex-shrink-0">{item.title}:</div>
             <div className="text-sm">{item.content}</div>
           </div>
         ))}
