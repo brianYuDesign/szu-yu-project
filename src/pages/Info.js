@@ -1,11 +1,15 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faInfo } from "@fortawesome/free-solid-svg-icons"
 
 const Info = () => {
   return (
     <div className="content_block shadow-md">
-      <div className="text-xl text-center font-bold">Info</div>
-      <div></div>
-      <div className="flex flex-col ">
+      <div className="text-xl text-center font-bold mb-2">
+        Info <FontAwesomeIcon icon={faInfo} />
+      </div>
+
+      <div className="flex flex-col mb-2">
         <div className="flex justify-between mr-5 ml-5 items-baseline">
           <div className="font-bold text-sm">Birth</div>
           <div className="text-sm">1994/11/21</div>
