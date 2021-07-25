@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/szu-yu-project/static/css/main.7af2feeb.chunk.css",
-    "main.js": "/szu-yu-project/static/js/main.628cc18d.chunk.js",
-    "main.js.map": "/szu-yu-project/static/js/main.628cc18d.chunk.js.map",
-    "runtime-main.js": "/szu-yu-project/static/js/runtime-main.8cccfe03.js",
-    "runtime-main.js.map": "/szu-yu-project/static/js/runtime-main.8cccfe03.js.map",
-    "static/js/2.d7edae0d.chunk.js": "/szu-yu-project/static/js/2.d7edae0d.chunk.js",
-    "static/js/2.d7edae0d.chunk.js.map": "/szu-yu-project/static/js/2.d7edae0d.chunk.js.map",
-    "static/js/3.06339f6c.chunk.js": "/szu-yu-project/static/js/3.06339f6c.chunk.js",
-    "static/js/3.06339f6c.chunk.js.map": "/szu-yu-project/static/js/3.06339f6c.chunk.js.map",
+    "main.css": "/szu-yu-project/static/css/main.3d973dc3.chunk.css",
+    "main.js": "/szu-yu-project/static/js/main.2ce1a5b7.chunk.js",
+    "main.js.map": "/szu-yu-project/static/js/main.2ce1a5b7.chunk.js.map",
+    "runtime-main.js": "/szu-yu-project/static/js/runtime-main.220fe319.js",
+    "runtime-main.js.map": "/szu-yu-project/static/js/runtime-main.220fe319.js.map",
+    "static/js/2.504b9020.chunk.js": "/szu-yu-project/static/js/2.504b9020.chunk.js",
+    "static/js/2.504b9020.chunk.js.map": "/szu-yu-project/static/js/2.504b9020.chunk.js.map",
+    "static/js/3.2406d4bb.chunk.js": "/szu-yu-project/static/js/3.2406d4bb.chunk.js",
+    "static/js/3.2406d4bb.chunk.js.map": "/szu-yu-project/static/js/3.2406d4bb.chunk.js.map",
     "index.html": "/szu-yu-project/index.html",
-    "static/css/main.7af2feeb.chunk.css.map": "/szu-yu-project/static/css/main.7af2feeb.chunk.css.map",
-    "static/js/2.d7edae0d.chunk.js.LICENSE.txt": "/szu-yu-project/static/js/2.d7edae0d.chunk.js.LICENSE.txt",
+    "static/css/main.3d973dc3.chunk.css.map": "/szu-yu-project/static/css/main.3d973dc3.chunk.css.map",
+    "static/js/2.504b9020.chunk.js.LICENSE.txt": "/szu-yu-project/static/js/2.504b9020.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/szu-yu-project/static/media/bg.3ad538be.webp",
     "static/media/Cover.scss": "/szu-yu-project/static/media/profile.17593f21.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8cccfe03.js",
-    "static/js/2.d7edae0d.chunk.js",
-    "static/css/main.7af2feeb.chunk.css",
-    "static/js/main.628cc18d.chunk.js"
+    "static/js/runtime-main.220fe319.js",
+    "static/js/2.504b9020.chunk.js",
+    "static/css/main.3d973dc3.chunk.css",
+    "static/js/main.2ce1a5b7.chunk.js"
   ]
 }
