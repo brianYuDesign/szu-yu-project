@@ -134,7 +134,7 @@ const workList = [
   },
   {
     companyName: "傳揚行銷",
-    jobTitle: "專案業務(Intern)",
+    jobTitle: "活動督導",
     jobDesc: "介紹與銷售產品，協助產品銷售活動，產品教育訓練講師。",
     period: "2015.08 ~ 2018.08",
     projects: []
