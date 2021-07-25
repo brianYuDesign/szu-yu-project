@@ -1,11 +1,12 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSchool } from "@fortawesome/free-solid-svg-icons"
+import Block from "../components/Block"
 
 const Education = () => {
   return (
-    <div className="content_block shadow-md">
-      <div className="text-xl text-center font-bold mb-2">
+    <Block>
+      <div className="text-xl text-center font-bold py-2">
         Education <FontAwesomeIcon icon={faSchool} />
       </div>
       <div className="flex flex-col mb-2">
@@ -28,7 +29,7 @@ const Education = () => {
           <div className="text-sm">2014</div>
         </div>
       </div>
-    </div>
+    </Block>
   )
 }
 

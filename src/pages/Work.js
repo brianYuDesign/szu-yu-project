@@ -1,22 +1,23 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTools } from "@fortawesome/free-solid-svg-icons"
+import Block from "../components/Block"
 
 const Work = () => {
   return (
-    <div className="content_block flex flex-wrap justify-center shadow-md">
-      <div className="text-xl text-center font-bold mb-2">
+    <Block>
+      <div className="text-xl text-center font-bold py-2">
         Work <FontAwesomeIcon icon={faTools} />
       </div>
-      <ul className=" rounded-3xl p-2 sm:p-5 xl:p-6">
+      <ul className=" rounded-3xl">
         {workList.map((item, index) => (
           <li key={`work_${index}`}>
             <article>
               <div
                 // href="https://blog.tailwindcss.com/multi-line-truncation-with-tailwindcss-line-clamp"
-                className="grid md:grid-cols-8 xl:grid-cols-9 items-start relative rounded-xl p-3 sm:p-5 xl:p-6 overflow-hidden hover:bg-white"
+                className="grid md:grid-cols-8 xl:grid-cols-9 items-start relative rounded-xl p-3 sm:p-5 xl:p-6 overflow-hidden "
               >
-                <h3 className="md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-0">
+                <h3 className="md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-0 font-bold">
                   {item.companyName} - {item.jobTitle}
                 </h3>
                 <time
@@ -53,7 +54,7 @@ const Work = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </Block>
   )
 }
 

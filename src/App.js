@@ -4,10 +4,13 @@ import Info from "./pages/Info"
 import Skill from "./pages/Skill"
 import Work from "./pages/Work"
 import "./App.scss"
+import ThemeToggle from "./components/ThemeToggle"
 
 function App() {
   return (
-    <div className=" mx-auto px-4 py-4  font-semibold bg-gradient-to-r from-red-400 to-blue-500">
+    <div className="mx-auto px-4 py-2 font-semi App">
+      <ThemeToggle />
+
       <div className="grid grid-cols-1 gap-3 place-content-stretch items-center ">
         <div className="">
           <Cover />

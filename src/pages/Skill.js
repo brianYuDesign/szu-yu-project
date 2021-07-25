@@ -1,11 +1,12 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
+import Block from "../components/Block"
 
 const Skill = () => {
   return (
-    <div className="content_block shadow-md">
-      <div className="text-xl text-center font-bold mb-2">
+    <Block>
+      <div className="text-xl text-center font-bold py-2">
         Skill <FontAwesomeIcon icon={faCode} />
       </div>
       <div className="flex flex-col mb-2">
@@ -19,7 +20,7 @@ const Skill = () => {
           </div>
         ))}
       </div>
-    </div>
+    </Block>
   )
 }
 

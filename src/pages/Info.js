@@ -1,11 +1,12 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInfo } from "@fortawesome/free-solid-svg-icons"
+import Block from "../components/Block"
 
 const Info = () => {
   return (
-    <div className="content_block shadow-md">
-      <div className="text-xl text-center font-bold mb-2">
+    <Block>
+      <div className="text-xl text-center font-bold py-2">
         Info <FontAwesomeIcon icon={faInfo} />
       </div>
 
@@ -31,7 +32,7 @@ const Info = () => {
           <div className="text-sm">brian831121</div>
         </div>
       </div>
-    </div>
+    </Block>
   )
 }
 

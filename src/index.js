@@ -3,10 +3,16 @@ import ReactDOM from "react-dom"
 import App from "./App"
 import reportWebVitals from "./reportWebVitals"
 import "./index.css"
+import Background from "./components/Background"
+import { ThemeProvider } from "./context/themeContext"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <Background>
+        <App />
+      </Background>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 )
