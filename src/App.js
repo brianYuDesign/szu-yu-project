@@ -7,7 +7,7 @@ import "./App.scss"
 
 function App() {
   return (
-    <div className="container mx-auto px-4 App font-mono">
+    <div className=" mx-auto px-4 py-4  font-semibold bg-gradient-to-r from-red-400 to-blue-500">
       <div className="grid grid-cols-1 gap-3 place-content-stretch items-center ">
         <div className="">
           <Cover />

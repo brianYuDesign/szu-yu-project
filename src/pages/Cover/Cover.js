@@ -10,7 +10,7 @@ const Cover = () => {
       <div className="flex flex-col justify-center flex-wrap">
         <div className="text-2xl  text-center font-bold ">BrianYu CV</div>
         <div className="font-normal m-2">
-          Hi, I'm Brian a full-stack engineer working at YT
+          Hi, I'm Brian a full-stack engineer working in Taipei
         </div>
       </div>
     </div>

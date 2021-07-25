@@ -2,12 +2,14 @@
   "name": "szu-yu-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://brianYuDesign.github.io/szu-yu-project",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "autoprefixer": "^9",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1",
     "postcss": "^7",
     "react": "^17.0.2",
@@ -17,6 +19,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
