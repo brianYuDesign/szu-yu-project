@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/szu-yu-project/static/css/main.a226d689.chunk.css",
+    "main.css": "/szu-yu-project/static/css/main.b21b535b.chunk.css",
     "main.js": "/szu-yu-project/static/js/main.eaf78bbd.chunk.js",
     "main.js.map": "/szu-yu-project/static/js/main.eaf78bbd.chunk.js.map",
     "runtime-main.js": "/szu-yu-project/static/js/runtime-main.a10b6357.js",
@@ -12,7 +12,7 @@
     "static/js/3.bd29017a.chunk.js.map": "/szu-yu-project/static/js/3.bd29017a.chunk.js.map",
     "index.html": "/szu-yu-project/index.html",
     "static/css/2.47f28a85.chunk.css.map": "/szu-yu-project/static/css/2.47f28a85.chunk.css.map",
-    "static/css/main.a226d689.chunk.css.map": "/szu-yu-project/static/css/main.a226d689.chunk.css.map",
+    "static/css/main.b21b535b.chunk.css.map": "/szu-yu-project/static/css/main.b21b535b.chunk.css.map",
     "static/js/2.4a20223b.chunk.js.LICENSE.txt": "/szu-yu-project/static/js/2.4a20223b.chunk.js.LICENSE.txt",
     "static/media/banalife.3d32f34f.jpg": "/szu-yu-project/static/media/banalife.3d32f34f.jpg",
     "static/media/App.scss": "/szu-yu-project/static/media/bg.3ad538be.webp",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.a10b6357.js",
     "static/css/2.47f28a85.chunk.css",
     "static/js/2.4a20223b.chunk.js",
-    "static/css/main.a226d689.chunk.css",
+    "static/css/main.b21b535b.chunk.css",
     "static/js/main.eaf78bbd.chunk.js"
   ]
 }
