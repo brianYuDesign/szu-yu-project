@@ -7,6 +7,7 @@ import "./App.scss";
 import ThemeToggle from "./components/ThemeToggle";
 import Aos from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Project from "./pages/Project";
 
 function App() {
   Aos.init();
@@ -43,6 +44,9 @@ function App() {
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" className="">
           <Work />
+        </div>
+        <div data-aos="fade-up" data-aos-duration="2000" className="">
+          <Project />
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
-import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode } from "@fortawesome/free-solid-svg-icons"
-import Block from "../components/Block"
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import Block from "../components/Block";
 
 const Skill = () => {
   return (
@@ -12,17 +12,17 @@ const Skill = () => {
       <div className="flex flex-col mb-2">
         {skillList.map((item, index) => (
           <div
-            className="flex flex-wrap mr-5 ml-5 items-baseline"
+            className="flex flex-wrap mr-5 ml-5 mt-3 items-baseline"
             key={`skill_${index}`}
           >
-            <div className="text-sm font-bold">{item.title}:</div>
+            <div className="text font-bold">{item.title}:</div>
             <div className="text-sm">{item.content}</div>
           </div>
         ))}
       </div>
     </Block>
-  )
-}
+  );
+};
 
 const skillList = [
   { title: "Software development", content: "Node.Js, Salesforce, C#, JAVA" },
@@ -31,18 +31,18 @@ const skillList = [
   {
     title: "Development",
     content:
-      "Javascript, TypeScript, C#, HTML, CSS, Full stack, Salesforce (APEX)"
+      "Javascript, TypeScript, C#, HTML, CSS, Full stack, Salesforce (APEX)",
   },
   { title: "Database", content: "MongoDB, MySQL, Redis" },
   {
     title: "Methodologies",
     content:
-      "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService"
+      "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService",
   },
   {
     title: "OS",
-    content: "MacOS X, Windows, Linux (Ubuntu)"
-  }
-]
+    content: "MacOS X, Windows, Linux (Ubuntu)",
+  },
+];
 
-export default Skill
+export default Skill;

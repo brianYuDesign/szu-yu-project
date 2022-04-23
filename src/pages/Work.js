@@ -1,7 +1,7 @@
-import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTools } from "@fortawesome/free-solid-svg-icons"
-import Block from "../components/Block"
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTools } from "@fortawesome/free-solid-svg-icons";
+import Block from "../components/Block";
 
 const Work = () => {
   return (
@@ -55,91 +55,44 @@ const Work = () => {
         ))}
       </ul>
     </Block>
-  )
-}
+  );
+};
 
 const workList = [
   {
-    companyName: "云桐科技",
+    companyName: "Self-Employed",
+    jobTitle: "Freelancer",
+    jobDesc:
+      "接觸專案管理工作(工時與時程安排，確認需求，人員派工，專案外部與內部溝通)，共同完成客戶目標。或是當一個開發者，在指定期間內，交付API與相關規格文件。",
+    period: "2020.09 ~ 至今",
+  },
+  {
+    companyName: "云桐科技(現)",
     jobTitle: "後端工程師",
     jobDesc:
-      "參與專案需求規劃，開發後端NodeJs Restful API，區塊鏈技術(EOS)，WebCrawler，前端React功能畫面開發。",
+      "主要參與內部產品的系統分析，與後端開發等工作，開發項目包括(遊戲，彩票，公平隨機數，爬蟲數據，後台，重構程式碼與優化效能)。開發上自律，除了主動提供API文件與postman提供串接方進行串接，也會時常參與需求規劃與分析。",
     period: "2020.09 ~ 至今",
-    projects: [
-      {
-        name: "公平數據平台",
-        desc: "參與專案需求整理，前後端，區塊鏈主要開發",
-        tech: ["Node.js", "NestJs", "MySQL", "EOSIO", "React", "MicroService"],
-        link: ""
-      },
-      {
-        name: "博弈系統",
-        desc: "後端主要開發，需求討論",
-        tech: ["Node.js", "NestJs", "MySQL", "KAFKA", "MicroService"],
-        link: ""
-      }
-    ]
   },
   {
     companyName: "我愛數位科技",
     jobTitle: "全端工程師",
     jobDesc:
-      "參與專案需求分析，全端(NodeJs, React)開發，公司新人教育訓練，技術分享會，福委會主委。",
+      "主要負責外包專案的系統分析與討論，進行後端後台主要開發等工作。空閒時主動自學新的技術，參加AWS提供的技術交流分享會，或是前端開發者社群，並定期舉辦技術分享會，早起刷leetcode等活動。TeamBuilding舉辦公司內部團康活動，爬山或戶外烤肉活動，尾牙活動等。",
     period: "2018.04 ~ 2020.08",
-    projects: [
-      {
-        name: "借貸系統",
-        jobDesc:
-          "參與專案規劃分析與後端主要開發，協助新人快速熟悉環境與環境開發",
-        tech: ["Node.js", "NestJs", "MySQL", "Docker"],
-        link: ""
-      },
-      {
-        name: "影音串流系統",
-        jobDesc: "參與專案規劃與前後端主要開發，自動化部屬",
-        tech: [
-          "Node.js",
-          "Apollo",
-          "GraphQl",
-          "AWS",
-          "S3",
-          "EC2",
-          "ECS",
-          "React",
-          "MongoDB",
-          "Redis"
-        ],
-        link: ""
-      },
-      {
-        name: "設備叫修系統",
-        jobDesc: "規格文件撰寫與前後端主要開發",
-        tech: ["Node.js", "Apollo", "GraphQl", "React", "MongoDB"],
-        link: ""
-      },
-      {
-        name: "賞屋接待系統",
-        jobDesc: "參與專案規劃，前後端主要開發，撰寫測試",
-        tech: ["Salesforce", "Apex", "VisualForce", "BootStrap", "LineBot"],
-        link: ""
-      }
-    ]
   },
   {
     companyName: "線上全球",
     jobTitle: "專案業務(Intern)",
     jobDesc:
-      "陌生客戶開發，介紹軟體服務，協助客戶開發文件，簡報製作，技術研究(Line@)。",
+      "陌生客戶開發，介紹軟體服務，協助客戶開發文件，簡報製作，技術研究(Line@)。",
     period: "2017.01 ~ 2017.07",
-    projects: []
   },
   {
     companyName: "傳揚行銷",
     jobTitle: "活動督導",
-    jobDesc: "介紹與銷售產品，協助產品銷售活動，產品教育訓練講師。",
+    jobDesc: "參與活動前期準備，產品銷售活動督導，產品教育訓練講師。",
     period: "2015.08 ~ 2018.08",
-    projects: []
-  }
-]
+  },
+];
 
-export default Work
+export default Work;
