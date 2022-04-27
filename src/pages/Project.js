@@ -14,7 +14,7 @@ const Project = () => {
       <div className="text-xl text-center font-bold py-2">
         Project <FontAwesomeIcon icon={faBook} />
       </div>
-      <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {projectList.map((item, index) => (
           <div
             key={`project_${index}`}
