@@ -46,7 +46,7 @@ const Work = () => {
                   </svg>
                   {item.period}
                 </time>
-                <p className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0">
+                <p className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0 text-gray-400">
                   {item.jobDesc}
                 </p>
               </div>
