@@ -21,7 +21,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "yarn build build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "NODE_OPTIONS=--openssl-legacy-provider craco start",
     "build": "NODE_OPTIONS=--openssl-legacy-provider craco build",
