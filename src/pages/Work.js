@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <Block>
       <div className="text-xl text-center font-bold py-2">
-        Work <FontAwesomeIcon icon={faTools} />
+        Experience <FontAwesomeIcon icon={faTools} />
       </div>
       <ul className=" rounded-3xl">
         {workList.map((item, index) => (
@@ -46,9 +46,20 @@ const Work = () => {
                   </svg>
                   {item.period}
                 </time>
-                <p className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0 text-gray-400">
-                  {item.jobDesc}
-                </p>
+                <div className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0 text-gray-400">
+                  {Array.isArray(item.jobDesc) ? (
+                    <ul className="list-disc list-inside space-y-1">
+                      {item.jobDesc.map((desc, idx) => (
+                        <li
+                          key={idx}
+                          dangerouslySetInnerHTML={{ __html: desc }}
+                        />
+                      ))}
+                    </ul>
+                  ) : (
+                    <p>{item.jobDesc}</p>
+                  )}
+                </div>
               </div>
             </article>
           </li>
@@ -60,6 +71,34 @@ const Work = () => {
 
 const workList = [
   {
+    companyName: "云桐科技(現)",
+    jobTitle: "資訊技術經理",
+    jobDesc: [
+      "帶領 <strong>11 人跨職能技術團隊（前端、後端）</strong>，負責產品研發、系統穩定度與交付品質",
+      "主導 <strong>12+ 款遊戲與平台型產品</strong> 從系統設計、開發到正式上線，長期處於高變動、高併發的業務環境",
+      "同時承擔 <strong>技術決策與團隊治理角色</strong>，結合系統架構設計、開發流程與風險控管，提升整體交付穩定度",
+      "透過系統重構與流程優化，<strong>有效降低效能瓶頸與上線後異常發生率</strong>，顯著減少 hotfix 次數",
+      "擅長以 <strong>Node.js / TypeScript</strong> 建構與維運後端服務，熟悉即時系統與遊戲後端架構",
+      "<strong>專長於善用監控與觀測系統進行問題定位</strong>，能從 log、metrics 與實際行為數據中分析系統瓶頸",
+      "擅長針對高併發與即時需求，<strong>分析並優化潛在效能瓶頸</strong>，包含資源使用、非同步流程與系統負載",
+      "能在技術與業務需求之間取得平衡，將抽象問題轉化為可落地的優化方案",
+      "透過 <strong>design review、code review 與明確交付標準</strong>，建立團隊共識並確保實作品質",
+    ],
+    period: "2023.01 ~ 至今",
+  },
+  {
+    companyName: "云桐科技(現)",
+    jobTitle: "後端工程師",
+    jobDesc: [
+      "參與多項後端系統開發與維運，包含遊戲、彩票、公平隨機數、爬蟲數據與後台系統",
+      "負責系統分析、後端功能實作、程式碼重構與效能優化",
+      "主動參與需求規劃，協助釐清業務邏輯與技術實作方式",
+      "提供 API 文件、Postman 範例與關鍵技術文件，提升跨團隊協作效率",
+      "開發風格重視結構清楚、擴充性與可維護性",
+    ],
+    period: "2020.09 ~ 2022.12",
+  },
+  {
     companyName: "Self-Employed",
     jobTitle: "Freelancer",
     jobDesc:
@@ -67,32 +106,32 @@ const workList = [
     period: "2020.09 ~ 至今",
   },
   {
-    companyName: "云桐科技(現)",
-    jobTitle: "後端工程師",
-    jobDesc:
-      "主要參與內部產品的系統分析，與後端開發等工作，開發項目包括(遊戲，彩票，公平隨機數，爬蟲數據，後台，重構程式碼與優化效能)。開發上自律，除了主動提供API文件與postman提供串接方進行串接，也會時常參與需求規劃與分析。",
-    period: "2020.09 ~ 至今",
-  },
-  {
     companyName: "我愛數位科技",
-    jobTitle: "全端工程師",
-    jobDesc:
-      "主要負責外包專案的系統分析與討論，進行後端後台主要開發等工作。空閒時主動自學新的技術，參加AWS提供的技術交流分享會，或是前端開發者社群，並定期舉辦技術分享會，早起刷leetcode等活動。TeamBuilding舉辦公司內部團康活動，爬山或戶外烤肉活動，尾牙活動等。",
+    jobTitle: "軟體工程師",
+    jobDesc: [
+      "自學 Node.js、GraphQL、AWS，並實際為公司創造營收",
+      "可獨立開發後端服務，與前端工程師協同完成產品功能",
+      "重視程式碼架構、可讀性與可維護性",
+      "撰寫後端 API 與技術文件，提升團隊開發效率",
+      "參與公司技術分享，具備多次對內技術分享經驗",
+      "協助帶領新人後端開發，管理部分外包工程師進度",
+      "建立自動化部署流程，改善交付效率",
+    ],
     period: "2018.04 ~ 2020.08",
   },
-  {
-    companyName: "線上全球",
-    jobTitle: "專案業務(Intern)",
-    jobDesc:
-      "陌生客戶開發，介紹軟體服務，協助客戶開發文件，簡報製作，技術研究(Line@)。",
-    period: "2017.01 ~ 2017.07",
-  },
-  {
-    companyName: "傳揚行銷",
-    jobTitle: "活動督導",
-    jobDesc: "參與活動前期準備，產品銷售活動督導，產品教育訓練講師。",
-    period: "2015.08 ~ 2018.08",
-  },
+  // {
+  //   companyName: "線上全球",
+  //   jobTitle: "專案業務(Intern)",
+  //   jobDesc:
+  //     "陌生客戶開發，介紹軟體服務，協助客戶開發文件，簡報製作，技術研究(Line@)。",
+  //   period: "2017.01 ~ 2017.07",
+  // },
+  // {
+  //   companyName: "傳揚行銷",
+  //   jobTitle: "活動督導",
+  //   jobDesc: "參與活動前期準備，產品銷售活動督導，產品教育訓練講師。",
+  //   period: "2015.08 ~ 2018.08",
+  // },
 ];
 
 export default Work;

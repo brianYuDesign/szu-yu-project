@@ -25,23 +25,21 @@ const Skill = () => {
 };
 
 const skillList = [
-  { title: "Software development", content: "Node.Js, Salesforce, C#, JAVA" },
-  { title: "Web development", content: "ReactJs, Javascript, HTML/CSS" },
-  { title: "Other", content: "AWS, JenkinsCI, Docker, ElasticSearch" },
+  {
+    title: "Software development",
+    content: "Typescript, Node.Js, NestJs",
+  },
+  { title: "Web development", content: "React, NextJs, HTML/CSS" },
+  { title: "Other", content: "Sentry, Kibana, Grafana, AWS, Docker" },
   {
     title: "Development",
-    content:
-      "Javascript, TypeScript, C#, HTML, CSS, Full stack, Salesforce (APEX)",
+    content: "Javascript, TypeScript, React, HTML, CSS, Full stack",
   },
-  { title: "Database", content: "MongoDB, MySQL, Redis" },
+  { title: "Database", content: "MySQL, MongoDB,Redis" },
   {
     title: "Methodologies",
     content:
       "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService",
-  },
-  {
-    title: "OS",
-    content: "MacOS X, Windows, Linux (Ubuntu)",
   },
 ];
 
