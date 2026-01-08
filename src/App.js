@@ -34,12 +34,16 @@ function App() {
             >
               <Education />
             </div>
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="xl:row-span-2 "
+            >
+              <Skill />
+            </div>
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" className="">
             <Work />
-          </div>
-          <div data-aos="fade-up" data-aos-duration="1000" className="">
-            <Skill />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" className="">
             <Project />
