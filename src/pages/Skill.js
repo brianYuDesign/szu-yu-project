@@ -27,15 +27,11 @@ const Skill = () => {
 const skillList = [
   {
     title: "Software development",
-    content: "Typescript, Node.Js, NestJs",
+    content: "NestJs, Typescript, Node.Js",
   },
   { title: "Web development", content: "React, NextJs, HTML/CSS" },
-  { title: "Other", content: "Sentry, Kibana, Grafana, AWS, Docker" },
-  {
-    title: "Development",
-    content: "Javascript, TypeScript, React, HTML, CSS, Full stack",
-  },
-  { title: "Database", content: "MySQL, MongoDB,Redis" },
+  { title: "Other", content: "Kafka, Sentry, Kibana, Grafana, AWS, Docker" },
+  { title: "Database", content: "MySQL, Redis, MongoDB" },
   {
     title: "Methodologies",
     content:

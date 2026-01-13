@@ -3,6 +3,7 @@ import Education from "./pages/Education";
 import Info from "./pages/Info";
 import Skill from "./pages/Skill";
 import Work from "./pages/Work";
+import WhyMe from "./pages/WhyMe";
 import "./App.scss";
 import ThemeToggle from "./components/ThemeToggle";
 import Aos from "aos";
@@ -41,6 +42,9 @@ function App() {
             >
               <Skill />
             </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" className="">
+            <WhyMe />
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" className="">
             <Work />
