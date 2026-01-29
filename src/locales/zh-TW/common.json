@@ -1,0 +1,23 @@
+{
+  "navigation": {
+    "home": "首頁",
+    "about": "關於我",
+    "skills": "技能",
+    "experience": "經歷",
+    "projects": "專案",
+    "contact": "聯絡"
+  },
+  "actions": {
+    "learnMore": "了解更多",
+    "viewDetails": "查看詳情",
+    "download": "下載",
+    "contact": "聯絡我",
+    "viewProject": "查看專案",
+    "readMore": "閱讀更多"
+  },
+  "theme": {
+    "light": "亮色模式",
+    "dark": "暗色模式",
+    "toggle": "切換主題"
+  }
+}
