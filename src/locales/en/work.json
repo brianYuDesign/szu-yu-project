@@ -1,0 +1,30 @@
+{
+  "title": "Work Experience",
+  "items": [
+    {
+      "company": "Company Name",
+      "position": "Technical Lead / Senior Software Engineer",
+      "period": "2020 - Present",
+      "location": "Taipei, Taiwan",
+      "description": "Leading technical team and managing game product development.",
+      "achievements": [
+        "Led 11-person technical team developing 12 game products",
+        "Improved system performance by 40% through optimization",
+        "Established CI/CD pipeline reducing deployment time by 60%",
+        "Mentored junior developers and conducted code reviews"
+      ]
+    },
+    {
+      "company": "Previous Company Name",
+      "position": "Software Engineer",
+      "period": "2017 - 2020",
+      "location": "Taipei, Taiwan",
+      "description": "Full-stack development for web applications.",
+      "achievements": [
+        "Developed and maintained multiple web applications",
+        "Collaborated with cross-functional teams",
+        "Improved application performance and user experience"
+      ]
+    }
+  ]
+}
