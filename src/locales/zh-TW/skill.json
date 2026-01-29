@@ -1,0 +1,36 @@
+{
+  "title": "技能",
+  "categories": {
+    "frontend": {
+      "title": "前端開發",
+      "skills": [
+        "React.js",
+        "Vue.js",
+        "JavaScript/TypeScript",
+        "HTML/CSS/SCSS",
+        "Tailwind CSS",
+        "響應式設計"
+      ]
+    },
+    "backend": {
+      "title": "後端開發",
+      "skills": [
+        "Node.js",
+        "Python",
+        "RESTful API",
+        "資料庫設計",
+        "系統架構"
+      ]
+    },
+    "tools": {
+      "title": "工具與其他",
+      "skills": [
+        "Git/GitHub",
+        "Docker",
+        "CI/CD",
+        "AWS",
+        "Agile/Scrum"
+      ]
+    }
+  }
+}
