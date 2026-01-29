@@ -1,0 +1,102 @@
+// ==========================================
+// Glassmorphism Styles for Szu-Yu Project
+// ==========================================
+
+// Variables
+$glass-bg-light: rgba(255, 255, 255, 0.1);
+$glass-bg-dark: rgba(0, 0, 0, 0.2);
+$glass-border-light: rgba(255, 255, 255, 0.2);
+$glass-border-dark: rgba(255, 255, 255, 0.1);
+$blur-amount: 10px;
+$border-radius: 20px;
+
+// Base Glass Effect
+@mixin glass-base($opacity: 0.1) {
+  background: rgba(255, 255, 255, $opacity);
+  backdrop-filter: blur($blur-amount);
+  -webkit-backdrop-filter: blur($blur-amount);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: $border-radius;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+// Dark Theme Glass
+@mixin glass-dark($opacity: 0.2) {
+  background: rgba(0, 0, 0, $opacity);
+  backdrop-filter: blur($blur-amount);
+  -webkit-backdrop-filter: blur($blur-amount);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: $border-radius;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+// Glass Card
+.glass-card {
+  @include glass-base(0.1);
+  padding: 2rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(31, 38, 135, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  &.dark {
+    @include glass-dark(0.2);
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+// Glass Button
+.glass-button {
+  @include glass-base(0.1);
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &.dark {
+    @include glass-dark(0.15);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+// Glass Container
+.glass-container {
+  @include glass-base(0.08);
+  padding: 3rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+
+  &.dark {
+    @include glass-dark(0.15);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .glass-card,
+  .glass-container {
+    padding: 1.5rem;
+  }
+}
