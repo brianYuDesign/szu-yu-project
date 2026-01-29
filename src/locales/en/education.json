@@ -1,0 +1,12 @@
+{
+  "title": "Education",
+  "items": [
+    {
+      "school": "Your University Name",
+      "degree": "Bachelor's Degree",
+      "major": "Computer Science",
+      "period": "2013 - 2017",
+      "description": "Focused on software engineering, algorithms, and system design."
+    }
+  ]
+}
