@@ -2,11 +2,16 @@
   "title": "Education",
   "items": [
     {
-      "school": "Your University Name",
-      "degree": "Bachelor's Degree",
-      "major": "Computer Science",
-      "period": "2013 - 2017",
-      "description": "Focused on software engineering, algorithms, and system design."
+      "school": "China University of Technology - Dept. of Info. Mgmt.",
+      "period": "2013~2017"
+    },
+    {
+      "school": "IPAS Mobile Device Programmer",
+      "period": "2017"
+    },
+    {
+      "school": "70-483: Programming in C#",
+      "period": "2014"
     }
   ]
 }

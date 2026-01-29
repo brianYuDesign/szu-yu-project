@@ -1,36 +1,19 @@
 {
   "title": "技能",
-  "categories": {
-    "frontend": {
-      "title": "前端開發",
-      "skills": [
-        "React.js",
-        "Vue.js",
-        "JavaScript/TypeScript",
-        "HTML/CSS/SCSS",
-        "Tailwind CSS",
-        "響應式設計"
-      ]
+  "items": [
+    {
+      "title": "軟體開發",
+      "content": "NestJs, Typescript, Node.Js"
     },
-    "backend": {
-      "title": "後端開發",
-      "skills": [
-        "Node.js",
-        "Python",
-        "RESTful API",
-        "資料庫設計",
-        "系統架構"
-      ]
+    { "title": "網站開發", "content": "React, NextJs, HTML/CSS" },
+    {
+      "title": "其他",
+      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Docker"
     },
-    "tools": {
-      "title": "工具與其他",
-      "skills": [
-        "Git/GitHub",
-        "Docker",
-        "CI/CD",
-        "AWS",
-        "Agile/Scrum"
-      ]
+    { "title": "資料庫", "content": "MySQL, Redis, MongoDB" },
+    {
+      "title": "開發方法論",
+      "content": "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService"
     }
-  }
+  ]
 }

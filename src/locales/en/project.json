@@ -2,28 +2,76 @@
   "title": "Project Experience",
   "items": [
     {
-      "name": "Project Name 1",
-      "type": "Game Development",
-      "period": "2023 - 2024",
-      "description": "Multi-player online game with real-time interaction features.",
-      "technologies": ["React", "Node.js", "WebSocket", "MongoDB"],
-      "highlights": [
-        "Served over 100K daily active users",
-        "Achieved 99.9% uptime",
-        "Optimized loading time by 50%"
-      ]
+      "name": "Goats Humor (Outsource) - Customized Shopify E-commerce UI Solution",
+      "content": "Goats Humor is a tea brand rebranding project. We used Shopify as the backend and dashboard to build a customized UI e-commerce store for the client. In this project, besides acting as a project manager, I also worked with colleagues on UI development, automated deployment, and subsequent SEO optimization.",
+      "tech": ["Shopify", "Liquid", "JQuery", "Lottie"],
+      "link": "https://goats-humor.com/",
+      "imgKey": "goatshumor"
     },
     {
-      "name": "Project Name 2",
-      "type": "Web Application",
-      "period": "2022 - 2023",
-      "description": "Enterprise resource planning system for gaming industry.",
-      "technologies": ["Vue.js", "Python", "PostgreSQL", "Redis"],
-      "highlights": [
-        "Reduced operational costs by 30%",
-        "Improved workflow efficiency",
-        "Integrated with multiple third-party services"
-      ]
+      "name": "iflubby (Outsource) - Pet IoT Node.js Custom Backend",
+      "content": "iflubby is a convenient map service for pets. In this project, I was responsible for the main backend architecture planning and development, researched related SSO integration (Fb, Google, Line, Apple), Google API, and provided relevant APIs and Postman for frontend integration.",
+      "tech": ["Node.js", "NestJs", "SSO", "Docker", "CD"],
+      "link": "https://iflubby.com/intro",
+      "imgKey": "iflubby"
+    },
+    {
+      "name": "Anko (Outsource) - (MessageBird) Third-party Chat Integration Backend System",
+      "content": "Anko is a chat room integrating clients' Line@ or WhatsApp Business for easy tracking. I took over the code from a previous freelancer and continued development, as well as subsequent official launch work (code optimization, system testing, automation, containerization, production environment setup). During the project, I also sought foreign technical support from Message Bird.",
+      "tech": ["Node.js", "NestJs", "GraphQL", "React", "Docker", "CD"],
+      "link": "",
+      "imgKey": ""
+    },
+    {
+      "name": "Lottery and Games",
+      "content": "This is a project currently under development, crashpoint game... (to be continued).",
+      "tech": ["Node.js", "NestJs", "MySQL", "KAFKA", "Redis", "MicroService"],
+      "link": "",
+      "imgKey": ""
+    },
+    {
+      "name": "Numbers Link - Fair Random Number Platform",
+      "content": "Numbers Link is a technology utilizing blockchain immutability. We integrate numbers provided by data vendors to calculate and produce a random fair number. I was the main backend developer for this project and also participated in writing simple smart contracts (EOS).",
+      "tech": ["Node.js", "NestJs", "MySQL", "EOSIO", "React", "MicroService"],
+      "link": "https://www.numbers.link/",
+      "imgKey": "numberslink"
+    },
+    {
+      "name": "Twin City Investment - Lending Management System",
+      "content": "The Lending Management System is mainly for customers to loan easily, but the underlying business process is cumbersome with review stages requiring relevant documents and reports. This was my last project at 4i. Besides participating in project planning and analysis, it was also my first time using TS. We used the NestJs framework for subsequent development.",
+      "tech": ["Node.js", "NestJs", "MySQL", "Docker"],
+      "link": "https://www.thecoinscompany.com/",
+      "imgKey": "cashme"
+    },
+    {
+      "name": "Banana Life - Adult Video Streaming Platform",
+      "content": "Banana Life Adult Streaming Platform is the project I consider having the highest value at 4i. We used AWS cloud services and architecture, wrote video Gaussian blur and transcoding scripts using Lambda and FFmpeg. Besides handling the backend and dashboard myself, I also collaborated with the frontend and outsourced App team.",
+      "tech": [
+        "Node.js",
+        "Apollo",
+        "GraphQl",
+        "OAuth",
+        "AWS",
+        "React",
+        "MongoDB",
+        "FFMpeg"
+      ],
+      "link": "https://web.appbanana.life/",
+      "imgKey": "banalife"
+    },
+    {
+      "name": "Equipment Maintenance System",
+      "content": "Wrote system specification documents, developed backend architecture, and assisted the company in adopting GraphQL style.",
+      "tech": ["Node.js", "Apollo", "GraphQl", "React", "MongoDB"],
+      "link": "",
+      "imgKey": ""
+    },
+    {
+      "name": "House Viewing Reception System",
+      "content": "Participated in integration planning, assisted the client in developing Salesforce Line@ chat robot.",
+      "tech": ["Salesforce", "Apex", "VisualForce", "Boostrap", "Linebot"],
+      "link": "https://hiyes.tw/",
+      "imgKey": ""
     }
   ]
 }

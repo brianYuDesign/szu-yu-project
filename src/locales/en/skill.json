@@ -1,36 +1,19 @@
 {
-  "title": "Skills",
-  "categories": {
-    "frontend": {
-      "title": "Frontend Development",
-      "skills": [
-        "React.js",
-        "Vue.js",
-        "JavaScript/TypeScript",
-        "HTML/CSS/SCSS",
-        "Tailwind CSS",
-        "Responsive Design"
-      ]
+  "title": "Skill",
+  "items": [
+    {
+      "title": "Software development",
+      "content": "NestJs, Typescript, Node.Js"
     },
-    "backend": {
-      "title": "Backend Development",
-      "skills": [
-        "Node.js",
-        "Python",
-        "RESTful API",
-        "Database Design",
-        "System Architecture"
-      ]
+    { "title": "Web development", "content": "React, NextJs, HTML/CSS" },
+    {
+      "title": "Other",
+      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Docker"
     },
-    "tools": {
-      "title": "Tools & Others",
-      "skills": [
-        "Git/GitHub",
-        "Docker",
-        "CI/CD",
-        "AWS",
-        "Agile/Scrum"
-      ]
+    { "title": "Database", "content": "MySQL, Redis, MongoDB" },
+    {
+      "title": "Methodologies",
+      "content": "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService"
     }
-  }
+  ]
 }

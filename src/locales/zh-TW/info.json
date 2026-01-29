@@ -1,17 +1,13 @@
 {
-  "title": "個人資訊",
-  "fields": {
-    "birth": "生日",
-    "phone": "電話",
-    "email": "電子郵件",
-    "lineId": "Line ID",
-    "location": "地點",
-    "website": "網站"
-  },
-  "values": {
-    "birth": "1994/11/21",
-    "phone": "+886961134525",
-    "email": "brian831121@gmail.com",
-    "lineId": "brian831121"
-  }
+  "title": "基本資料",
+  "items": [
+    { "label": "生日", "value": "1994/11/21", "link": "" },
+    { "label": "電話", "value": "+886961134525", "link": "tel:+886961134525" },
+    {
+      "label": "Email",
+      "value": "brian831121@gmail.com",
+      "link": "mailto:brian831121@gmail.com"
+    },
+    { "label": "LineId", "value": "brian831121", "link": "" }
+  ]
 }

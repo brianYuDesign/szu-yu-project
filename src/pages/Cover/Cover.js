@@ -1,32 +1,42 @@
 import React from "react";
-import Block from "../../components/Block";
+import { useTranslation } from "react-i18next";
+
 import "./Cover.scss";
+import profileImg from "../../img/profile.jpg";
 
 const Cover = () => {
+  const { t } = useTranslation("cover");
+
   return (
-    <Block>
-      <div className="flex flex-wrap justify-center items-center">
-        <div className="cover_profile flex justify-center items-center my-2">
-          <div className="profile_img"></div>
-        </div>
-        <div className="flex flex-col justify-center flex-wrap w-full">
-          <div className="text-2xl text-center font-bold mb-4">
-            余思佑Brian Yu CV
+    <div className="cover_container">
+      <div className="cover_content_wrapper">
+        <div className="cover_text_section">
+          <h1>{t("title")}</h1>
+          <div className="subtitle">
+            Backend Developer / System Development Lead
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 font-normal px-4 md:px-6 max-w-4xl mx-auto">
-            <div className="leading-relaxed text-sm md:text-base">
-              With 8 years of software development experience, 3 years of
-              project and technical management experience, leading an 11-person
-              technical team to develop 12 game products.
+
+          <div className="description_grid">
+            <div className="desc_item">
+              <p>{t("description.intro")}</p>
             </div>
-            <div className="leading-relaxed text-sm md:text-base">
-              Specializing in production issues, business refactoring,
-              performance optimization, and improving system quality.
+            <div className="desc_item">
+              <p>{t("description.specialization")}</p>
             </div>
+          </div>
+        </div>
+
+        <div className="cover_profile_section">
+          <div className="profile_img_container">
+            <img
+              src={profileImg}
+              alt="Brian Yu Profile"
+              className="profile_img"
+            />
           </div>
         </div>
       </div>
-    </Block>
+    </div>
   );
 };
 

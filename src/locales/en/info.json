@@ -1,17 +1,13 @@
 {
-  "title": "Personal Information",
-  "fields": {
-    "birth": "Birthday",
-    "phone": "Phone",
-    "email": "Email",
-    "lineId": "Line ID",
-    "location": "Location",
-    "website": "Website"
-  },
-  "values": {
-    "birth": "1994/11/21",
-    "phone": "+886961134525",
-    "email": "brian831121@gmail.com",
-    "lineId": "brian831121"
-  }
+  "title": "Info",
+  "items": [
+    { "label": "Birth", "value": "1994/11/21", "link": "" },
+    { "label": "Phone", "value": "+886961134525", "link": "tel:+886961134525" },
+    {
+      "label": "Email",
+      "value": "brian831121@gmail.com",
+      "link": "mailto:brian831121@gmail.com"
+    },
+    { "label": "LineId", "value": "brian831121", "link": "" }
+  ]
 }

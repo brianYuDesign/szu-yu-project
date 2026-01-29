@@ -2,20 +2,24 @@
   "title": "Why Me",
   "items": [
     {
-      "title": "Technical Excellence",
-      "description": "8 years of hands-on experience with proven track record of delivering high-quality products."
+      "title": "System Thinking + Practical Experience",
+      "description": "Not just writing code, but thinking about system performance, scalability, and risk management from an overall architectural perspective."
     },
     {
-      "title": "Leadership",
-      "description": "Successfully led an 11-person technical team managing 12 game products with excellent results."
+      "title": "Backend Expertise",
+      "description": "Familiar with Node.js / TypeScript backend development, MySQL and Redis optimization, experienced in high concurrency, real-time systems, and asynchronous processes."
     },
     {
-      "title": "Problem Solver",
-      "description": "Expert in production issue handling, business refactoring, and performance optimization."
+      "title": "Data-Driven & Problem Solving",
+      "description": "Good at using observational data to locate problems and proposing actionable improvement plans to reduce the risk of abnormalities in production environments."
     },
     {
-      "title": "Quality Focused",
-      "description": "Committed to improving system quality and maintaining high code standards across all projects."
+      "title": "Team Leadership & Influence",
+      "description": "Experience managing 11 engineers, able to drive team technical decisions, establish standards, and improve system stability and quality."
+    },
+    {
+      "title": "Quantifiable Results",
+      "description": "Actually delivered over 12 game products, reducing frontend and backend resource usage by 50%."
     }
   ]
 }

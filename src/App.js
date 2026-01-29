@@ -23,7 +23,7 @@ function App() {
       <div className=" mx-lg-4">
         <div className="grid grid-cols-1 gap-3  items-center">
           <div data-aos="fade-up" data-aos-duration="1000" className="">
-            <Cover x />
+            <Cover />
           </div>
           <div className="grid grid-cols-1 gap-3   xl:grid-flow-col xl:auto-cols-max">
             <div
