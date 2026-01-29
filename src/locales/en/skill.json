@@ -1,0 +1,36 @@
+{
+  "title": "Skills",
+  "categories": {
+    "frontend": {
+      "title": "Frontend Development",
+      "skills": [
+        "React.js",
+        "Vue.js",
+        "JavaScript/TypeScript",
+        "HTML/CSS/SCSS",
+        "Tailwind CSS",
+        "Responsive Design"
+      ]
+    },
+    "backend": {
+      "title": "Backend Development",
+      "skills": [
+        "Node.js",
+        "Python",
+        "RESTful API",
+        "Database Design",
+        "System Architecture"
+      ]
+    },
+    "tools": {
+      "title": "Tools & Others",
+      "skills": [
+        "Git/GitHub",
+        "Docker",
+        "CI/CD",
+        "AWS",
+        "Agile/Scrum"
+      ]
+    }
+  }
+}
