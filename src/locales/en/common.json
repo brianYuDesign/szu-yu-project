@@ -1,0 +1,23 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "actions": {
+    "learnMore": "Learn More",
+    "viewDetails": "View Details",
+    "download": "Download",
+    "contact": "Contact Me",
+    "viewProject": "View Project",
+    "readMore": "Read More"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle Theme"
+  }
+}
