@@ -1,0 +1,29 @@
+{
+  "title": "專案經驗",
+  "items": [
+    {
+      "name": "專案名稱 1",
+      "type": "遊戲開發",
+      "period": "2023 - 2024",
+      "description": "具備即時互動功能的多人線上遊戲。",
+      "technologies": ["React", "Node.js", "WebSocket", "MongoDB"],
+      "highlights": [
+        "服務超過 10 萬日活躍用戶",
+        "達成 99.9% 系統正常運作時間",
+        "優化載入時間 50%"
+      ]
+    },
+    {
+      "name": "專案名稱 2",
+      "type": "網頁應用",
+      "period": "2022 - 2023",
+      "description": "遊戲產業企業資源規劃系統。",
+      "technologies": ["Vue.js", "Python", "PostgreSQL", "Redis"],
+      "highlights": [
+        "降低營運成本 30%",
+        "提升工作流程效率",
+        "整合多個第三方服務"
+      ]
+    }
+  ]
+}
