@@ -1,36 +1,31 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInfo } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 import Block from "../components/Block";
 
 const Info = () => {
+  const { t } = useTranslation("info");
+  const items = t("items", { returnObjects: true });
+
   return (
     <Block>
       <div className="text-xl text-center font-bold py-2">
-        Info <FontAwesomeIcon icon={faInfo} />
+        {t("title")} <FontAwesomeIcon icon={faInfo} />
       </div>
 
       <div className="flex flex-col mb-2">
-        <div className="flex justify-between mr-5 ml-5 mt-3 items-baseline">
-          <div className="font-bold text-sm">Birth</div>
-          <div className="text-sm">1994/11/21</div>
-        </div>
-        <div className="flex justify-between mr-5 ml-5 mt-3 items-baseline">
-          <div className="font-bold text-sm">Phone</div>
-          <div className="text-sm">
-            <a href="tel:+886961134525">+886961134525</a>
+        {items.map((item, index) => (
+          <div
+            key={index}
+            className="flex justify-between mr-5 ml-5 mt-3 items-baseline"
+          >
+            <div className="font-bold text-sm">{item.label}</div>
+            <div className="text-sm">
+              {item.link ? <a href={item.link}>{item.value}</a> : item.value}
+            </div>
           </div>
-        </div>
-        <div className="flex justify-between mr-5 ml-5 mt-3 items-baseline">
-          <div className="font-bold text-sm">Email</div>
-          <div className="text-sm">
-            <a href={"mailto:brian831121@gmail.com"}> brian831121@gmail.com</a>
-          </div>
-        </div>
-        <div className="flex justify-between mr-5 ml-5 mt-3 items-baseline">
-          <div className="font-bold text-sm">LineId</div>
-          <div className="text-sm">brian831121</div>
-        </div>
+        ))}
       </div>
     </Block>
   );

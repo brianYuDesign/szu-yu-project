@@ -1,0 +1,19 @@
+{
+  "title": "技能",
+  "items": [
+    {
+      "title": "軟體開發",
+      "content": "NestJs, Typescript, Node.Js"
+    },
+    { "title": "網站開發", "content": "React, NextJs, HTML/CSS" },
+    {
+      "title": "其他",
+      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Docker"
+    },
+    { "title": "資料庫", "content": "MySQL, Redis, MongoDB" },
+    {
+      "title": "開發方法論",
+      "content": "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService"
+    }
+  ]
+}

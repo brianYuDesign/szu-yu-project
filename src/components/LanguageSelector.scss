@@ -1,0 +1,15 @@
+.language-selector {
+  select {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+
+    &:hover {
+      border-color: #667eea;
+    }
+
+    option {
+      padding: 8px;
+    }
+  }
+}

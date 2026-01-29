@@ -1,0 +1,13 @@
+{
+  "title": "基本資料",
+  "items": [
+    { "label": "生日", "value": "1994/11/21", "link": "" },
+    { "label": "電話", "value": "+886961134525", "link": "tel:+886961134525" },
+    {
+      "label": "Email",
+      "value": "brian831121@gmail.com",
+      "link": "mailto:brian831121@gmail.com"
+    },
+    { "label": "LineId", "value": "brian831121", "link": "" }
+  ]
+}

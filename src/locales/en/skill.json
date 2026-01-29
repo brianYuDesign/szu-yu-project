@@ -1,0 +1,19 @@
+{
+  "title": "Skill",
+  "items": [
+    {
+      "title": "Software development",
+      "content": "NestJs, Typescript, Node.Js"
+    },
+    { "title": "Web development", "content": "React, NextJs, HTML/CSS" },
+    {
+      "title": "Other",
+      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Docker"
+    },
+    { "title": "Database", "content": "MySQL, Redis, MongoDB" },
+    {
+      "title": "Methodologies",
+      "content": "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService"
+    }
+  ]
+}

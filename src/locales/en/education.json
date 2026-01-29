@@ -1,0 +1,17 @@
+{
+  "title": "Education",
+  "items": [
+    {
+      "school": "China University of Technology - Dept. of Info. Mgmt.",
+      "period": "2013~2017"
+    },
+    {
+      "school": "IPAS Mobile Device Programmer",
+      "period": "2017"
+    },
+    {
+      "school": "70-483: Programming in C#",
+      "period": "2014"
+    }
+  ]
+}

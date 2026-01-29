@@ -1,0 +1,42 @@
+{
+  "title": "Experience",
+  "items": [
+    {
+      "companyName": "Yuntong Technology - Game/Live Streaming",
+      "jobTitle": "System Development Lead",
+      "jobDesc": [
+        "Led the backend architecture design and technical decisions for multiple games and platform products, covering real-time systems, asynchronous processes, and high-concurrency scenarios, operating in a highly dynamic business environment.",
+        "Specialized in Node.js / TypeScript backend service construction, with knowledge of MySQL performance optimization and Redis application.",
+        "Evaluated risks, performance, and scalability from the architectural level, quickly identified bottlenecks, and proposed improvement plans, including asynchronous processing, resource allocation, and system load optimization.",
+        "Familiar with using logs, metrics, and behavioral data for system observation and issue positioning.",
+        "Introduced design review, code review, and release checklists to influence team technical decisions, establish implementation standards, and improve system stability."
+      ],
+      "period": "2022.12 ~ Present"
+    },
+    {
+      "companyName": "Yuntong Technology - Game/Platform",
+      "jobTitle": "Backend Engineer",
+      "jobDesc": [
+        "Participated in the development and operation of multiple backend systems, including games, lotteries, blockchain fair random numbers, crawler data, and dashboard systems.",
+        "Responsible for system analysis, backend function implementation, code refactoring, and performance optimization.",
+        "Proactively participated in requirement planning, assisting in collecting business logic and technical implementation methods.",
+        "Provided API documentation, Postman examples, and key technical documentation to improve cross-team collaboration efficiency.",
+        "Development style emphasizes clear structure, scalability, and maintainability."
+      ],
+      "period": "2020.09 ~ 2022.12"
+    },
+    {
+      "companyName": "4idps",
+      "jobTitle": "FullStack Engineer",
+      "jobDesc": [
+        "Participated in and delivered multiple business system projects, covering lending systems, video streaming platforms, equipment repair systems, and e-commerce modules, supporting actual operational needs.",
+        "Responsible for backend core function development and data flow design (Node.js / NestJS / MySQL) in the lending system, ensuring transaction process stability and data correctness.",
+        "Participated in frontend-backend integration and system architecture planning in the video streaming platform project, and was responsible for automated deployment processes to improve delivery efficiency.",
+        "Reduced coupling between modules and improved system maintainability through frontend-backend responsibility splitting and API design optimization. Assisted in establishing basic testing and verification processes (unit testing / functional testing) to reduce regression error rates.",
+        "Worked closely with product and business units to translate requirements into concrete executable technical solutions, ensuring projects were delivered on time.",
+        "Maintained stable delivery in scenarios with multiple parallel projects, accumulated cross-domain system development experience, and laid the technical foundation for subsequent platform and game systems."
+      ],
+      "period": "2018.04 ~ 2020.08"
+    }
+  ]
+}

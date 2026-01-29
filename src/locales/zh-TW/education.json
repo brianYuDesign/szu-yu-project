@@ -1,0 +1,17 @@
+{
+  "title": "學歷",
+  "items": [
+    {
+      "school": "中國科技大學資訊管理系",
+      "period": "2013~2017"
+    },
+    {
+      "school": "IPAS 行動裝置程式設計師",
+      "period": "2017"
+    },
+    {
+      "school": "70-483: Programming in C#",
+      "period": "2014"
+    }
+  ]
+}
