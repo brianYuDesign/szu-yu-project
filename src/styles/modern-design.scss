@@ -1,0 +1,128 @@
+// ==========================================
+// Modern Design System for Szu-Yu Project
+// ==========================================
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Space+Grotesk:wght@300;500;700&display=swap');
+
+$font-primary: 'Inter', sans-serif;
+$font-heading: 'Space+Grotesk', sans-serif;
+
+// Gradients
+@mixin gradient-tech-blue {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+@mixin gradient-mesh {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 100%);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+// Text Gradient
+@mixin text-gradient($gradient) {
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+// Animations
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// Modern Card
+.modern-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 24px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    @include gradient-tech-blue;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
+// Text Styles
+.text-gradient-blue {
+  @include text-gradient(linear-gradient(135deg, #667eea 0%, #764ba2 100%));
+}
+
+// Section Title
+.section-title {
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60%;
+    height: 4px;
+    @include gradient-tech-blue;
+    border-radius: 2px;
+  }
+}
+
+// Grid Layout
+.grid-modern {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .modern-card {
+    padding: 1.5rem;
+  }
+
+  .grid-modern {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
