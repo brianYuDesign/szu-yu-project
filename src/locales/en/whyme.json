@@ -1,0 +1,21 @@
+{
+  "title": "Why Me",
+  "items": [
+    {
+      "title": "Technical Excellence",
+      "description": "8 years of hands-on experience with proven track record of delivering high-quality products."
+    },
+    {
+      "title": "Leadership",
+      "description": "Successfully led an 11-person technical team managing 12 game products with excellent results."
+    },
+    {
+      "title": "Problem Solver",
+      "description": "Expert in production issue handling, business refactoring, and performance optimization."
+    },
+    {
+      "title": "Quality Focused",
+      "description": "Committed to improving system quality and maintaining high code standards across all projects."
+    }
+  ]
+}
