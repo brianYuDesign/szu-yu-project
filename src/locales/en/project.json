@@ -1,0 +1,29 @@
+{
+  "title": "Project Experience",
+  "items": [
+    {
+      "name": "Project Name 1",
+      "type": "Game Development",
+      "period": "2023 - 2024",
+      "description": "Multi-player online game with real-time interaction features.",
+      "technologies": ["React", "Node.js", "WebSocket", "MongoDB"],
+      "highlights": [
+        "Served over 100K daily active users",
+        "Achieved 99.9% uptime",
+        "Optimized loading time by 50%"
+      ]
+    },
+    {
+      "name": "Project Name 2",
+      "type": "Web Application",
+      "period": "2022 - 2023",
+      "description": "Enterprise resource planning system for gaming industry.",
+      "technologies": ["Vue.js", "Python", "PostgreSQL", "Redis"],
+      "highlights": [
+        "Reduced operational costs by 30%",
+        "Improved workflow efficiency",
+        "Integrated with multiple third-party services"
+      ]
+    }
+  ]
+}
