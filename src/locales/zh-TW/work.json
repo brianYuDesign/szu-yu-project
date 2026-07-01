@@ -2,6 +2,19 @@
   "title": "經歷",
   "items": [
     {
+      "companyName": "感覺銀行（feeling-bank）",
+      "jobTitle": "AI 工程師",
+      "jobDesc": [
+        "開發交友配對平台與「活動揪團」興趣社群 App，核心是把有共同興趣的人聚在一起、促成真實見面互動",
+        "主要負責產品快速迭代，從需求規劃、流程與 UI 設計、AI 實作到 iOS 上架全程參與",
+        "AI 實作：以 Claude 打造 AI 功能，驅動智慧配對、聊天教練、破冰建議與個人簡介自動生成",
+        "建置 production 級 AI 內容審核與安全模組（AWS Rekognition 圖片同步 + 影片非同步）、敏感詞攔截與真人臉部驗證",
+        "全端交付：Flutter 跨平台 App + NestJS 後端（180+ API、1,066 個自動化測試、Redis 快取架構與效能索引優化）",
+        "以數據驅動迭代：定義 North Star Metric、完成競品評估，並透過減法決策（4 Tab、資料表正規化）聚焦核心體驗"
+      ],
+      "period": "2026.01 ~ Present"
+    },
+    {
       "companyName": "云桐科技 - 遊戲/直播",
       "jobTitle": "System Development Lead",
       "jobDesc": [
@@ -11,7 +24,7 @@
         "熟悉使用 log、metrics 與行為數據進行系統觀測與問題定位",
         "導入 design review、code review 與 release checklist 影響團隊技術決策，建立實作標準與提升系統穩定度"
       ],
-      "period": "2022.12 ~ Present"
+      "period": "2022.12 ~ 2025.12"
     },
     {
       "companyName": "云桐科技 - 遊戲/平台",

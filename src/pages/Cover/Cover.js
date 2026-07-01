@@ -12,9 +12,7 @@ const Cover = () => {
       <div className="cover_content_wrapper">
         <div className="cover_text_section">
           <h1>{t("title")}</h1>
-          <div className="subtitle">
-            Backend Developer / System Development Lead
-          </div>
+          <div className="subtitle">{t("subtitle")}</div>
 
           <div className="description_grid">
             <div className="desc_item">

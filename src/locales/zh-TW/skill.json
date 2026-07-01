@@ -5,10 +5,14 @@
       "title": "軟體開發",
       "content": "NestJs, Typescript, Node.Js"
     },
+    {
+      "title": "行動 / 跨平台",
+      "content": "Flutter, Dart, React Native, Expo"
+    },
     { "title": "網站開發", "content": "React, NextJs, HTML/CSS" },
     {
       "title": "其他",
-      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Docker"
+      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Firebase, Docker"
     },
     { "title": "資料庫", "content": "MySQL, Redis, MongoDB" },
     {

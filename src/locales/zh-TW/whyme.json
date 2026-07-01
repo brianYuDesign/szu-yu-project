@@ -6,20 +6,20 @@
       "description": "不只是寫程式，更能從整體架構思考系統效能、可擴展性與風險管理。"
     },
     {
-      "title": "後端專長",
-      "description": "熟悉 Node.js / TypeScript 後端開發、MySQL 與 Redis 優化，高併發、即時系統與非同步流程相關經驗。"
+      "title": "全端 + 跨平台開發",
+      "description": "後端 Node.js / NestJS / TypeScript，行動端 Flutter 與 React Native，前端 React，能獨立把產品從 0 帶到上架。"
     },
     {
-      "title": "數據導向與問題解決能力",
-      "description": "善用觀測數據定位問題，並提出可落地的改善方案，降低生產環境異常風險。"
+      "title": "AI 產品整合",
+      "description": "實際以 Claude 打造 AI 配對、聊天教練與內容審核功能，並整合進產品流程。"
+    },
+    {
+      "title": "0→1 產品主導與商業思維",
+      "description": "定義 North Star Metric、做競品評估與減法決策，用數據驅動產品取捨，而非只接需求。"
     },
     {
       "title": "團隊領導與影響力",
-      "description": "有管理11位工程師經驗，能推動團隊技術決策、建立標準，提升系統穩定與質量。"
-    },
-    {
-      "title": "成果可量化",
-      "description": "實際交付12款以上遊戲產品，前後端資源使用降低 50%。"
+      "description": "有管理 11 位工程師經驗，能推動團隊技術決策、建立標準，提升系統穩定與質量。"
     }
   ]
 }

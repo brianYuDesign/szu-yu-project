@@ -1,7 +1,8 @@
 .App {
   min-height: 100vh;
   line-height: 1.6;
-  font-family: "El Messiri", sans-serif;
+  font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", sans-serif;
 
   &::before {
     content: " ";
@@ -11,14 +12,13 @@
     right: 0;
     bottom: 0;
     background: url("img/bg.webp") 0 0 / cover no-repeat;
-    opacity: 0.9;
+    opacity: 0.5;
     z-index: -1;
   }
 }
 
 .content_block {
   border-radius: 15px;
-  opacity: 0.9;
   height: 100%;
   width: 100%;
 }

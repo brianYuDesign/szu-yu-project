@@ -8,6 +8,8 @@ import Project from "./pages/Project";
 import "./App.scss";
 import ThemeToggle from "./components/ThemeToggle";
 import LanguageSelector from "./components/LanguageSelector";
+import DownloadPdfButton from "./components/DownloadPdfButton";
+import PrintResume from "./components/PrintResume";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./i18n";
@@ -16,11 +18,13 @@ function App() {
   Aos.init();
   return (
     <div className="container mx-auto px-4 py-2 font-semi App">
-      <div className="fixed top-4 right-4 z-50 flex gap-2">
+      <div className="fixed top-4 right-4 z-50 flex gap-2 screen-only">
+        <DownloadPdfButton />
         <LanguageSelector />
         <ThemeToggle />
       </div>
-      <div className=" mx-lg-4">
+      <PrintResume />
+      <div className=" mx-lg-4 screen-only">
         <div className="grid grid-cols-1 gap-3  items-center">
           <div data-aos="fade-up" data-aos-duration="1000" className="">
             <Cover />

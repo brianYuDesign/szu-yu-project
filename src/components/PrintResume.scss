@@ -1,0 +1,164 @@
+/* ===========================================================
+   Print-only résumé document (CakeResume-style A4)
+   Hidden on screen; revealed only when printing / saving to PDF.
+   Text stays real HTML -> selectable & ATS-readable.
+   =========================================================== */
+
+$pr-ink: #1f2328;
+$pr-soft: #5b6169;
+$pr-rule: #e2e4e8;
+$pr-accent: #16a394;
+
+.print-resume {
+  display: none;
+}
+
+@media print {
+  /* hide the interactive site, show only the document */
+  .screen-only {
+    display: none !important;
+  }
+  .App::before {
+    display: none !important;
+  }
+  html,
+  body,
+  .App {
+    background: #fff !important;
+  }
+  .print-resume {
+    display: block !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+}
+
+.print-resume {
+  font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: $pr-ink;
+  background: #fff;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+
+  /* ---- header ---- */
+  .pr-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 22px;
+  }
+  .pr-photo {
+    width: 96px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .pr-head-main {
+    padding-top: 6px;
+  }
+  .pr-name {
+    font-size: 25pt;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1;
+  }
+  .pr-role {
+    font-size: 11pt;
+    font-weight: 500;
+    color: $pr-soft;
+    margin-left: 6px;
+  }
+  .pr-contact {
+    margin-top: 12px;
+  }
+  .pr-cv {
+    color: $pr-accent;
+    font-size: 10.5pt;
+    margin-bottom: 3px;
+  }
+  .pr-contact-line {
+    color: $pr-soft;
+    font-size: 10pt;
+    margin-bottom: 1px;
+  }
+
+  /* ---- sections ---- */
+  .pr-section {
+    margin-top: 18px;
+  }
+  .pr-title {
+    font-size: 17pt;
+    font-weight: 700;
+    margin: 0 0 9px;
+  }
+
+  .pr-bullets {
+    list-style: disc;
+    margin: 0;
+    padding-left: 18px;
+  }
+  .pr-bullets li {
+    margin-bottom: 4px;
+  }
+  .pr-bullets li strong {
+    font-weight: 700;
+  }
+
+  /* ---- experience / projects (timeline rail) ---- */
+  .pr-item {
+    position: relative;
+    padding-left: 16px;
+    border-left: 1px solid $pr-rule;
+    margin-bottom: 14px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .pr-item::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #bcbfc4;
+  }
+  .pr-item-head {
+    font-size: 12pt;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .pr-p {
+    margin: 0 0 4px;
+    color: $pr-soft;
+  }
+  .pr-tech {
+    font-size: 9pt;
+    color: $pr-accent;
+    margin-top: 3px;
+  }
+
+  /* ---- education ---- */
+  .pr-edu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+  .pr-edu-school {
+    font-weight: 500;
+  }
+  .pr-edu-period {
+    color: $pr-soft;
+    font-size: 10pt;
+    white-space: nowrap;
+  }
+}

@@ -50,7 +50,7 @@ const Work = () => {
                   </svg>
                   {item.period}
                 </time>
-                <div className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0 text-gray-400">
+                <div className="md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0 text-gray-600 dark:text-gray-300">
                   {Array.isArray(item.jobDesc) ? (
                     <ul className="list-disc list-inside space-y-1">
                       {item.jobDesc.map((desc, idx) => (

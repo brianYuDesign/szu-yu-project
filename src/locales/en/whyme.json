@@ -6,20 +6,20 @@
       "description": "Not just writing code, but thinking about system performance, scalability, and risk management from an overall architectural perspective."
     },
     {
-      "title": "Backend Expertise",
-      "description": "Familiar with Node.js / TypeScript backend development, MySQL and Redis optimization, experienced in high concurrency, real-time systems, and asynchronous processes."
+      "title": "Full-Stack + Cross-Platform",
+      "description": "Backend in Node.js / NestJS / TypeScript, mobile in Flutter and React Native, web in React — able to take a product from zero to launch single-handedly."
     },
     {
-      "title": "Data-Driven & Problem Solving",
-      "description": "Good at using observational data to locate problems and proposing actionable improvement plans to reduce the risk of abnormalities in production environments."
+      "title": "AI Product Integration",
+      "description": "Hands-on building of Claude-powered AI for matching, chat coaching, and content moderation, integrated into the product flow."
+    },
+    {
+      "title": "0→1 Product Ownership & Business Sense",
+      "description": "Defined a North Star Metric, ran competitive assessments, and made subtraction decisions — driving product trade-offs with data rather than just taking requirements."
     },
     {
       "title": "Team Leadership & Influence",
       "description": "Experience managing 11 engineers, able to drive team technical decisions, establish standards, and improve system stability and quality."
-    },
-    {
-      "title": "Quantifiable Results",
-      "description": "Actually delivered over 12 game products, reducing frontend and backend resource usage by 50%."
     }
   ]
 }
