@@ -5,10 +5,14 @@
       "title": "Software development",
       "content": "NestJs, Typescript, Node.Js"
     },
+    {
+      "title": "Mobile / Cross-platform",
+      "content": "Flutter, Dart, React Native, Expo"
+    },
     { "title": "Web development", "content": "React, NextJs, HTML/CSS" },
     {
       "title": "Other",
-      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Docker"
+      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Firebase, Docker"
     },
     { "title": "Database", "content": "MySQL, Redis, MongoDB" },
     {

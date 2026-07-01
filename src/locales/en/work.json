@@ -2,6 +2,19 @@
   "title": "Experience",
   "items": [
     {
+      "companyName": "Feeling Bank (feeling-bank)",
+      "jobTitle": "AI Engineer",
+      "jobDesc": [
+        "Built a dating-matching platform and an interest-based \"activity meetup\" community app, centered on bringing people with shared interests together for real-world meetups.",
+        "Primarily responsible for rapid product iteration — involved end-to-end from requirement planning, flow & UI design, and AI implementation, through to iOS App Store launch.",
+        "AI implementation: built Claude-powered AI features for smart matching, chat coaching, icebreaker suggestions, and auto-generated bios.",
+        "Built a production-grade AI content-moderation and safety module (AWS Rekognition: sync for images, async for video), sensitive-word filtering, and real-person face verification.",
+        "Full-stack delivery: a Flutter cross-platform app plus a NestJS backend (180+ APIs, 1,066 automated tests, Redis caching architecture and performance-index optimization).",
+        "Drove data-informed iteration: defined a North Star Metric, ran competitive assessments, and focused the core experience through subtraction decisions (4-tab IA, data-model normalization)."
+      ],
+      "period": "2026.01 ~ Present"
+    },
+    {
       "companyName": "Yuntong Technology - Game/Live Streaming",
       "jobTitle": "System Development Lead",
       "jobDesc": [
@@ -11,7 +24,7 @@
         "Familiar with using logs, metrics, and behavioral data for system observation and issue positioning.",
         "Introduced design review, code review, and release checklists to influence team technical decisions, establish implementation standards, and improve system stability."
       ],
-      "period": "2022.12 ~ Present"
+      "period": "2022.12 ~ 2025.12"
     },
     {
       "companyName": "Yuntong Technology - Game/Platform",

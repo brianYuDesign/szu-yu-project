@@ -2,6 +2,20 @@
   "title": "Project Experience",
   "items": [
     {
+      "name": "Bound - Interest-Based Social Matching App (Lead)",
+      "content": "A cross-platform social-matching app built with Flutter, centered on \"AI matching + interest communities (Circles) + chat coaching.\" I led everything from product strategy and the UI design system to full-stack implementation: a Flutter frontend with 10+ feature modules (discover, circles, chat, activities, places, verification) and a NestJS backend with 180+ APIs, 1,066 tests, async AI jobs via SQS with Firebase real-time push-back, plus integrated tiered Claude AI and AWS Rekognition content moderation. Live at bound-app.com.",
+      "tech": ["Flutter", "Dart", "NestJs", "TypeScript", "Claude AI", "Firebase", "AWS", "Redis", "MySQL"],
+      "link": "https://bound-app.com/",
+      "imgKey": ""
+    },
+    {
+      "name": "Sugarbee - High-End Dating App (Full-Stack Lead)",
+      "content": "A dating-matching app targeting a high-end audience, where I solely owned the frontend, backend, CMS, and operations dashboard. The frontend is built with Next.js (React) and the backend with NestJS. Implemented a matching engine 2.0 (unified data source + preference filtering + compatibility scoring), an interest-application flow, real-time chat, push notifications, virtual points, and subscription payments (TapPay / ECPay). Also built real-person face verification, AWS Rekognition AI content moderation, sensitive-word filtering, and a Redis caching architecture. Live at sugarbee.vip.",
+      "tech": ["Next.js", "React", "TypeScript", "NestJs", "AWS", "Rekognition", "Redis", "Firebase", "TapPay"],
+      "link": "https://sugarbee.vip/",
+      "imgKey": ""
+    },
+    {
       "name": "Goats Humor (Outsource) - Customized Shopify E-commerce UI Solution",
       "content": "Goats Humor is a tea brand rebranding project. We used Shopify as the backend and dashboard to build a customized UI e-commerce store for the client. In this project, besides acting as a project manager, I also worked with colleagues on UI development, automated deployment, and subsequent SEO optimization.",
       "tech": ["Shopify", "Liquid", "JQuery", "Lottie"],

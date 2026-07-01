@@ -1,8 +1,8 @@
 {
-  "title": "Szu-Yu Brian Yu CV",
-  "subtitle": "Software Engineer & Technical Leader",
+  "title": "Sheng-Yun Brian Yu CV",
+  "subtitle": "AI Engineer & Full-Stack Developer",
   "description": {
-    "intro": "With 8 years of software development experience, 3 years of project and technical management experience, leading an 11-person technical team to develop 12 game products.",
-    "specialization": "Specializing in production issues, business refactoring, performance optimization, and improving system quality."
+    "intro": "8 years of software development experience. Now an AI Engineer independently building dating-matching and interest-based meetup community apps, owning rapid iteration from product planning and AI implementation to iOS launch. Previously led an 11-person engineering team building 12 game products.",
+    "specialization": "Specializing in integrating Claude AI into products (smart matching, chat coaching, content moderation), plus full-stack development, performance optimization, and system quality."
   }
 }

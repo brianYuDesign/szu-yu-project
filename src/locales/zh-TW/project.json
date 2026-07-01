@@ -2,6 +2,20 @@
   "title": "專案作品",
   "items": [
     {
+      "name": "Bound - 興趣揪團社交 App（主導開發）",
+      "content": "以 Flutter 打造的跨平台社交配對 App，核心是「AI 配對 + 興趣社群（Circle）揪團 + 聊天教練」。我主導從產品策略、UI 設計系統到全端實作：Flutter 前端 10+ 功能模組（探索、Circle、聊天、活動、地點、驗證），NestJS 後端 180+ API、1,066 測試、SQS 非同步 AI job + Firebase 即時回推，並整合 Claude 分級 AI 與 AWS Rekognition 內容審核。上線網站：bound-app.com。",
+      "tech": ["Flutter", "Dart", "NestJs", "TypeScript", "Claude AI", "Firebase", "AWS", "Redis", "MySQL"],
+      "link": "https://bound-app.com/",
+      "imgKey": ""
+    },
+    {
+      "name": "Sugarbee - 高端交友 App（全端主導）",
+      "content": "主打高端客群的交友配對 App，我一人負責前端、後端、CMS 與營運後台。前端以 Next.js（React）打造，後端為 NestJS。實作配對引擎 2.0（資料來源統一 + 偏好篩選 + 相容性加分）、興趣申請制、即時聊天、推播通知、虛擬點數與訂閱金流（TapPay / ECPay）。並建置真人臉部驗證、AWS Rekognition AI 內容審核、敏感詞攔截與 Redis 快取架構。上線網站：sugarbee.vip。",
+      "tech": ["Next.js", "React", "TypeScript", "NestJs", "AWS", "Rekognition", "Redis", "Firebase", "TapPay"],
+      "link": "https://sugarbee.vip/",
+      "imgKey": ""
+    },
+    {
       "name": "揚氏幽墨(外包) - shopify客製化電商UI解決方案",
       "content": "揚氏幽墨 是一個茶商的品牌重塑，我們使用shopify當作後端與後台，為客戶打造客製化UI電商。我在這專案上除了扮演專案管理的角色，也與同伴一同進行ui的開發，自動化部屬，與後續SEO優化等工作。",
       "tech": ["Shopify", "Liquid", "JQuery", "Lottie"],

@@ -43,7 +43,7 @@ const Project = () => {
               <a href={item.link || "#"} className="font-bold text-xl mb-2">
                 {item.name}
               </a>
-              <p className="text-gray-400 text-base">{item.content}</p>
+              <p className="text-gray-600 dark:text-gray-300 text-base">{item.content}</p>
             </div>
             <div className="px-6 pt-4 pb-2">
               {item.tech &&
