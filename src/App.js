@@ -13,9 +13,12 @@ import PrintResume from "./components/PrintResume";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./i18n";
+import { useEffect } from "react";
 
 function App() {
-  Aos.init();
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="container mx-auto px-4 py-2 font-semi App">
       <div className="fixed top-4 right-4 z-50 flex gap-2 screen-only">
