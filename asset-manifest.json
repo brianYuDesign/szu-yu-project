@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/szu-yu-project/static/css/main.73324d3d.chunk.css",
-    "main.js": "/szu-yu-project/static/js/main.03b8ec2f.chunk.js",
-    "main.js.map": "/szu-yu-project/static/js/main.03b8ec2f.chunk.js.map",
+    "main.css": "/szu-yu-project/static/css/main.cb6a011c.chunk.css",
+    "main.js": "/szu-yu-project/static/js/main.ce95dfe9.chunk.js",
+    "main.js.map": "/szu-yu-project/static/js/main.ce95dfe9.chunk.js.map",
     "runtime-main.js": "/szu-yu-project/static/js/runtime-main.dde1d8c3.js",
     "runtime-main.js.map": "/szu-yu-project/static/js/runtime-main.dde1d8c3.js.map",
     "static/css/2.cb8ac254.chunk.css": "/szu-yu-project/static/css/2.cb8ac254.chunk.css",
@@ -12,21 +12,21 @@
     "static/js/3.8709eeda.chunk.js.map": "/szu-yu-project/static/js/3.8709eeda.chunk.js.map",
     "index.html": "/szu-yu-project/index.html",
     "static/css/2.cb8ac254.chunk.css.map": "/szu-yu-project/static/css/2.cb8ac254.chunk.css.map",
-    "static/css/main.73324d3d.chunk.css.map": "/szu-yu-project/static/css/main.73324d3d.chunk.css.map",
+    "static/css/main.cb6a011c.chunk.css.map": "/szu-yu-project/static/css/main.cb6a011c.chunk.css.map",
     "static/js/2.23aec7ea.chunk.js.LICENSE.txt": "/szu-yu-project/static/js/2.23aec7ea.chunk.js.LICENSE.txt",
-    "static/media/banalife.3d32f34f.jpg": "/szu-yu-project/static/media/banalife.3d32f34f.jpg",
+    "static/media/banalife.a951790f.jpg": "/szu-yu-project/static/media/banalife.a951790f.jpg",
     "static/media/App.scss": "/szu-yu-project/static/media/bg.3ad538be.webp",
-    "static/media/cashme.1f4f1e3a.jpg": "/szu-yu-project/static/media/cashme.1f4f1e3a.jpg",
-    "static/media/goatshumor.93408b3b.jpg": "/szu-yu-project/static/media/goatshumor.93408b3b.jpg",
-    "static/media/iflubby.b53917e6.jpg": "/szu-yu-project/static/media/iflubby.b53917e6.jpg",
-    "static/media/numberslink.a5f5a854.jpg": "/szu-yu-project/static/media/numberslink.a5f5a854.jpg",
-    "static/media/profile.1ecdff66.jpg": "/szu-yu-project/static/media/profile.1ecdff66.jpg"
+    "static/media/cashme.3b7ec845.jpg": "/szu-yu-project/static/media/cashme.3b7ec845.jpg",
+    "static/media/goatshumor.ff24ed55.jpg": "/szu-yu-project/static/media/goatshumor.ff24ed55.jpg",
+    "static/media/iflubby.58327ef4.jpg": "/szu-yu-project/static/media/iflubby.58327ef4.jpg",
+    "static/media/numberslink.7d778979.jpg": "/szu-yu-project/static/media/numberslink.7d778979.jpg",
+    "static/media/profile.fe74d258.jpg": "/szu-yu-project/static/media/profile.fe74d258.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dde1d8c3.js",
     "static/css/2.cb8ac254.chunk.css",
     "static/js/2.23aec7ea.chunk.js",
-    "static/css/main.73324d3d.chunk.css",
-    "static/js/main.03b8ec2f.chunk.js"
+    "static/css/main.cb6a011c.chunk.css",
+    "static/js/main.ce95dfe9.chunk.js"
   ]
 }
