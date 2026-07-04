@@ -18,7 +18,6 @@ const Work = () => {
           <li key={`work_${index}`}>
             <article>
               <div
-                // href="https://blog.tailwindcss.com/multi-line-truncation-with-tailwindcss-line-clamp"
                 className="grid md:grid-cols-8 xl:grid-cols-9 items-start relative rounded-xl p-3 sm:p-5 xl:p-6 overflow-hidden "
               >
                 <h3 className="md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-7 mb-1 ml-9 md:ml-0 font-bold">

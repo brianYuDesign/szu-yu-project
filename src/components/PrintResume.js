@@ -40,7 +40,7 @@ const PrintResume = () => {
       {/* Why Me */}
       {whyme.length > 0 && (
         <section className="pr-section">
-          <h2 className="pr-title">Why Me</h2>
+          <h2 className="pr-title">{g("whyme")("title")}</h2>
           <ul className="pr-bullets">
             {whyme.map((it, i) => (
               <li key={i}>
@@ -55,7 +55,7 @@ const PrintResume = () => {
       {/* Experience */}
       {work.length > 0 && (
         <section className="pr-section">
-          <h2 className="pr-title">Experience</h2>
+          <h2 className="pr-title">{g("work")("title")}</h2>
           {work.map((job, i) => (
             <div className="pr-item" key={i}>
               <div className="pr-item-head">
@@ -78,7 +78,7 @@ const PrintResume = () => {
       {/* Education */}
       {education.length > 0 && (
         <section className="pr-section">
-          <h2 className="pr-title">Education And Qualifications</h2>
+          <h2 className="pr-title">{g("education")("title")}</h2>
           {education.map((e, i) => (
             <div className="pr-edu" key={i}>
               <span className="pr-edu-school">{e.school}</span>
@@ -91,7 +91,7 @@ const PrintResume = () => {
       {/* Skill */}
       {skill.length > 0 && (
         <section className="pr-section">
-          <h2 className="pr-title">Skill</h2>
+          <h2 className="pr-title">{g("skill")("title")}</h2>
           <ul className="pr-bullets">
             {skill.map((sk, i) => (
               <li key={i}>
@@ -106,7 +106,7 @@ const PrintResume = () => {
       {/* Projects */}
       {projects.length > 0 && (
         <section className="pr-section">
-          <h2 className="pr-title">Projects</h2>
+          <h2 className="pr-title">{g("project")("title")}</h2>
           {projects.map((p, i) => (
             <div className="pr-item" key={i}>
               <div className="pr-item-head">{p.name}</div>

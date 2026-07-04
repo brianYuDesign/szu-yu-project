@@ -97,6 +97,9 @@ $pr-accent: #16a394;
     font-size: 17pt;
     font-weight: 700;
     margin: 0 0 9px;
+    /* 標題不要與後面內容被分頁切開（避免標題孤留在頁尾、內容整塊跳下一頁留空白） */
+    break-after: avoid;
+    page-break-after: avoid;
   }
 
   .pr-bullets {
@@ -106,6 +109,9 @@ $pr-accent: #16a394;
   }
   .pr-bullets li {
     margin-bottom: 4px;
+    /* 單一條目不要被切成上下兩頁，但條目之間可自由分頁 */
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
   .pr-bullets li strong {
     font-weight: 700;
@@ -117,8 +123,7 @@ $pr-accent: #16a394;
     padding-left: 16px;
     border-left: 1px solid $pr-rule;
     margin-bottom: 14px;
-    break-inside: avoid;
-    page-break-inside: avoid;
+    /* 允許過長的經歷段落跨頁流動填滿頁面，避免整塊被推到下一頁而在頁尾留白 */
   }
   .pr-item::before {
     content: "";
@@ -134,6 +139,11 @@ $pr-accent: #16a394;
     font-size: 12pt;
     font-weight: 700;
     margin-bottom: 5px;
+    /* 公司/職稱標題要跟著它下面的內容，不能單獨被切到頁尾 */
+    break-after: avoid;
+    page-break-after: avoid;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
   .pr-p {
     margin: 0 0 4px;
