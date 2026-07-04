@@ -15,7 +15,6 @@ const PrintResume = () => {
   const work = g("work")("items", { returnObjects: true }) || [];
   const education = g("education")("items", { returnObjects: true }) || [];
   const skill = g("skill")("items", { returnObjects: true }) || [];
-  const projects = g("project")("items", { returnObjects: true }) || [];
 
   return (
     <div className="print-resume" aria-hidden="true">
@@ -100,22 +99,6 @@ const PrintResume = () => {
               </li>
             ))}
           </ul>
-        </section>
-      )}
-
-      {/* Projects */}
-      {projects.length > 0 && (
-        <section className="pr-section">
-          <h2 className="pr-title">{g("project")("title")}</h2>
-          {projects.map((p, i) => (
-            <div className="pr-item" key={i}>
-              <div className="pr-item-head">{p.name}</div>
-              {p.content ? <p className="pr-p">{p.content}</p> : null}
-              {Array.isArray(p.tech) && p.tech.length > 0 ? (
-                <div className="pr-tech">{p.tech.join("  ·  ")}</div>
-              ) : null}
-            </div>
-          ))}
         </section>
       )}
     </div>
