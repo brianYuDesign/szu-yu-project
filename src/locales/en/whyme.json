@@ -2,24 +2,28 @@
   "title": "Why Me",
   "items": [
     {
-      "title": "System Thinking + Practical Experience",
-      "description": "Not just writing code, but thinking about system performance, scalability, and risk management from an overall architectural perspective."
+      "title": "Node.js / TypeScript Full-Stack",
+      "description": "Node.js / NestJS on the backend, React / Next.js on the frontend, one language across both. Also worked with Flutter and React Native, so I can take a product from zero to launch on my own."
     },
     {
-      "title": "Full-Stack + Cross-Platform",
-      "description": "Backend in Node.js / NestJS / TypeScript, mobile in Flutter and React Native, web in React — able to take a product from zero to launch single-handedly."
+      "title": "Refactoring & Code Quality",
+      "description": "Splitting up and refactoring code that has built up over time, reducing coupling between modules, and keeping quality with automated tests and code review (1,066 tests on my most recent project)."
+    },
+    {
+      "title": "Architecture & Performance",
+      "description": "Assessing performance and scalability at the architecture level, finding bottlenecks and fixing them. Have done MySQL query and index optimization, Redis caching design, async processing, and system load tuning."
     },
     {
       "title": "AI Product Integration",
-      "description": "Hands-on building of Claude-powered AI for matching, chat coaching, and content moderation, integrated into the product flow."
+      "description": "Used Claude for match suggestions, chat coaching, and content moderation, integrated into the actual product flow."
     },
     {
-      "title": "0→1 Product Ownership & Business Sense",
-      "description": "Defined a North Star Metric, ran competitive assessments, and made subtraction decisions — driving product trade-offs with data rather than just taking requirements."
+      "title": "Product Planning",
+      "description": "Defined a North Star Metric, ran competitive assessments, and used data to decide which features to cut."
     },
     {
-      "title": "Team Leadership & Influence",
-      "description": "Experience managing 11 engineers, able to drive team technical decisions, establish standards, and improve system stability and quality."
+      "title": "Team Collaboration",
+      "description": "Led 11 engineers, introduced design review, code review, and release checklists, and set implementation standards."
     }
   ]
 }

@@ -2,22 +2,25 @@
   "title": "技能",
   "items": [
     {
-      "title": "軟體開發",
-      "content": "NestJs, Typescript, Node.Js"
+      "title": "後端開發",
+      "content": "Node.js, TypeScript, JavaScript, NestJS"
+    },
+    {
+      "title": "網站開發",
+      "content": "React, Next.js, TypeScript, HTML/CSS"
     },
     {
       "title": "行動 / 跨平台",
       "content": "Flutter, Dart, React Native, Expo"
     },
-    { "title": "網站開發", "content": "React, NextJs, HTML/CSS" },
-    {
-      "title": "其他",
-      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Firebase, Docker"
-    },
     { "title": "資料庫", "content": "MySQL, Redis, MongoDB" },
     {
+      "title": "系統 / 維運",
+      "content": "Linux, Git, Docker, AWS, Kafka, Sentry, Kibana, Grafana, Firebase"
+    },
+    {
       "title": "開發方法論",
-      "content": "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService"
+      "content": "Refactoring, SOLID, 自動化測試, Code Review, Functional Programming, Object Oriented Programming, MicroService"
     }
   ]
 }

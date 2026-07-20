@@ -8,6 +8,10 @@ import banalife from "../img/banalife.jpg";
 import numberslink from "../img/numberslink.jpg";
 import iflubby from "../img/iflubby.jpg";
 import cashme from "../img/cashme.jpg";
+import coffeechat from "../img/coffeechat.jpg";
+import boundapp from "../img/boundapp.jpg";
+import sugarbee from "../img/sugarbee.jpg";
+import hiyes from "../img/hiyes.jpg";
 
 const projectImages = {
   goatshumor: goatshumor,
@@ -15,6 +19,10 @@ const projectImages = {
   numberslink: numberslink,
   iflubby: iflubby,
   cashme: cashme,
+  coffeechat: coffeechat,
+  boundapp: boundapp,
+  sugarbee: sugarbee,
+  hiyes: hiyes,
 };
 
 const Project = () => {
@@ -34,9 +42,10 @@ const Project = () => {
           >
             {item.imgKey && projectImages[item.imgKey] && (
               <img
-                className="w-full hover:opacity-90 transition-opacity duration-300"
+                className="project_thumb hover:opacity-90 transition-opacity duration-300"
                 src={projectImages[item.imgKey]}
                 alt={item.name}
+                loading="lazy"
               />
             )}
             <div className="px-6 py-4">

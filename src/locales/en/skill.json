@@ -2,22 +2,25 @@
   "title": "Skill",
   "items": [
     {
-      "title": "Software development",
-      "content": "NestJs, Typescript, Node.Js"
+      "title": "Backend development",
+      "content": "Node.js, TypeScript, JavaScript, NestJS"
+    },
+    {
+      "title": "Web development",
+      "content": "React, Next.js, TypeScript, HTML/CSS"
     },
     {
       "title": "Mobile / Cross-platform",
       "content": "Flutter, Dart, React Native, Expo"
     },
-    { "title": "Web development", "content": "React, NextJs, HTML/CSS" },
-    {
-      "title": "Other",
-      "content": "Kafka, Sentry, Kibana, Grafana, AWS, Firebase, Docker"
-    },
     { "title": "Database", "content": "MySQL, Redis, MongoDB" },
     {
+      "title": "System / Ops",
+      "content": "Linux, Git, Docker, AWS, Kafka, Sentry, Kibana, Grafana, Firebase"
+    },
+    {
       "title": "Methodologies",
-      "content": "FunctionalPrograming, Object Oriented Programing, Refactoring, SOLID, MicroService"
+      "content": "Refactoring, SOLID, Automated Testing, Code Review, Functional Programming, Object Oriented Programming, MicroService"
     }
   ]
 }

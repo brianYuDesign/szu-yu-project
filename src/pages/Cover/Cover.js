@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import "./Cover.scss";
 import profileImg from "../../img/profile.jpg";
+import Block from "../../components/Block";
 
 const Cover = () => {
   const { t } = useTranslation("cover");
@@ -14,14 +15,10 @@ const Cover = () => {
           <h1>{t("title")}</h1>
           <div className="subtitle">{t("subtitle")}</div>
 
-          <div className="description_grid">
-            <div className="desc_item">
-              <p>{t("description.intro")}</p>
-            </div>
-            <div className="desc_item">
-              <p>{t("description.specialization")}</p>
-            </div>
-          </div>
+          <Block className="desc_item">
+            <p>{t("description.intro")}</p>
+            <p>{t("description.specialization")}</p>
+          </Block>
         </div>
 
         <div className="cover_profile_section">

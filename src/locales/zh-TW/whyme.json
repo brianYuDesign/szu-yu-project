@@ -2,24 +2,28 @@
   "title": "個人優勢",
   "items": [
     {
-      "title": "系統思維 + 實戰經驗",
-      "description": "不只是寫程式，更能從整體架構思考系統效能、可擴展性與風險管理。"
+      "title": "Node.js / TypeScript 全端",
+      "description": "後端 Node.js / NestJS，前端 React / Next.js，前後端同一套語言。也做過 Flutter 與 React Native，能自己把產品從 0 做到上架。"
     },
     {
-      "title": "全端 + 跨平台開發",
-      "description": "後端 Node.js / NestJS / TypeScript，行動端 Flutter 與 React Native，前端 React，能獨立把產品從 0 帶到上架。"
+      "title": "重構與程式品質",
+      "description": "把長期累積的程式拆分重構、降低模組耦合，並用自動化測試與 code review 維持品質（近期專案累積 1,066 個測試）。"
+    },
+    {
+      "title": "架構與效能",
+      "description": "從架構評估效能與擴充性，找出瓶頸並改善。做過 MySQL 查詢與索引優化、Redis 快取設計，以及非同步處理與系統負載調整。"
     },
     {
       "title": "AI 產品整合",
-      "description": "實際以 Claude 打造 AI 配對、聊天教練與內容審核功能，並整合進產品流程。"
+      "description": "用 Claude 做了配對建議、聊天教練與內容審核，實際整合進產品流程。"
     },
     {
-      "title": "0→1 產品主導與商業思維",
-      "description": "定義 North Star Metric、做競品評估與減法決策，用數據驅動產品取捨，而非只接需求。"
+      "title": "產品規劃",
+      "description": "定義 North Star Metric、做過競品評估，也會用數據決定砍掉哪些功能。"
     },
     {
-      "title": "團隊領導與影響力",
-      "description": "有管理 11 位工程師經驗，能推動團隊技術決策、建立標準，提升系統穩定與質量。"
+      "title": "團隊協作",
+      "description": "帶過 11 位工程師，導入 design review、code review 與 release checklist，建立實作標準。"
     }
   ]
 }

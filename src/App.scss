@@ -22,3 +22,13 @@
   height: 100%;
   width: 100%;
 }
+
+// 專案作品縮圖統一 16:9。各站截圖的原始高度不一（613 ~ 708），
+// 不固定比例的話卡片高度會參差；object-position 靠上是為了保留網站的 header 與主視覺。
+.project_thumb {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top;
+}

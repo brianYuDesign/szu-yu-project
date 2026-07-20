@@ -2,18 +2,25 @@
   "title": "Project Experience",
   "items": [
     {
+      "name": "Coffee Chat - Coffee-Break Meetup Platform (Solo)",
+      "content": "A platform for sitting down with strangers over a coffee and just talking, with nothing to sell and nothing to prove. You write down what you are into lately, pick a hosted session (with a facilitator and a topic) or a free-form one, and show up. I built it solo across product, design, and the stack: a Next.js App Router frontend with Tailwind covering session discovery, hosting, cafes, card-draw chats, messaging, and a blog, with data and accounts handled by a BaaS. Live at coffee-chat.tw.",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Turbopack"],
+      "link": "https://coffee-chat.tw/",
+      "imgKey": "coffeechat"
+    },
+    {
       "name": "Bound - Interest-Based Social Matching App (Lead)",
       "content": "A cross-platform social-matching app built with Flutter, centered on \"AI matching + interest communities (Circles) + chat coaching.\" I led everything from product strategy and the UI design system to full-stack implementation: a Flutter frontend with 10+ feature modules (discover, circles, chat, activities, places, verification) and a NestJS backend with 180+ APIs, 1,066 tests, async AI jobs via SQS with Firebase real-time push-back, plus integrated tiered Claude AI and AWS Rekognition content moderation. Live at bound-app.com.",
       "tech": ["Flutter", "Dart", "NestJs", "TypeScript", "Claude AI", "Firebase", "AWS", "Redis", "MySQL"],
       "link": "https://bound-app.com/",
-      "imgKey": ""
+      "imgKey": "boundapp"
     },
     {
       "name": "Sugarbee - High-End Dating App (Full-Stack Lead)",
       "content": "A dating-matching app targeting a high-end audience, where I solely owned the frontend, backend, CMS, and operations dashboard. The frontend is built with Next.js (React) and the backend with NestJS. Implemented a matching engine 2.0 (unified data source + preference filtering + compatibility scoring), an interest-application flow, real-time chat, push notifications, virtual points, and subscription payments (TapPay / ECPay). Also built real-person face verification, AWS Rekognition AI content moderation, sensitive-word filtering, and a Redis caching architecture. Live at sugarbee.vip.",
       "tech": ["Next.js", "React", "TypeScript", "NestJs", "AWS", "Rekognition", "Redis", "Firebase", "TapPay"],
       "link": "https://sugarbee.vip/",
-      "imgKey": ""
+      "imgKey": "sugarbee"
     },
     {
       "name": "Goats Humor (Outsource) - Customized Shopify E-commerce UI Solution",
@@ -85,7 +92,7 @@
       "content": "Participated in integration planning, assisted the client in developing Salesforce Line@ chat robot.",
       "tech": ["Salesforce", "Apex", "VisualForce", "Boostrap", "Linebot"],
       "link": "https://hiyes.tw/",
-      "imgKey": ""
+      "imgKey": "hiyes"
     }
   ]
 }
