@@ -3,70 +3,81 @@
   "items": [
     {
       "name": "Coffee Chat - Coffee-Break Meetup Platform (Solo)",
-      "content": "A platform for sitting down with strangers over a coffee and just talking, with nothing to sell and nothing to prove. You write down what you are into lately, pick a hosted session (with a facilitator and a topic) or a free-form one, and show up. I built it solo across product, design, and the stack: a Next.js App Router frontend with Tailwind covering session discovery, hosting, cafes, card-draw chats, messaging, and a blog, with data and accounts handled by a BaaS. Live at coffee-chat.tw.",
+      "content": "A meetup platform built around the length of a single cup of coffee, allowing people who have never met to talk without a sales pitch or the pressure to perform. Users note the topics they are currently interested in, then choose either a hosted session (with a facilitator and a set topic) or a free-form one and attend directly. I owned the product, design, and full stack independently: a Next.js App Router frontend with Tailwind covering session discovery, hosting, cafes, card-draw chats, messaging, and a blog, with data and accounts handled by a BaaS. Live at coffee-chat.tw.",
       "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Turbopack"],
       "link": "https://coffee-chat.tw/",
       "imgKey": "coffeechat"
     },
     {
       "name": "Bound - Interest-Based Social Matching App (Lead)",
-      "content": "A cross-platform social-matching app built with Flutter, centered on \"AI matching + interest communities (Circles) + chat coaching.\" I led everything from product strategy and the UI design system to full-stack implementation: a Flutter frontend with 10+ feature modules (discover, circles, chat, activities, places, verification) and a NestJS backend with 180+ APIs, 1,066 tests, async AI jobs via SQS with Firebase real-time push-back, plus integrated tiered Claude AI and AWS Rekognition content moderation. Live at bound-app.com.",
+      "content": "A cross-platform social-matching app built with Flutter, centered on \"AI matching + interest communities (Circles) + chat coaching.\" I led the work from product strategy and the UI design system through to full-stack implementation: a Flutter frontend with 10+ feature modules (discover, circles, chat, activities, places, verification) and a NestJS backend with 180+ APIs and 1,066 tests, asynchronous AI jobs via SQS with Firebase real-time push-back, together with integrated tiered Claude AI and AWS Rekognition content moderation. Live at bound-app.com.",
       "tech": ["Flutter", "Dart", "NestJs", "TypeScript", "Claude AI", "Firebase", "AWS", "Redis", "MySQL"],
       "link": "https://bound-app.com/",
       "imgKey": "boundapp"
     },
     {
       "name": "Sugarbee - High-End Dating App (Full-Stack Lead)",
-      "content": "A dating-matching app targeting a high-end audience, where I solely owned the frontend, backend, CMS, and operations dashboard. The frontend is built with Next.js (React) and the backend with NestJS. Implemented a matching engine 2.0 (unified data source + preference filtering + compatibility scoring), an interest-application flow, real-time chat, push notifications, virtual points, and subscription payments (TapPay / ECPay). Also built real-person face verification, AWS Rekognition AI content moderation, sensitive-word filtering, and a Redis caching architecture. Live at sugarbee.vip.",
+      "content": "A dating-matching app targeting a high-end audience, where I independently owned the frontend, backend, CMS, and operations dashboard. The frontend is built with Next.js (React) and the backend with NestJS. Implemented a matching engine 2.0 (unified data source, preference filtering, and compatibility scoring), an interest-application flow, real-time chat, push notifications, virtual points, and subscription payments (TapPay / ECPay), along with real-person face verification, AWS Rekognition content moderation, sensitive-word filtering, and a Redis caching architecture. Live at sugarbee.vip.",
       "tech": ["Next.js", "React", "TypeScript", "NestJs", "AWS", "Rekognition", "Redis", "Firebase", "TapPay"],
       "link": "https://sugarbee.vip/",
       "imgKey": "sugarbee"
     },
     {
       "name": "Goats Humor (Outsource) - Customized Shopify E-commerce UI Solution",
-      "content": "Goats Humor is a tea brand rebranding project. We used Shopify as the backend and dashboard to build a customized UI e-commerce store for the client. In this project, besides acting as a project manager, I also worked with colleagues on UI development, automated deployment, and subsequent SEO optimization.",
+      "content": "Goats Humor is a rebranding project for a tea retailer, using Shopify as the backend and admin console to deliver a customized UI e-commerce storefront for the client. In addition to serving as project manager, I worked with the team on UI development, automated deployment, and subsequent SEO optimization.",
       "tech": ["Shopify", "Liquid", "JQuery", "Lottie"],
       "link": "https://goats-humor.com/",
       "imgKey": "goatshumor"
     },
     {
-      "name": "iflubby (Outsource) - Pet IoT Node.js Custom Backend",
-      "content": "iflubby is a convenient map service for pets. In this project, I was responsible for the main backend architecture planning and development, researched related SSO integration (Fb, Google, Line, Apple), Google API, and provided relevant APIs and Postman for frontend integration.",
+      "name": "iflubby (Outsource) - Pet Services Node.js Custom Backend",
+      "content": "iflubby is a map service providing convenient access to pet-related locations. I was responsible for the core backend architecture planning and development, researched SSO integrations (Facebook, Google, Line, Apple) and Google APIs, and provided API documentation and Postman collections for frontend integration.",
       "tech": ["Node.js", "NestJs", "SSO", "Docker", "CD"],
       "link": "https://iflubby.com/intro",
       "imgKey": "iflubby"
     },
     {
-      "name": "Anko (Outsource) - (MessageBird) Third-party Chat Integration Backend System",
-      "content": "Anko is a chat room integrating clients' Line@ or WhatsApp Business for easy tracking. I took over the code from a previous freelancer and continued development, as well as subsequent official launch work (code optimization, system testing, automation, containerization, production environment setup). During the project, I also sought foreign technical support from Message Bird.",
+      "name": "Anko (Outsource) - MessageBird Third-Party Chat Integration System",
+      "content": "Anko is a chat system integrating clients' Line@ and WhatsApp Business accounts for easier conversation tracking. I took over the codebase from a previous freelancer and continued its development, and was also responsible for the work required to reach production launch (code optimization, system testing, automation, containerization, and production environment setup). During the project I coordinated technical support with MessageBird.",
       "tech": ["Node.js", "NestJs", "GraphQL", "React", "Docker", "CD"],
       "link": "",
       "imgKey": ""
     },
     {
-      "name": "Lottery and Games",
-      "content": "This is a project currently under development, crashpoint game... (to be continued).",
-      "tech": ["Node.js", "NestJs", "MySQL", "KAFKA", "Redis", "MicroService"],
+      "name": "Yuntong Technology - Lottery Gaming & Live Interactive Platform (Architecture Lead)",
+      "content": "The core platform I led at Yuntong Technology, spanning two service systems. The gaming platform (ytg-game-service) is built on an Nx monorepo with a NestJS microservice architecture, supporting lottery, dice, xocdia, mines, baucua, and keno formats; each game is separated into independent API, Socket, business service, admin, and asynchronous consumer services that scale horizontally with traffic. Core modules cover draw-period management (multiple draw frequencies), betting with limit controls, draw results and payout settlement, user wallets and multi-merchant fund flows, table management, and operational statistics. The live interactive platform (ytg-live-service) covers streaming rooms, chat, gifts and red packets, leaderboards, transaction records, and multi-merchant currencies, with integrated in-stream mini games such as Bingo, Hilo, horse racing, and dice. Technically, Socket.IO handles real-time round and draw push, Kafka carries cross-service event streams, Redis and Bull Queue support caching and asynchronous settlement, and Sentry with a Telegram bot provide monitoring and alerting.",
+      "tech": [
+        "Node.js",
+        "NestJs",
+        "TypeScript",
+        "Nx Monorepo",
+        "MicroService",
+        "Socket.IO",
+        "Kafka",
+        "Redis",
+        "MySQL",
+        "Docker"
+      ],
       "link": "",
       "imgKey": ""
     },
     {
       "name": "Numbers Link - Fair Random Number Platform",
-      "content": "Numbers Link is a technology utilizing blockchain immutability. We integrate numbers provided by data vendors to calculate and produce a random fair number. I was the main backend developer for this project and also participated in writing simple smart contracts (EOS).",
+      "content": "Numbers Link leverages the immutability of blockchain, aggregating and computing numbers supplied by multiple data vendors to produce a fair random number. I was the primary backend developer on the project and also contributed simple EOS smart contracts.",
       "tech": ["Node.js", "NestJs", "MySQL", "EOSIO", "React", "MicroService"],
       "link": "https://www.numbers.link/",
       "imgKey": "numberslink"
     },
     {
       "name": "Twin City Investment - Lending Management System",
-      "content": "The Lending Management System is mainly for customers to loan easily, but the underlying business process is cumbersome with review stages requiring relevant documents and reports. This was my last project at 4i. Besides participating in project planning and analysis, it was also my first time using TS. We used the NestJs framework for subsequent development.",
+      "content": "A lending management system intended to simplify the loan application process for customers, supported by a complex internal workflow whose review stages require extensive documents and reports. This was my final project at 4idps; in addition to project planning and analysis, it was also my first time developing with TypeScript, using the NestJS framework.",
       "tech": ["Node.js", "NestJs", "MySQL", "Docker"],
       "link": "https://www.thecoinscompany.com/",
       "imgKey": "cashme"
     },
     {
       "name": "Banana Life - Adult Video Streaming Platform",
-      "content": "Banana Life Adult Streaming Platform is the project I consider having the highest value at 4i. We used AWS cloud services and architecture, wrote video Gaussian blur and transcoding scripts using Lambda and FFmpeg. Besides handling the backend and dashboard myself, I also collaborated with the frontend and outsourced App team.",
+      "content": "Banana Life is an adult video streaming platform and the most technically demanding project I worked on at 4idps. It was built on AWS cloud services and architecture, with Lambda and FFmpeg scripts handling video Gaussian blur and transcoding. In addition to owning the backend and admin console, I collaborated with the frontend team and an outsourced app team.",
       "tech": [
         "Node.js",
         "Apollo",
@@ -82,14 +93,14 @@
     },
     {
       "name": "Equipment Maintenance System",
-      "content": "Wrote system specification documents, developed backend architecture, and assisted the company in adopting GraphQL style.",
+      "content": "Wrote the system specification documents and developed the backend architecture, and supported the company's adoption of GraphQL-style API design.",
       "tech": ["Node.js", "Apollo", "GraphQl", "React", "MongoDB"],
       "link": "",
       "imgKey": ""
     },
     {
       "name": "House Viewing Reception System",
-      "content": "Participated in integration planning, assisted the client in developing Salesforce Line@ chat robot.",
+      "content": "Took part in integration planning and supported the client's adoption of Salesforce and Line@ chatbot development.",
       "tech": ["Salesforce", "Apex", "VisualForce", "Boostrap", "Linebot"],
       "link": "https://hiyes.tw/",
       "imgKey": "hiyes"

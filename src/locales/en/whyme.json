@@ -3,27 +3,27 @@
   "items": [
     {
       "title": "Node.js / TypeScript Full-Stack",
-      "description": "Node.js / NestJS on the backend, React / Next.js on the frontend, one language across both. Also worked with Flutter and React Native, so I can take a product from zero to launch on my own."
+      "description": "Node.js / NestJS on the backend and React / Next.js on the frontend, sharing a single language across both. Also experienced with Flutter and React Native, and able to take a product from initial development through to release independently."
     },
     {
       "title": "Refactoring & Code Quality",
-      "description": "Splitting up and refactoring code that has built up over time, reducing coupling between modules, and keeping quality with automated tests and code review (1,066 tests on my most recent project)."
+      "description": "Restructuring and refactoring code accumulated over long development cycles, reducing coupling between modules, and maintaining quality through automated testing and code review (1,066 tests on the most recent project)."
     },
     {
       "title": "Architecture & Performance",
-      "description": "Assessing performance and scalability at the architecture level, finding bottlenecks and fixing them. Have done MySQL query and index optimization, Redis caching design, async processing, and system load tuning."
+      "description": "Evaluating performance and scalability at the architecture level, identifying bottlenecks and proposing improvements. Experienced in MySQL query and index optimization, Redis caching design, asynchronous processing, and system load tuning."
     },
     {
       "title": "AI Product Integration",
-      "description": "Used Claude for match suggestions, chat coaching, and content moderation, integrated into the actual product flow."
+      "description": "Implemented match suggestions, chat coaching, and icebreaker / bio generation with Claude, integrated into the production product flow."
     },
     {
       "title": "Product Planning",
-      "description": "Defined a North Star Metric, ran competitive assessments, and used data to decide which features to cut."
+      "description": "Defined a North Star Metric, conducted competitive analysis, and used data to determine which features to retain and which to retire."
     },
     {
       "title": "Team Collaboration",
-      "description": "Led 11 engineers, introduced design review, code review, and release checklists, and set implementation standards."
+      "description": "Led a team of 11 engineers, introducing design review, code review, and release checklists to establish implementation standards."
     }
   ]
 }

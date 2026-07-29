@@ -5,12 +5,12 @@
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
       "jobDesc": [
-        "Built a dating-matching platform and an interest-based \"activity meetup\" community app, bringing people with shared interests together for real-world meetups.",
-        "Involved from requirement planning, flow and UI design, and AI implementation through to the iOS App Store launch.",
-        "AI implementation: used Claude for match suggestions, chat coaching, icebreaker topics, and auto-generated bios.",
-        "Content-moderation and safety module: AWS Rekognition (sync for images, async for video), sensitive-word filtering, and real-person face verification.",
-        "Flutter cross-platform app plus a NestJS / TypeScript backend (180+ APIs, 1,066 automated tests, Redis caching and MySQL index optimization), packaged and deployed with Docker.",
-        "Defined a North Star Metric, ran competitive assessments, and narrowed the feature set by subtraction (4-tab IA, data-model normalization)."
+        "Developed a dating-matching platform and an interest-based \"activity meetup\" community app, connecting users with shared interests and enabling in-person gatherings.",
+        "Involved throughout requirement planning, flow and UI design, AI implementation, and the iOS App Store release.",
+        "AI implementation: applied Claude to match suggestions, chat coaching, icebreaker topics, and automatically generated bios.",
+        "Content-moderation and safety module: AWS Rekognition (synchronous for images, asynchronous for video), sensitive-word filtering, and real-person face verification.",
+        "Flutter cross-platform app with a NestJS / TypeScript backend (180+ APIs, 1,066 automated tests, Redis caching and MySQL index optimization), packaged and deployed with Docker.",
+        "Defined a North Star Metric, conducted competitive analysis, and consolidated the feature set through subtraction (4-tab information architecture, data-model normalization)."
       ],
       "period": "2026.03 ~ Present"
     },
@@ -19,10 +19,10 @@
       "jobTitle": "System Development Lead",
       "jobDesc": [
         "Responsible for backend architecture design and technical decisions across several game and platform products, covering real-time systems, asynchronous flows, and high-concurrency scenarios.",
-        "Built backend services in Node.js / TypeScript, did MySQL performance optimization and Redis caching, and deployed and debugged on Linux / Docker.",
-        "Assessed risk, performance, and scalability at the architecture level, identified bottlenecks and proposed fixes, including async processing, resource allocation, and system load optimization.",
-        "Used logs, metrics, and behavioral data for system observation and issue diagnosis.",
-        "Introduced design review, code review, and release checklists, and set implementation standards."
+        "Built backend services in Node.js / TypeScript, performed MySQL performance optimization and Redis caching design, and handled deployment and debugging on Linux / Docker.",
+        "Assessed risk, performance, and scalability at the architecture level, identified bottlenecks and proposed improvements, including asynchronous processing, resource allocation, and system load optimization.",
+        "Used logs, metrics, and behavioral data for system observability and issue diagnosis.",
+        "Introduced design review, code review, and release checklists to establish implementation standards."
       ],
       "period": "2022.12 ~ 2025.12"
     },
@@ -30,10 +30,10 @@
       "companyName": "Yuntong Technology - Game/Platform",
       "jobTitle": "Backend Engineer",
       "jobDesc": [
-        "Worked on development and operations for multiple backend systems, including games, lotteries, blockchain fair random numbers, crawler data, and admin dashboards.",
-        "Responsible for system analysis, backend implementation, code refactoring, and performance optimization, reshaping inherited legacy code into a more maintainable module structure.",
+        "Contributed to the development and operation of multiple backend systems, including games, lotteries, blockchain fair random numbers, crawler data, and admin dashboards.",
+        "Responsible for system analysis, backend implementation, code refactoring, and performance optimization, restructuring inherited legacy code into a more maintainable module architecture.",
         "Took part in requirement planning, clarifying business logic and implementation approaches.",
-        "Provided API documentation, Postman examples, and technical docs."
+        "Provided API documentation, Postman examples, and supporting technical documents."
       ],
       "period": "2020.09 ~ 2022.12"
     },
@@ -41,11 +41,11 @@
       "companyName": "4idps",
       "jobTitle": "FullStack Engineer",
       "jobDesc": [
-        "Worked on several business system projects, including lending systems, a video streaming platform, an equipment repair system, and e-commerce modules.",
-        "Lending system: backend core development and data flow design (Node.js / NestJS / MySQL), keeping the transaction flow and data correct.",
-        "Video streaming platform: frontend-backend integration and architecture planning, plus the automated deployment pipeline.",
-        "Reduced module coupling by splitting frontend/backend responsibilities and reworking API design, and set up unit and functional testing.",
-        "Worked with product and business teams to turn requirements into workable technical solutions."
+        "Contributed to several commercial system projects, including lending systems, a video streaming platform, an equipment repair system, and e-commerce modules.",
+        "Lending system: responsible for backend core development and data flow design (Node.js / NestJS / MySQL), ensuring the correctness of transaction flows and data.",
+        "Video streaming platform: involved in frontend-backend integration and architecture planning, and responsible for the automated deployment pipeline.",
+        "Reduced module coupling by separating frontend and backend responsibilities and revising API design, and established unit and functional testing processes.",
+        "Collaborated with product and business units to translate requirements into actionable technical solutions."
       ],
       "period": "2018.04 ~ 2020.08"
     }
