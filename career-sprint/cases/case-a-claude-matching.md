@@ -8,6 +8,9 @@
 - ⚠️ **待核對** —— Claude 依技術常理設計的方案，**面試前必須確認是否符合實情**，不符就改掉
 - ⬜ **待填** —— 還沒問到
 
+> ⚠️ **本檔部分內容已被實證取代 —— 請搭配 [`appendix-code-evidence.md`](./appendix-code-evidence.md) 閱讀。**
+> 該附錄從 `bound-front-backend/service/icebreakerService.js` 查證了輸出格式、雙層快取、三層 fallback、輸出端正則過濾、逾時的 P95 依據等，**實作比本檔的推論完整得多**。以附錄為準。
+
 ---
 
 ## 1. 問題（Situation / Task）

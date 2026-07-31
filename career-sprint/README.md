@@ -85,12 +85,59 @@
 - ⬜ **搜尋書籤**：Applied AI Engineer / AI Application Engineer / LLM Engineer / Product Engineer
 - ⬜ **一句話定位**：`day-1-positioning.md` 任務 1 的填空還沒寫（面試自我介紹會用到）
 
-### Day 2 — 案例深化 ⬜ 待執行
+### Day 2 — 案例深化 ✅ 完成（2026-07-31）
 
-骨架已建好在 `cases/`，三個檔案直接填：
-- `case-a-claude-matching.md` — 主打案例
-- `case-b-content-safety.md` — 第二案例（可靠性與風險）
-- `case-c-team-standards.md` — 面試備彈，不放履歷
+以問答方式完成，三份案例都有三分鐘口說版：
+
+| 檔案 | 主題 | 狀態 |
+|------|------|------|
+| `case-a-claude-matching.md` | Claude 產品功能（四個介入點、成本設計、fallback） | ✅ 含口說版 |
+| `case-d-cost-reliability.md` | 成本與可靠性治理（RDS Proxy、成本方法論、對帳） | ✅ 含口說版 |
+| `case-c-team-standards.md` | 團隊技術標準（面試備彈，不放履歷） | ✅ 含 30 秒版 |
+| `case-b-content-safety.md` | 內容安全 | ⏸️ 不展開 —— 深度不如 A、D，履歷留一條即可 |
+
+**與原計畫的差異**：原訂案例 B（內容安全）改為案例 D（成本與可靠性）。理由是 D 的素材含真正的疑難排解（RDS Proxy pinning + Lambda 凍結）與商業成果（-60% 雲端支出、2,860 筆對帳），面試價值高於「串 Rekognition 設信心門檻」。
+
+**兩個案例的分工**：A 展示「把 AI 做成產品」，D 展示「讓系統穩定又便宜」—— 正好對應 Cake 描述 AI 應用工程師的兩個面向。
+
+### 案例中仍待補的細節（不影響使用，面試前補即可）
+
+- 案例 A：多數已由 `cases/appendix-code-evidence.md` 從程式碼查證補上
+- 案例 D：Proxy 端連線 70–80 是 client 端還是後端、成本兩階段各砍什麼、pinned 的判定方式、對帳那筆異常的根因
+
+---
+
+### Day 3 — AI 深度補強 🔄 已盤點與備妥工具，待執行（2026-08-01）
+
+**盤點結果改變了這一天的性質。** 詳見 `cases/appendix-code-evidence.md` 與 `day-3-ai-depth.md` 開頭。
+
+**你已經有的**（原本以為要從零建）：
+
+| 項目 | 證據 |
+|------|------|
+| AI 用量觀測層 | `bound-front-backend/models/aiusagelog.js` —— 已記錄 token／`durationMs`／`success`／`errorCode` |
+| 結構化輸出、輸出端正則過濾、三層 fallback、雙層快取 | `service/icebreakerService.js` |
+| 逾時依生產 P95 實測調整（4.5s→8s） | 同上，程式碼註解有完整因果鏈 |
+| AI 開發規範 | `sugarbee/.claude/skills/ai-service/SKILL.md` |
+
+**還缺的**：品質評估（無任何 eval set）、資料標註、prompt 版本化（prompt 目前是 service 內的常數）、日預算熔斷與 rate limit（規範有、實作無）。
+
+> ⚠️ **SKILL.md 第 7 節的「黃金評測集」是規範不是既成事實。** 面試只能講「規範要求建評測集」，不能講「我們有評測集」。
+
+**工具包已備妥**：`day3-toolkit/`
+
+| 檔案 | 用途 |
+|------|------|
+| `metrics-query.sql` | 六支查詢，跑 Q2 即可填掉案例 A 的 P95 空欄（20 分鐘，投報率最高） |
+| `eval-rubric.md` | 四維度評分標準，含針對合併式 fallback 設計的 `aiCount` 指標 |
+| `eval-dataset-template.jsonl` | 17 筆範本（11 筆刁鑽：資訊極少／髒資料／越獄／敏感情境） |
+| `run-eval.js` | 跑完整管線、自動判安全性、自動標記 AI/模板來源 |
+
+**下一步（需要你本人執行）**：
+1. ⬜ 用唯讀帳號跑 `metrics-query.sql` 的 Q1、Q2 —— 20 分鐘，得到真實 P95 與成本
+2. ⬜ 把 `eval-dataset-template.jsonl` 擴充到 40 筆（多補一般案例，讓刁鑽比例回到三成）
+3. ⬜ 跑 `run-eval.js` 並人工標註三個維度
+4. ⬜ 依結果回寫履歷與案例 A
 
 ---
 
