@@ -3,21 +3,21 @@
   "items": [
     {
       "name": "Coffee Chat - 一杯咖啡的聊天聚會平台（獨立開發）",
-      "content": "以「一杯咖啡的時間」為單位的聊天聚會平台，讓彼此陌生的使用者在沒有推銷、也沒有表現壓力的情境下自在交流。使用者填寫近期關注的主題後，可選擇官方場次（配有主持人與指定話題）或自由聊天場次並直接赴約。本專案由我獨立負責產品、設計與前後端開發：前端以 Next.js App Router 搭配 Tailwind 實作，涵蓋找場、開場、咖啡廳、抽卡聊聊、訊息與部落格等模組，後端資料與帳號系統則以 BaaS 處理。上線網站：coffee-chat.tw。",
+      "content": "以「一杯咖啡的時間」為單位的聊天聚會平台，讓陌生使用者在沒有推銷、也沒有表現壓力的情境下自在交流。由我獨立負責產品、設計與前後端開發：前端以 Next.js App Router 搭配 Tailwind 實作，涵蓋找場、開場、抽卡聊聊與訊息等模組，後端資料與帳號系統以 BaaS 處理。上線網站：coffee-chat.tw。",
       "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Turbopack"],
       "link": "https://coffee-chat.tw/",
       "imgKey": "coffeechat"
     },
     {
       "name": "Bound - 興趣揪團社交 App（主導開發）",
-      "content": "以 Flutter 開發的跨平台社交配對 App，核心為「AI 配對 + 興趣社群（Circle）揪團 + 聊天教練」。本人主導自產品策略、UI 設計系統至全端實作的完整流程：Flutter 前端涵蓋 10+ 功能模組（探索、Circle、聊天、活動、地點、驗證），NestJS 後端提供 180+ API 與 1,066 項測試，並以 SQS 處理非同步 AI job、搭配 Firebase 即時回推，同時整合分級 Claude AI 與 AWS Rekognition 內容審核。金流面則以支付閘道 API 對 2,860 筆訂單執行全量對帳，查出 5 筆「已授權未請款」與 1 筆交易失敗卻標記為完成的訂單，避免未實際收款即開通付費權益。上線網站：bound-app.com。",
+      "content": "以 Flutter 開發的跨平台社交配對 App，核心為「AI 配對 + 興趣社群（Circle）揪團 + 聊天教練」。本人主導自產品策略、UI 設計系統至全端實作，後端以 SQS 處理非同步 AI job、Firebase 即時回推，並整合分級 Claude AI 與 AWS Rekognition 內容審核。上線網站：bound-app.com。",
       "tech": ["Flutter", "Dart", "NestJs", "TypeScript", "Claude AI", "Firebase", "AWS", "Redis", "MySQL"],
       "link": "https://bound-app.com/",
       "imgKey": "boundapp"
     },
     {
       "name": "Sugarbee - 高端交友 App（全端主導）",
-      "content": "主打高端客群的交友配對 App，由我獨立負責前端、後端、CMS 與營運後台。前端以 Next.js（React）實作，後端採用 NestJS。開發配對引擎 2.0（資料來源統一、偏好篩選與相容性加分）、興趣申請制、即時聊天、推播通知、虛擬點數與訂閱金流（TapPay / ECPay），並建置真人臉部驗證、AWS Rekognition 內容審核、敏感詞攔截與 Redis 快取架構。營運成效方面，針對訂閱扣款失敗建立自動重試與續訂挽回流程，主動追回原本會流失的付費用戶，期間單月營收自新台幣 21 萬成長至 38 萬（+81%）；同時執行雲端與 AI 服務成本優化：內容審核依媒體型態分流（圖片同步、影片非同步），AI 生成結果一律持久化落地，使成本與生成次數綁定而非與瀏覽次數綁定，並以快取層避免重複呼叫，分兩階段將每月雲端支出自 1,200 美元降至 600 美元、再優化至 400 餘美元（累計降幅逾六成）。效能與可觀測性方面，將 RDS Proxy 閒置回收時間由 300 秒縮短至 60 秒以清除凍結 Lambda 容器殘留的殭屍連線，使資料庫連線數自峰值 1,162 降至 883；另定位 GA 追蹤的逾時誤報實為 Lambda freeze／thaw 生命週期所致（fire-and-forget 請求於容器凍結後計時器過期，封包多已送達），據此依錯誤型態分級記錄，消除監控儀表板上的假警報並保留真實故障的可見性。上線網站：sugarbee.vip。",
+      "content": "主打高端客群的交友配對 App，由我獨立負責前端、後端、CMS 與營運後台。核心為配對引擎 2.0、訂閱金流與虛擬點數、即時聊天與推播通知，並建置真人臉部驗證、AWS Rekognition 內容審核與 Redis 快取架構。營運面同時主導訂閱續訂機制、雲端成本與資料庫連線效能優化。上線網站：sugarbee.vip。",
       "tech": ["Next.js", "React", "TypeScript", "NestJs", "AWS", "Rekognition", "Redis", "Firebase", "TapPay"],
       "link": "https://sugarbee.vip/",
       "imgKey": "sugarbee"
@@ -45,7 +45,7 @@
     },
     {
       "name": "云桐科技 - 彩票遊戲與直播互動平台（架構主導）",
-      "content": "任職云桐期間主導的核心平台，涵蓋遊戲與直播兩大服務體系。遊戲平台（ytg-game-service）以 Nx Monorepo 搭配 NestJS 微服務架構開發，支援彩票、骰子、色碟、掃雷、魚蝦蟹、基諾等多種玩法，每款遊戲皆拆分為 API、Socket、業務服務、管理後台與非同步 consumer 等獨立服務，可依流量水平擴展；核心模組包含期號管理（多頻率開獎週期）、下注與限額控管、開獎與結算派彩、使用者錢包與多商戶資金流、桌台管理及營運數據統計。直播互動平台（ytg-live-service）則負責直播間、聊天、禮物與紅包、排行榜、交易紀錄與多商戶幣別，並整合 Bingo、Hilo、賽馬、骰子等站內互動小遊戲。技術面以 Socket.IO 處理即時對局與開獎推送，Kafka 承接跨服務事件流，Redis 與 Bull Queue 支撐快取與非同步結算，並以 Sentry 與 Telegram Bot 建立監控告警機制。",
+      "content": "任職云桐期間主導的核心平台，涵蓋遊戲與直播兩大體系。遊戲平台以 Nx Monorepo 搭配 NestJS 微服務開發，每款玩法拆分為 API、Socket、業務服務與非同步 consumer 等獨立服務，可依流量水平擴展；直播平台則涵蓋直播間、聊天、禮物紅包與多商戶幣別。技術面以 Socket.IO 推送即時對局與開獎，Kafka 承接跨服務事件流，Redis 與 Bull Queue 支撐快取與非同步結算。",
       "tech": [
         "Node.js",
         "NestJs",

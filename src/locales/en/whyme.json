@@ -7,7 +7,7 @@
     },
     {
       "title": "End-to-End Product Delivery",
-      "description": "Brought AI into the day-to-day development workflow and independently delivered a product across requirement planning, flow and UI design, AI implementation, backend services, and the iOS release — a scope that previously required separate frontend, backend, and admin-dashboard engineers, now shipped by one person within a single product cycle: in a single month on one product line I delivered a gifting system, a wheel-based lottery, black-card memberships, role-based admin access control, verification flows, and a revenue dashboard — a dozen-plus features — while maintaining two other product lines in parallel (180+ APIs and 1,066 automated tests on the most recent project). Defined a North Star Metric, conducted competitive analysis, and used data to determine which features to retain and which to retire."
+      "description": "Brought AI into the day-to-day development workflow and independently delivered a product across requirement planning, flow and UI design, AI implementation, backend services, and the iOS release — a scope that previously required separate frontend, backend, and admin-dashboard engineers, now shipped by one person within a single product cycle: in a single month on one product line I delivered a gifting system, a wheel-based lottery, black-card memberships, role-based admin access control, verification flows, and a revenue dashboard — a dozen-plus features — while maintaining two other product lines in parallel. Defined a North Star Metric, conducted competitive analysis, and used data to determine which features to retain and which to retire."
     },
     {
       "title": "Node.js / TypeScript Full-Stack",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Refactoring & Code Quality",
-      "description": "Restructuring and refactoring code accumulated over long development cycles, reducing coupling between modules, and maintaining quality through automated testing and code review (1,066 tests on the most recent project)."
+      "description": "Restructuring and refactoring code accumulated over long development cycles, reducing coupling between modules, and maintaining quality through automated testing and code review."
     }
   ]
 }

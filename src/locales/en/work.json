@@ -5,15 +5,15 @@
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
       "jobDesc": [
-        "AI implementation: applied Claude to match suggestions, chat coaching, icebreaker topics, and automatically generated bios as a core part of the subscription offering; designed four intervention points along the user journey with deliberately decreasing AI involvement, and a two-tier fallback (default / enhanced copy) that keeps the feature usable when the model times out or fails.",
-        "Subscription billing and revenue growth: implemented the auto-renewal cron and failed-payment handling, and closed a tracking gap where front-end cancellations were never written back — using a multi-signal cross-table query to recover the true cancellation count and separate genuine churn from card-replacement billing failures; also broke revenue down by subscription, honey packs, black card, and bundles. Monthly revenue grew from NT$210K to NT$380K (+81%) over the period.",
-        "Payment data integrity: ran a full reconciliation of 2,860 orders against the payment gateway API, surfacing 5 authorized-but-uncaptured orders and 1 failed transaction incorrectly marked complete — preventing paid entitlements from being granted without an actual charge.",
-        "Database connection performance: traced production database connections nearing the ceiling (peak 1,162, roughly 90% of the DB limit) to pinned sessions combined with an over-long idle reclaim window leaving zombie connections behind frozen Lambda containers — not to real application demand (pool max was only 2). Cutting the RDS Proxy idle timeout from 300s to 60s brought connections down to 883 (-24%) and proxy-side client connections from 70–80 to about 21.",
-        "AWS and AI service cost optimization: routed content moderation by media type (synchronous for images, asynchronous for video) and persisted AI-generated results, tying cost to generation count rather than view count, with a cache layer to avoid redundant calls — cutting the monthly cloud bill in two stages from US$1,200 to US$600, then down to just over US$400, a cumulative reduction of more than 60%.",
-        "Content-moderation and safety module: AWS Rekognition (synchronous for images, asynchronous for video), sensitive-word filtering, and real-person face verification.",
-        "Flutter cross-platform app with a NestJS / TypeScript backend (180+ APIs, 1,066 automated tests, Redis caching and MySQL index optimization), packaged and deployed with Docker.",
-        "Developed a dating-matching platform and an interest-based \"activity meetup\" community app, connecting users with shared interests and enabling in-person gatherings.",
-        "Defined a North Star Metric, conducted competitive analysis, and consolidated the feature set through subtraction (4-tab information architecture, data-model normalization)."
+        "AI implementation: Claude-powered match suggestions, chat coaching, icebreaker topics, and bio generation as paid subscription features; four intervention points along the user journey, with a two-tier fallback that keeps them usable when the model fails.",
+        "Content moderation and safety: AWS Rekognition (sync for images, async for video), sensitive-word filtering, and real-person face verification.",
+        "Subscription billing and revenue growth: built auto-renewal and failed-payment handling, and recovered the true cancellation count via a multi-signal query where front-end cancellations were never written back. Monthly revenue grew from NT$210K to NT$380K (+81%).",
+        "Payment data integrity: reconciled all 2,860 orders against the payment gateway, surfacing 6 cases where entitlements were granted without an actual charge.",
+        "Database connection optimization: traced connections nearing the ceiling (peak 1,162) to pinned sessions and an over-long idle reclaim window, not application load; shortened the proxy reclaim window and added connection validation and retry, down to 883 (-24%).",
+        "Query and cache optimization: virtual generated columns and composite indexes in place of JSON extraction to avoid full table scans, plus layered caching that brought a 5-second recommendation query down to milliseconds (API averages ~180ms).",
+        "Frontend load performance: replaced a 7.2MB background image and a 1.3MB CJK webfont subset with WebP and a system font stack — FCP from 10.0s to 1.4s, Lighthouse desktop 78→97.",
+        "Cloud and AI cost optimization: moderation routed by media type, generated results persisted, and a cache layer to avoid redundant calls — monthly cloud spend from US$1,200 to just over US$400 (-60%).",
+        "End-to-end delivery: Flutter app with a NestJS / TypeScript backend on Docker; defined a North Star Metric and consolidated the feature set through subtraction."
       ],
       "period": "2026.03 ~ Present"
     },
