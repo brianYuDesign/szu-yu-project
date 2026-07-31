@@ -2,28 +2,28 @@
   "title": "Why Me",
   "items": [
     {
-      "title": "Node.js / TypeScript Full-Stack",
-      "description": "Node.js / NestJS on the backend and React / Next.js on the frontend, sharing a single language across both. Also experienced with Flutter and React Native, and able to take a product from initial development through to release independently."
+      "title": "AI Product Integration",
+      "description": "Implemented match suggestions, chat coaching, and icebreaker / bio generation with Claude, integrated into the production product flow; built a content-moderation pipeline with AWS Rekognition (synchronous for images, asynchronous for video) alongside real-person face verification."
     },
     {
-      "title": "Refactoring & Code Quality",
-      "description": "Restructuring and refactoring code accumulated over long development cycles, reducing coupling between modules, and maintaining quality through automated testing and code review (1,066 tests on the most recent project)."
+      "title": "End-to-End Product Delivery",
+      "description": "Brought AI into the day-to-day development workflow and independently delivered a product across requirement planning, flow and UI design, AI implementation, backend services, and the iOS release — a scope that previously required separate frontend, backend, and admin-dashboard engineers, now shipped by one person within a single product cycle: in a single month on one product line I delivered a gifting system, a wheel-based lottery, black-card memberships, role-based admin access control, verification flows, and a revenue dashboard — a dozen-plus features — while maintaining two other product lines in parallel (180+ APIs and 1,066 automated tests on the most recent project). Defined a North Star Metric, conducted competitive analysis, and used data to determine which features to retain and which to retire."
+    },
+    {
+      "title": "Node.js / TypeScript Full-Stack",
+      "description": "Node.js / NestJS on the backend and React / Next.js on the frontend, sharing a single language across both. Also experienced with Flutter and React Native, and able to take a product from initial development through to release independently."
     },
     {
       "title": "Architecture & Performance",
       "description": "Evaluating performance and scalability at the architecture level, identifying bottlenecks and proposing improvements. Experienced in MySQL query and index optimization, Redis caching design, asynchronous processing, and system load tuning."
     },
     {
-      "title": "AI Product Integration",
-      "description": "Implemented match suggestions, chat coaching, and icebreaker / bio generation with Claude, integrated into the production product flow."
+      "title": "Technical Leadership & Team Standards",
+      "description": "Led 11 engineers through the delivery of 12 products, owning architecture design and technical decisions; introduced design review, code review, and release checklists, turning hands-on implementation experience into team standards reused across products."
     },
     {
-      "title": "Product Planning",
-      "description": "Defined a North Star Metric, conducted competitive analysis, and used data to determine which features to retain and which to retire."
-    },
-    {
-      "title": "Team Collaboration",
-      "description": "Led a team of 11 engineers, introducing design review, code review, and release checklists to establish implementation standards."
+      "title": "Refactoring & Code Quality",
+      "description": "Restructuring and refactoring code accumulated over long development cycles, reducing coupling between modules, and maintaining quality through automated testing and code review (1,066 tests on the most recent project)."
     }
   ]
 }

@@ -17,7 +17,6 @@ const Cover = () => {
 
           <Block className="desc_item">
             <p>{t("description.intro")}</p>
-            <p>{t("description.specialization")}</p>
           </Block>
         </div>
 

@@ -2,28 +2,28 @@
   "title": "個人優勢",
   "items": [
     {
-      "title": "Node.js / TypeScript 全端",
-      "description": "後端採用 Node.js / NestJS，前端採用 React / Next.js，前後端共用同一套語言。亦具備 Flutter 與 React Native 開發經驗，可獨立完成產品從零到上架的完整流程。"
+      "title": "AI 產品整合",
+      "description": "運用 Claude 實作配對建議、聊天教練與破冰話題／個人簡介生成，並整合至實際產品流程；搭配 AWS Rekognition 建立圖片同步、影片非同步的內容審核管線與真人臉部驗證。"
     },
     {
-      "title": "重構與程式品質",
-      "description": "針對長期累積的程式碼進行模組拆分與重構，降低模組間耦合，並以自動化測試與 code review 維持程式品質（近期專案累積 1,066 項測試）。"
+      "title": "端到端產品交付",
+      "description": "將 AI 導入日常開發流程，獨立完成產品從需求規劃、流程與 UI 設計、AI 實作、後端服務到 iOS 上架的完整流程。過去需前端、後端與營運後台多人分工的交付範圍，現由一人於同一產品週期內完成：單月於同一產品線交付禮物系統、轉盤抽獎、黑卡會籍、後台權限分級（RBAC）、驗證機制、營收儀表板等十餘項功能，並同期並行維護另外兩條產品線（近期專案累積 180+ API 與 1,066 項自動化測試）。並定義 North Star Metric、執行競品評估，依據數據判斷功能的保留與精簡。"
+    },
+    {
+      "title": "Node.js / TypeScript 全端",
+      "description": "後端採用 Node.js / NestJS，前端採用 React / Next.js，前後端共用同一套語言。亦具備 Flutter 與 React Native 開發經驗，可獨立完成產品從零到上架的完整流程。"
     },
     {
       "title": "架構與效能",
       "description": "從架構層面評估效能與擴充性，定位瓶頸並提出改善方案。具備 MySQL 查詢與索引優化、Redis 快取設計，以及非同步處理與系統負載調校經驗。"
     },
     {
-      "title": "AI 產品整合",
-      "description": "運用 Claude 實作配對建議、聊天教練與破冰話題／個人簡介生成，並實際整合至產品流程。"
+      "title": "技術領導與團隊標準",
+      "description": "帶領 11 位工程師完成 12 款產品開發，負責架構設計與技術決策；導入 design review、code review 與 release checklist，將個人實作經驗沉澱為跨產品沿用的團隊標準。"
     },
     {
-      "title": "產品規劃",
-      "description": "定義 North Star Metric、執行競品評估，並依據數據判斷功能的保留與精簡。"
-    },
-    {
-      "title": "團隊協作",
-      "description": "曾帶領 11 位工程師，導入 design review、code review 與 release checklist，建立團隊實作標準。"
+      "title": "重構與程式品質",
+      "description": "針對長期累積的程式碼進行模組拆分與重構，降低模組間耦合，並以自動化測試與 code review 維持程式品質（近期專案累積 1,066 項測試）。"
     }
   ]
 }

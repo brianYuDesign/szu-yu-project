@@ -1,8 +1,7 @@
 {
   "title": "Sheng-Yun Brian Yu CV",
-  "subtitle": "Full-Stack Engineer / AI Engineer",
+  "subtitle": "Applied AI Engineer / Full-Stack Product Engineer",
   "description": {
-    "intro": "Eight years of software development experience, primarily in Node.js and TypeScript, using a single language across frontend and backend. Currently an AI Engineer, independently developing dating-matching and interest-based meetup applications, covering the full process from product planning and AI implementation through to the iOS release. Previously led an 11-person engineering team delivering 12 game products, with hands-on experience in real-time interaction and high-concurrency scenarios.",
-    "specialization": "Focused on NestJS backend and React frontend development, with sustained work on refactoring existing systems, splitting modules, strengthening test coverage, and optimizing performance. Also experienced in integrating Claude AI into shipped products."
+    "intro": "Currently an AI Engineer, turning Claude and content-moderation capabilities into shipped product features. Independently built a dating-matching and interest-based meetup app, covering requirement planning, prompt design, backend services, and the iOS release. Eight years of software development experience, primarily in Node.js and TypeScript (NestJS / React), using a single language across frontend and backend, with sustained work on refactoring, test coverage, and performance optimization. Previously led an 11-person engineering team delivering 12 game products, with hands-on experience in real-time interaction and high-concurrency scenarios."
   }
 }

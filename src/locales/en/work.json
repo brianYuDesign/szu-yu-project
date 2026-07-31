@@ -5,11 +5,14 @@
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
       "jobDesc": [
-        "Developed a dating-matching platform and an interest-based \"activity meetup\" community app, connecting users with shared interests and enabling in-person gatherings.",
-        "Involved throughout requirement planning, flow and UI design, AI implementation, and the iOS App Store release.",
-        "AI implementation: applied Claude to match suggestions, chat coaching, icebreaker topics, and automatically generated bios.",
+        "AI implementation: applied Claude to match suggestions, chat coaching, icebreaker topics, and automatically generated bios as a core part of the subscription offering; designed four intervention points along the user journey with deliberately decreasing AI involvement, and a two-tier fallback (default / enhanced copy) that keeps the feature usable when the model times out or fails.",
+        "Subscription billing and revenue growth: implemented the auto-renewal cron and failed-payment handling, and closed a tracking gap where front-end cancellations were never written back — using a multi-signal cross-table query to recover the true cancellation count and separate genuine churn from card-replacement billing failures; also broke revenue down by subscription, honey packs, black card, and bundles. Monthly revenue grew from NT$210K to NT$380K (+81%) over the period.",
+        "Payment data integrity: ran a full reconciliation of 2,860 orders against the payment gateway API, surfacing 5 authorized-but-uncaptured orders and 1 failed transaction incorrectly marked complete — preventing paid entitlements from being granted without an actual charge.",
+        "Database connection performance: traced production database connections nearing the ceiling (peak 1,162, roughly 90% of the DB limit) to pinned sessions combined with an over-long idle reclaim window leaving zombie connections behind frozen Lambda containers — not to real application demand (pool max was only 2). Cutting the RDS Proxy idle timeout from 300s to 60s brought connections down to 883 (-24%) and proxy-side client connections from 70–80 to about 21.",
+        "AWS and AI service cost optimization: routed content moderation by media type (synchronous for images, asynchronous for video) and persisted AI-generated results, tying cost to generation count rather than view count, with a cache layer to avoid redundant calls — cutting the monthly cloud bill in two stages from US$1,200 to US$600, then down to just over US$400, a cumulative reduction of more than 60%.",
         "Content-moderation and safety module: AWS Rekognition (synchronous for images, asynchronous for video), sensitive-word filtering, and real-person face verification.",
         "Flutter cross-platform app with a NestJS / TypeScript backend (180+ APIs, 1,066 automated tests, Redis caching and MySQL index optimization), packaged and deployed with Docker.",
+        "Developed a dating-matching platform and an interest-based \"activity meetup\" community app, connecting users with shared interests and enabling in-person gatherings.",
         "Defined a North Star Metric, conducted competitive analysis, and consolidated the feature set through subtraction (4-tab information architecture, data-model normalization)."
       ],
       "period": "2026.03 ~ Present"
@@ -19,10 +22,11 @@
       "jobTitle": "System Development Lead",
       "jobDesc": [
         "Responsible for backend architecture design and technical decisions across several game and platform products, covering real-time systems, asynchronous flows, and high-concurrency scenarios.",
+        "High-concurrency traffic handling: draw windows and peak hours brought betting/order traffic on the order of a thousand requests per second; used Kafka for cross-service event streams and Redis with Bull Queue for caching and asynchronous settlement, moving payout settlement off the request path to keep live gameplay and draw broadcasts stable under peak load.",
         "Built backend services in Node.js / TypeScript, performed MySQL performance optimization and Redis caching design, and handled deployment and debugging on Linux / Docker.",
         "Assessed risk, performance, and scalability at the architecture level, identified bottlenecks and proposed improvements, including asynchronous processing, resource allocation, and system load optimization.",
         "Used logs, metrics, and behavioral data for system observability and issue diagnosis.",
-        "Introduced design review, code review, and release checklists to establish implementation standards."
+        "Led 11 engineers through the delivery of 12 products, introducing design review, code review, and release checklists to establish team standards reused across products."
       ],
       "period": "2022.12 ~ 2025.12"
     },
