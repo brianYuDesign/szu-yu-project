@@ -6,14 +6,11 @@
       "jobTitle": "AI Engineer",
       "jobDesc": [
         "AI implementation: Claude-powered match suggestions, chat coaching, icebreaker topics, and bio generation as paid subscription features; four intervention points along the user journey, with a two-tier fallback that keeps them usable when the model fails.",
-        "Content moderation and safety: AWS Rekognition (sync for images, async for video), sensitive-word filtering, and real-person face verification.",
         "Subscription billing and revenue growth: built auto-renewal and failed-payment handling, and recovered the true cancellation count via a multi-signal query where front-end cancellations were never written back. Monthly revenue grew from NT$210K to NT$380K (+81%).",
-        "Payment data integrity: reconciled all 2,860 orders against the payment gateway, surfacing 6 cases where entitlements were granted without an actual charge.",
+        "Cloud and AI cost optimization: Rekognition moderation routed by media type (sync for images, async for video), generated results persisted, and a cache layer to avoid redundant calls — monthly cloud spend from US$1,200 to just over US$400 (-60%).",
         "Database connection optimization: traced connections nearing the ceiling (peak 1,162) to pinned sessions and an over-long idle reclaim window, not application load; shortened the proxy reclaim window and added connection validation and retry, down to 883 (-24%).",
-        "Query and cache optimization: virtual generated columns and composite indexes in place of JSON extraction to avoid full table scans, plus layered caching that brought a 5-second recommendation query down to milliseconds (API averages ~180ms).",
-        "Frontend load performance: replaced a 7.2MB background image and a 1.3MB CJK webfont subset with WebP and a system font stack — FCP from 10.0s to 1.4s, Lighthouse desktop 78→97.",
-        "Cloud and AI cost optimization: moderation routed by media type, generated results persisted, and a cache layer to avoid redundant calls — monthly cloud spend from US$1,200 to just over US$400 (-60%).",
-        "End-to-end delivery: Flutter app with a NestJS / TypeScript backend on Docker; defined a North Star Metric and consolidated the feature set through subtraction."
+        "Query and load performance: virtual generated columns and composite indexes in place of JSON extraction to avoid full table scans, plus layered caching that brought a 5-second recommendation query down to milliseconds (API averages ~180ms); on the frontend, replaced a heavy background image and CJK webfont subset, taking FCP from 10.0s to 1.4s.",
+        "End-to-end delivery: Flutter app with a NestJS / TypeScript backend on Docker; built trust and safety mechanisms including content moderation, sensitive-word filtering, and real-person face verification; defined a North Star Metric and consolidated the feature set through subtraction."
       ],
       "period": "2026.03 ~ Present"
     },
@@ -24,8 +21,6 @@
         "Responsible for backend architecture design and technical decisions across several game and platform products, covering real-time systems, asynchronous flows, and high-concurrency scenarios.",
         "High-concurrency traffic handling: draw windows and peak hours brought betting/order traffic on the order of a thousand requests per second; used Kafka for cross-service event streams and Redis with Bull Queue for caching and asynchronous settlement, moving payout settlement off the request path to keep live gameplay and draw broadcasts stable under peak load.",
         "Built backend services in Node.js / TypeScript, performed MySQL performance optimization and Redis caching design, and handled deployment and debugging on Linux / Docker.",
-        "Assessed risk, performance, and scalability at the architecture level, identified bottlenecks and proposed improvements, including asynchronous processing, resource allocation, and system load optimization.",
-        "Used logs, metrics, and behavioral data for system observability and issue diagnosis.",
         "Led 11 engineers through the delivery of 12 products, introducing design review, code review, and release checklists to establish team standards reused across products."
       ],
       "period": "2022.12 ~ 2025.12"
@@ -35,9 +30,7 @@
       "jobTitle": "Backend Engineer",
       "jobDesc": [
         "Contributed to the development and operation of multiple backend systems, including games, lotteries, blockchain fair random numbers, crawler data, and admin dashboards.",
-        "Responsible for system analysis, backend implementation, code refactoring, and performance optimization, restructuring inherited legacy code into a more maintainable module architecture.",
-        "Took part in requirement planning, clarifying business logic and implementation approaches.",
-        "Provided API documentation, Postman examples, and supporting technical documents."
+        "Responsible for system analysis, backend implementation, code refactoring, and performance optimization, restructuring inherited legacy code into a more maintainable module architecture."
       ],
       "period": "2020.09 ~ 2022.12"
     },
@@ -47,9 +40,7 @@
       "jobDesc": [
         "Contributed to several commercial system projects, including lending systems, a video streaming platform, an equipment repair system, and e-commerce modules.",
         "Lending system: responsible for backend core development and data flow design (Node.js / NestJS / MySQL), ensuring the correctness of transaction flows and data.",
-        "Video streaming platform: involved in frontend-backend integration and architecture planning, and responsible for the automated deployment pipeline.",
-        "Reduced module coupling by separating frontend and backend responsibilities and revising API design, and established unit and functional testing processes.",
-        "Collaborated with product and business units to translate requirements into actionable technical solutions."
+        "Reduced module coupling by separating frontend and backend responsibilities and revising API design, and established unit and functional testing processes."
       ],
       "period": "2018.04 ~ 2020.08"
     }
