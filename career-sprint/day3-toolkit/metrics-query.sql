@@ -67,25 +67,48 @@ LIMIT 1 OFFSET 0;   -- ← 把 0 換成 FLOOR(count * 0.95)
 
 -- ============================================================
 -- Q3. 單次呼叫成本
---     ★ 價格請以 Anthropic 官方定價為準，下面的數字是佔位符，跑之前先更新
---     單位：USD / 1M tokens
+--     價格取自 Anthropic 官方 Current Models 表（2026-08-05 查核），單位 USD / 1M tokens：
+--         claude-opus-5      $5  / $25      claude-opus-4-8   $5  / $25
+--         claude-sonnet-5    $3  / $15      claude-sonnet-4-6 $3  / $15
+--         claude-haiku-4-5   $1  / $5       claude-fable-5    $10 / $50
+--     注意 Sonnet 5 到 2026-08-31 有 introductory 價（$2/$10），之後回到 $3/$15。
+--     這裡填的是標準價——報告用的成本寧可高估，也不要在客戶面前低估。
+--
+--     ⚠️ 定價會變。跑之前確認一次，並把查核日期記在結果旁邊；
+--        過期的成本表比沒有成本表更危險。
 -- ============================================================
+
+-- 各模型單價對照，JOIN 進來就不必為每個 model 手改數字
+WITH pricing (model, input_per_mtok, output_per_mtok) AS (
+    SELECT 'claude-opus-5',     5.00, 25.00 UNION ALL
+    SELECT 'claude-opus-4-8',   5.00, 25.00 UNION ALL
+    SELECT 'claude-sonnet-5',   3.00, 15.00 UNION ALL
+    SELECT 'claude-sonnet-4-6', 3.00, 15.00 UNION ALL
+    SELECT 'claude-haiku-4-5',  1.00,  5.00 UNION ALL
+    SELECT 'claude-fable-5',   10.00, 50.00
+)
 SELECT
-    service,
-    model,
-    COUNT(*)                          AS calls,
-    SUM(inputTokens)                  AS total_input,
-    SUM(outputTokens)                 AS total_output,
-    -- 把 3.00 / 15.00 換成該 model 的實際單價
-    ROUND(SUM(inputTokens)  / 1000000 * 3.00
-        + SUM(outputTokens) / 1000000 * 15.00, 4)               AS est_cost_usd,
-    ROUND((SUM(inputTokens)  / 1000000 * 3.00
-         + SUM(outputTokens) / 1000000 * 15.00) / COUNT(*), 6)  AS est_cost_per_call_usd
-FROM ai_usage_log
-WHERE createdAt >= DATE_SUB(NOW(), INTERVAL 30 DAY)
-GROUP BY service, model
+    l.service,
+    l.model,
+    COUNT(*)                  AS calls,
+    SUM(l.inputTokens)        AS total_input,
+    SUM(l.outputTokens)       AS total_output,
+    ROUND(SUM(l.inputTokens)  / 1000000 * p.input_per_mtok
+        + SUM(l.outputTokens) / 1000000 * p.output_per_mtok, 4)              AS est_cost_usd,
+    ROUND((SUM(l.inputTokens)  / 1000000 * p.input_per_mtok
+         + SUM(l.outputTokens) / 1000000 * p.output_per_mtok) / COUNT(*), 6) AS est_cost_per_call_usd,
+    -- 乘 30 天推估月成本，這是要寫進履歷與案例的那個數字
+    ROUND((SUM(l.inputTokens)  / 1000000 * p.input_per_mtok
+         + SUM(l.outputTokens) / 1000000 * p.output_per_mtok), 2)            AS est_monthly_usd
+FROM ai_usage_log l
+LEFT JOIN pricing p ON p.model = l.model
+WHERE l.createdAt >= DATE_SUB(NOW(), INTERVAL 30 DAY)
+GROUP BY l.service, l.model, p.input_per_mtok, p.output_per_mtok
 ORDER BY est_cost_usd DESC;
 
+-- ⚠️ 如果 est_cost_usd 是 NULL，代表該 model 不在上面的 pricing 表裡——
+--    那是「不知道價格」，不是「免費」。把該模型的官方單價補進 pricing 再跑一次，
+--    不要把 NULL 當成 0 帶進報告。
 
 -- ============================================================
 -- Q4. 失敗與降級分析
