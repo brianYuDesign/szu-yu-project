@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/szu-yu-project/static/css/main.c8e0f8a6.chunk.css",
-    "main.js": "/szu-yu-project/static/js/main.b8f88b74.chunk.js",
-    "main.js.map": "/szu-yu-project/static/js/main.b8f88b74.chunk.js.map",
+    "main.js": "/szu-yu-project/static/js/main.d3555e40.chunk.js",
+    "main.js.map": "/szu-yu-project/static/js/main.d3555e40.chunk.js.map",
     "runtime-main.js": "/szu-yu-project/static/js/runtime-main.dde1d8c3.js",
     "runtime-main.js.map": "/szu-yu-project/static/js/runtime-main.dde1d8c3.js.map",
     "static/css/2.cb8ac254.chunk.css": "/szu-yu-project/static/css/2.cb8ac254.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/boundapp.a94d8cf1.jpg": "/szu-yu-project/static/media/boundapp.a94d8cf1.jpg",
     "static/media/cashme.7474ce2a.jpg": "/szu-yu-project/static/media/cashme.7474ce2a.jpg",
     "static/media/coffeechat.0894237a.jpg": "/szu-yu-project/static/media/coffeechat.0894237a.jpg",
+    "static/media/gamilive.0b281d2e.jpg": "/szu-yu-project/static/media/gamilive.0b281d2e.jpg",
     "static/media/goatshumor.a203c52c.jpg": "/szu-yu-project/static/media/goatshumor.a203c52c.jpg",
     "static/media/hiyes.72292aa9.jpg": "/szu-yu-project/static/media/hiyes.72292aa9.jpg",
     "static/media/iflubby.58327ef4.jpg": "/szu-yu-project/static/media/iflubby.58327ef4.jpg",
@@ -31,6 +32,6 @@
     "static/css/2.cb8ac254.chunk.css",
     "static/js/2.23aec7ea.chunk.js",
     "static/css/main.c8e0f8a6.chunk.css",
-    "static/js/main.b8f88b74.chunk.js"
+    "static/js/main.d3555e40.chunk.js"
   ]
 }
