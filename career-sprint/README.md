@@ -55,6 +55,26 @@
 - `day-5-interview-drill.md` — 面試演練
 - `cases/` — Day 2 的案例骨架（直接填，不用從空白開始）
 - `templates/` — 避雷清單、薪資錨定、投遞追蹤表
+- `day3-toolkit/` — Day 3 的 SQL、評分標準、評測集範本與執行腳本
+- **`system-design-drills.md`** — 系統設計演練六題（2026-08-05 補）
+- **`apply-sop.md`** — 每投一家的 20 分鐘作業流程：抽 JD 關鍵字、換三個地方、AI 指紋掃描（2026-08-14 補）
+
+---
+
+## 補充：系統設計（原本零覆蓋）
+
+這份計畫原本只涵蓋行為面試與經驗敘事，**沒有任何系統設計／白板題的準備**——
+而投 Senior/Staff 幾乎一定會遇到。2026-08-05 補上：
+
+| 檔案 | 內容 |
+|---|---|
+| `system-design-drills.md` | 六題 × 10 分鐘、LLM 系統設計專屬的估算工具箱、錄影自評表 |
+| （artifact） | 三張白板圖 + 口說稿：RAG Pipeline / 多 LLM 平台 / Agent Workflow |
+
+六題的第一題是「設計一個企業內部 AI 助理」——主管的原題。
+
+配套的實作與實測數據在 `~/Project/vertical-ai-kit`（`docs/experiments.md` 有逐日紀錄）。
+**演練時搬出來的每個數字都是自己量的**，這是這批材料與「讀來的答案」最大的差別。
 
 ---
 
@@ -96,6 +116,7 @@
 | `case-d-cost-reliability.md` | 成本與可靠性治理（RDS Proxy、成本方法論、對帳） | ✅ 含口說版 |
 | `case-c-team-standards.md` | 團隊技術標準（面試備彈，不放履歷） | ✅ 含 30 秒版 |
 | `case-b-content-safety.md` | 內容安全 | ⏸️ 不展開 —— 深度不如 A、D，履歷留一條即可 |
+| `case-e-ai-customer-service.md` | AI 客戶服務（Python + RAG、信心門檻、轉人機制） | ⬜ 模板待填（2026-08-13 建立） |
 
 **與原計畫的差異**：原訂案例 B（內容安全）改為案例 D（成本與可靠性）。理由是 D 的素材含真正的疑難排解（RDS Proxy pinning + Lambda 凍結）與商業成果（-60% 雲端支出、2,860 筆對帳），面試價值高於「串 Rekognition 設信心門檻」。
 
