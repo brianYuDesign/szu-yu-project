@@ -3,31 +3,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 import Block from "../components/Block";
-import goatshumor from "../img/goatshumor.jpg";
-import banalife from "../img/banalife.jpg";
-import numberslink from "../img/numberslink.jpg";
-import iflubby from "../img/iflubby.jpg";
-import cashme from "../img/cashme.jpg";
 import coffeechat from "../img/coffeechat.jpg";
 import boundapp from "../img/boundapp.jpg";
 import sugarbee from "../img/sugarbee.jpg";
-import hiyes from "../img/hiyes.jpg";
+import gamilive from "../img/gamilive.jpg";
 
 const projectImages = {
-  goatshumor: goatshumor,
-  banalife: banalife,
-  numberslink: numberslink,
-  iflubby: iflubby,
-  cashme: cashme,
   coffeechat: coffeechat,
   boundapp: boundapp,
   sugarbee: sugarbee,
-  hiyes: hiyes,
+  gamilive: gamilive,
 };
 
 const Project = () => {
   const { t } = useTranslation("project");
   const items = t("items", { returnObjects: true });
+  const archiveItems = t("archiveItems", { returnObjects: true });
+  const archive = Array.isArray(archiveItems) ? archiveItems : [];
 
   return (
     <Block>
@@ -68,6 +60,43 @@ const Project = () => {
           </div>
         ))}
       </div>
+
+      {archive.length > 0 && (
+        <>
+          <div className="text-lg text-center font-bold pt-2 pb-1">
+            {t("archiveTitle")}
+          </div>
+          <div className="px-4 pb-6 md:px-10 md:pb-10 grid grid-cols-1 md:grid-cols-2 gap-4">
+            {archive.map((item, index) => (
+              <div
+                key={`archive_${index}`}
+                className="rounded border border-gray-200 dark:border-gray-700 px-5 py-4"
+              >
+                <a
+                  href={item.link || "#"}
+                  className="font-bold text-base mb-1 block"
+                >
+                  {item.name}
+                </a>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  {item.content}
+                </p>
+                <div className="pt-3">
+                  {item.tech &&
+                    item.tech.map((tech, ti) => (
+                      <span
+                        key={`archive_tech_${index}_${ti}`}
+                        className="inline-block bg-gray-100 dark:bg-gray-800 rounded-full px-2 py-0.5 text-xs text-gray-600 dark:text-gray-300 mr-1.5 mb-1.5"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
     </Block>
   );
 };

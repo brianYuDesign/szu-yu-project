@@ -16,7 +16,11 @@ const Cover = () => {
           <div className="subtitle">{t("subtitle")}</div>
 
           <Block className="desc_item">
-            <p>{t("description.intro")}</p>
+            {t("description.intro")
+              .split("\n\n")
+              .map((paragraph, index) => (
+                <p key={`intro_${index}`}>{paragraph}</p>
+              ))}
           </Block>
         </div>
 

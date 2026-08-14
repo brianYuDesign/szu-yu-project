@@ -3,24 +3,35 @@
   "items": [
     {
       "title": "Backend development",
-      "content": "Node.js, TypeScript, JavaScript, NestJS"
+      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#"
+    },
+    {
+      "title": "Database",
+      "content": "MySQL, PostgreSQL, Redis, MongoDB, pgvector, Index & Query Optimization, Caching Strategies, Connection Pool Tuning"
+    },
+    {
+      "title": "System / Ops",
+      "content": "Linux, Docker, Kubernetes, CI/CD, AWS, GCP, Git, GitHub, GitLab, Sentry, Kibana, Grafana"
     },
     {
       "title": "Web development",
-      "content": "React, Next.js, TypeScript, HTML/CSS"
+      "content": "React, Next.js (App Router), TypeScript, SSR / CSR, Web Performance Optimization, Tailwind CSS, HTML/CSS"
+    },
+    {
+      "title": "AI / LLM Engineering",
+      "content": "Claude Code, AI-assisted Development, RAG, pgvector, Anthropic API, OpenAI API, Ollama, Prompt Engineering, LLM-as-a-Judge, Offline Evaluation"
     },
     {
       "title": "Mobile / Cross-platform",
-      "content": "Flutter, Dart, React Native, Expo"
-    },
-    { "title": "Database", "content": "MySQL, Redis, MongoDB" },
-    {
-      "title": "System / Ops",
-      "content": "Linux, Git, Docker, AWS, Kafka, Sentry, Kibana, Grafana, Firebase"
+      "content": "Flutter, Dart, React Native, Expo, Firebase"
     },
     {
       "title": "Methodologies",
-      "content": "Refactoring, SOLID, Automated Testing, Code Review, Functional Programming, Object Oriented Programming, MicroService"
+      "content": "OOP, Functional Programming, SOLID, DDD, TDD, Refactoring, Code Review, MicroService"
+    },
+    {
+      "title": "Project Management",
+      "content": "Jira, Linear, Scrum, WBS, UML, Requirement Analysis, Technical Documentation"
     }
   ]
 }

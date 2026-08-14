@@ -3,24 +3,35 @@
   "items": [
     {
       "title": "後端開發",
-      "content": "Node.js, TypeScript, JavaScript, NestJS"
+      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#"
+    },
+    {
+      "title": "資料庫",
+      "content": "MySQL, PostgreSQL, Redis, MongoDB, pgvector, 索引與查詢優化, 快取策略, 連線池調校"
+    },
+    {
+      "title": "系統 / 維運",
+      "content": "Linux, Docker, Kubernetes, CI/CD, AWS, GCP, Git, GitHub, GitLab, Sentry, Kibana, Grafana"
     },
     {
       "title": "網站開發",
-      "content": "React, Next.js, TypeScript, HTML/CSS"
+      "content": "React, Next.js (App Router), TypeScript, SSR / CSR, Web 效能優化, Tailwind CSS, HTML/CSS"
+    },
+    {
+      "title": "AI / LLM 工程",
+      "content": "Claude Code, AI-assisted Development, RAG, pgvector, Anthropic API, OpenAI API, Ollama, Prompt Engineering, LLM-as-a-Judge, 離線評測"
     },
     {
       "title": "行動 / 跨平台",
-      "content": "Flutter, Dart, React Native, Expo"
-    },
-    { "title": "資料庫", "content": "MySQL, Redis, MongoDB" },
-    {
-      "title": "系統 / 維運",
-      "content": "Linux, Git, Docker, AWS, Kafka, Sentry, Kibana, Grafana, Firebase"
+      "content": "Flutter, Dart, React Native, Expo, Firebase"
     },
     {
       "title": "開發方法論",
-      "content": "Refactoring, SOLID, 自動化測試, Code Review, Functional Programming, Object Oriented Programming, MicroService"
+      "content": "OOP, Functional Programming, SOLID, DDD, TDD, Refactoring, Code Review, MicroService"
+    },
+    {
+      "title": "專案管理",
+      "content": "Jira, Linear, Scrum, WBS, UML, 需求分析, 技術文件"
     }
   ]
 }

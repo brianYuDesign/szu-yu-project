@@ -5,26 +5,24 @@
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
       "jobDesc": [
-        "Shipped four paid subscription features on Claude: match suggestions, chat coaching, icebreakers, and bio generation, with a two-tier fallback that keeps them usable when the model fails.",
-        "Grew monthly revenue from NT$210K to NT$380K (+81%): built subscription auto-renewal and failed-payment handling, and recovered the true cancellation count that front-end cancellations never wrote back.",
-        "Cut monthly cloud spend from US$1,200 to just over US$400 (-60%): routed Rekognition moderation by media type and persisted generated results behind a cache.",
-        "Brought peak database connections from 1,162 down to 883 (-24%): shortened the proxy reclaim window and added connection validation and retry.",
-        "Took a 5-second recommendation query down to milliseconds, with the API averaging around 180ms: replaced JSON extraction with virtual generated columns and composite indexes, plus layered caching.",
-        "Took FCP from 10.0s to 1.4s: replaced a heavy background image and subsetted the CJK webfont.",
-        "Delivered the Flutter app, NestJS / TypeScript backend, and Docker deployment single-handedly, including content moderation, sensitive-word filtering, and real-person face verification."
+        "Monthly revenue NT$210K → NT$380K (+81%): built subscription auto-renewal and failed-payment handling.",
+        "Shipped four paid subscription features on Claude: match suggestions, chat coaching, icebreakers, and bio generation, with a two-tier fallback so they still work when the model fails.",
+        "Performance: recommendation query 5s → milliseconds (virtual generated columns and composite indexes), API averaging 180ms, FCP 10s → 1.4s.",
+        "Introduced AI customer service: built a RAG retrieval framework in Python, embedded the FAQ and knowledge base, and handed off to a human when confidence fell short.",
+        "Monthly cloud spend US$1,200 → US$400 (-60%): routed moderation by media type and cached generated results.",
+        "Delivered the Flutter app, NestJS backend, and Docker deployment on my own, including content moderation and real-person face verification."
       ],
-      "period": "2026.03 ~ Present"
+      "period": "2026.03 ~ 2026.08"
     },
     {
       "companyName": "Yuntong Technology - Game/Live Streaming",
       "jobTitle": "System Development Lead",
       "jobDesc": [
-        "Led 11 engineers through 12 products; the design review and code review I introduced became the standard reused across products.",
-        "Cut deployment defects and release mistakes by 70%: established a release checklist and a standardized release process.",
-        "Improved how quickly the team isolates problems by 50%: defined a standard troubleshooting sequence.",
-        "Held up betting and order traffic of roughly a thousand requests per second during draw windows and peak hours: Kafka for cross-service event streams, Redis and Bull Queue for caching and asynchronous settlement.",
-        "Owned backend architecture and technical decisions for several game and platform products across real-time, asynchronous, and high-concurrency scenarios.",
-        "Built backend services in Node.js / TypeScript, tuned MySQL performance, designed the Redis caching, and deployed on Linux / Docker."
+        "Took a POC mini-game to production and grew it into a 12-title product line, leading 11 engineers through delivery.",
+        "Held up betting and order traffic of about a thousand requests per second during draws and peak hours: Kafka for event streams, Redis and Bull Queue for caching and asynchronous settlement.",
+        "Release mistakes -70%: set up a release checklist and a standard release process.",
+        "Problem isolation speed +50%: standardized the troubleshooting steps and wrote them down.",
+        "Introduced design review and code review, which became the development standard reused across product lines."
       ],
       "period": "2022.12 ~ 2025.12"
     },
@@ -33,7 +31,7 @@
       "jobTitle": "Backend Engineer",
       "jobDesc": [
         "Built and operated games, lotteries, blockchain fair random numbers, crawler data, and admin dashboards.",
-        "Handled system analysis, backend implementation, and performance work, and restructured inherited legacy code into maintainable modules."
+        "Handled system analysis, backend implementation, and performance work, and refactored inherited legacy code into modules that are easier to maintain."
       ],
       "period": "2020.09 ~ 2022.12"
     },
@@ -42,8 +40,7 @@
       "jobTitle": "FullStack Engineer",
       "jobDesc": [
         "Delivered commercial projects including lending systems, a video streaming platform, an equipment repair system, and e-commerce modules.",
-        "Owned the core backend and data flow design for the lending system (Node.js / NestJS / MySQL).",
-        "Reduced module coupling by separating frontend and backend responsibilities and reworking the API design, and set up unit and functional testing."
+        "Split frontend and backend responsibilities and reworked the API design to reduce coupling, and set up unit and functional testing."
       ],
       "period": "2018.04 ~ 2020.08"
     }

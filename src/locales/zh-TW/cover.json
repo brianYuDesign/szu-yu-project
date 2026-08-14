@@ -1,7 +1,7 @@
 {
   "title": "余勝允 Brian Yu CV",
-  "subtitle": "AI 應用工程師 / 全端產品工程師",
+  "subtitle": "Senior Backend Engineer / 全端 × AI",
   "description": {
-    "intro": "現任 AI 工程師，將 Claude 與內容審核能力實作為上線產品功能，獨立開發交友配對與活動揪團社群 App，涵蓋需求規劃、提示設計、後端服務至 iOS 上架的完整流程。8 年軟體開發經驗，主力技術為 Node.js 與 TypeScript（NestJS / React），前後端採用同一套語言開發，並長期投入既有系統的重構、測試補強與效能優化；先前帶領 11 人技術團隊完成 12 款遊戲產品，具備即時互動與高併發場景的實務經驗。"
+    "intro": "您好，我是余勝允（Brian Yu），具備約 8 年軟體開發經驗，主力為 Node.js / TypeScript、NestJS 後端開發。過去負責遊戲與直播平台的微服務架構設計，處理高併發下注與訂單流量、跨服務事件流與非同步結算，並執行 MySQL 效能優化與 Redis 快取設計，也曾帶領 11 位工程師完成多項產品開發。\n\n前端同樣使用 React / Next.js，能獨立完成從資料庫、API 到介面的開發，不需依賴其他角色交付。\n\n近半年將 AI 導入產品與開發流程，使用 Claude / Claude Code 協助開發，並以 Python + FastAPI 自建 RAG 與評測框架，將檢索品質指標納入 CI。目前工作中已將 AI 應用於配對建議、聊天教練、破冰話題與個人簡介生成，從功能設計、後端整合到產品上線皆有實務經驗。\n\n近期希望尋找 Senior Backend Engineer，或能結合「後端工程 × AI」的工作機會。"
   }
 }

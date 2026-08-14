@@ -2,50 +2,8 @@
   "title": "專案作品",
   "items": [
     {
-      "name": "Coffee Chat - 一杯咖啡的聊天聚會平台（獨立開發）",
-      "content": "把一場聚會壓縮成一杯咖啡的時間，讓不認識的人可以自在聊天，不用推銷，也不用表現。產品、設計到前後端都是我一個人做，前端用 Next.js App Router 搭 Tailwind，做了找場、開場、抽卡聊聊與訊息幾個模組，資料和帳號系統交給 BaaS 處理。上線網站：coffee-chat.tw。",
-      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Turbopack"],
-      "link": "https://coffee-chat.tw/",
-      "imgKey": "coffeechat"
-    },
-    {
-      "name": "Bound - 興趣揪團社交 App（主導開發）",
-      "content": "用 Flutter 做的跨平台社交配對 App，主打 AI 配對、興趣社群（Circle）揪團與聊天教練。我從產品策略、UI 設計系統一路做到全端實作，後端用 SQS 跑非同步的 AI job、Firebase 即時回推，內容審核則分級接 Claude AI 與 AWS Rekognition。上線網站：bound-app.com。",
-      "tech": ["Flutter", "Dart", "NestJs", "TypeScript", "Claude AI", "Firebase", "AWS", "Redis", "MySQL"],
-      "link": "https://bound-app.com/",
-      "imgKey": "boundapp"
-    },
-    {
-      "name": "Sugarbee - 高端交友 App（全端主導）",
-      "content": "主打高端客群的交友配對 App，前端、後端、CMS 與營運後台都由我負責。主要做了配對引擎 2.0、訂閱金流與虛擬點數、即時聊天與推播通知，另外建了真人臉部驗證、AWS Rekognition 內容審核與 Redis 快取架構。營運面也處理訂閱續訂機制、雲端成本與資料庫連線效能。上線網站：sugarbee.vip。",
-      "tech": ["Next.js", "React", "TypeScript", "NestJs", "AWS", "Rekognition", "Redis", "Firebase", "TapPay"],
-      "link": "https://sugarbee.vip/",
-      "imgKey": "sugarbee"
-    },
-    {
-      "name": "揚氏幽墨（外包）- Shopify 客製化電商 UI 解決方案",
-      "content": "揚氏幽墨是茶商的品牌重塑專案，用 Shopify 當後端與管理後台，前台則做客製化 UI 的電商網站。我在專案裡除了管專案，也和團隊一起做 UI 開發、自動化部署與後續的 SEO 優化。",
-      "tech": ["Shopify", "Liquid", "JQuery", "Lottie"],
-      "link": "https://goats-humor.com/",
-      "imgKey": "goatshumor"
-    },
-    {
-      "name": "iflubby（外包）- 寵聯網 Node.js 客製化應用後端",
-      "content": "iflubby 是提供寵物相關服務的便利地圖平台。我負責主要的後端架構規劃與開發，調研 SSO 串接（Facebook、Google、Line、Apple）與 Google API，也整理 API 文件和 Postman 範例給前端串接。",
-      "tech": ["Node.js", "NestJs", "SSO", "Docker", "CD"],
-      "link": "https://iflubby.com/intro",
-      "imgKey": "iflubby"
-    },
-    {
-      "name": "Anko（外包）- MessageBird 第三方聊天整合後台系統",
-      "content": "Anko 把客戶的 Line@ 與 WhatsApp Business 整合在一起，方便客戶追蹤對話。我接手前一位 freelancer 的程式碼往下開發，並負責上線前的工作：程式碼優化、系統測試、自動化、容器化與生產環境建置，過程中也和 MessageBird 原廠協調技術支援。",
-      "tech": ["Node.js", "NestJs", "GraphQL", "React", "Docker", "CD"],
-      "link": "",
-      "imgKey": ""
-    },
-    {
-      "name": "云桐科技 - 彩票遊戲與直播互動平台（架構主導）",
-      "content": "任職云桐期間主導的核心平台，分成遊戲和直播兩塊。遊戲平台用 Nx Monorepo 搭 NestJS 微服務，每款玩法都拆成 API、Socket、業務服務與非同步 consumer 幾支獨立服務，可以依流量各自水平擴展；直播平台則包含直播間、聊天、禮物紅包與多商戶幣別。即時對局與開獎用 Socket.IO 推送，跨服務的事件流走 Kafka，快取和非同步結算靠 Redis 與 Bull Queue。",
+      "name": "云桐科技 - 彩票遊戲與直播互動平台",
+      "content": "云桐的核心平台，分成遊戲和直播兩塊。遊戲用 Nx Monorepo 搭 NestJS 微服務，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可以依流量各自水平擴展。即時對局與開獎用 Socket.IO 推送，跨服務事件流走 Kafka，快取與結算靠 Redis 和 Bull Queue。上線網站：gamilive.com。",
       "tech": [
         "Node.js",
         "NestJs",
@@ -58,26 +16,156 @@
         "MySQL",
         "Docker"
       ],
+      "link": "https://gamilive.com/",
+      "imgKey": "gamilive"
+    },
+    {
+      "name": "Sugarbee - 高端交友 App",
+      "content": "主打高端客群的交友配對 App，前端、後端、CMS 與營運後台都由我負責。做了配對引擎 2.0、訂閱金流與虛擬點數、即時聊天與推播，另外建了真人臉部驗證、AWS Rekognition 審核與 Redis 快取。上線網站：sugarbee.vip。",
+      "tech": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "NestJs",
+        "AWS",
+        "Rekognition",
+        "Redis",
+        "Firebase",
+        "TapPay"
+      ],
+      "link": "https://sugarbee.vip/",
+      "imgKey": "sugarbee"
+    },
+    {
+      "name": "Vertical AI Kit - 垂直產業 RAG 解決方案工廠",
+      "content": "一套 RAG 核心，換掉 industry pack 就能給另一個產業用。檢索、評測與韌性框架都是我自己寫的，沒套 LangChain。製造業和零售兩個 pack 用地端模型驗收，六項指標全部過門檻；兩層快取讓單題回應從 52 秒降到 1.1 秒，多輪追問改寫讓 MRR 從 72.9% 上到 100%。",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "pgvector",
+        "RAG",
+        "Anthropic API",
+        "Ollama",
+        "pytest",
+        "Docker"
+      ],
       "link": "",
       "imgKey": ""
     },
     {
+      "name": "Bound - 興趣揪團社交 App",
+      "content": "用 Flutter 做的跨平台社交配對 App，主打 AI 配對、興趣社群（Circle）揪團與聊天教練。我從產品策略、UI 設計做到全端實作，AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude AI 與 AWS Rekognition。上線網站：bound-app.com。",
+      "tech": [
+        "Flutter",
+        "Dart",
+        "NestJs",
+        "TypeScript",
+        "Claude AI",
+        "Firebase",
+        "AWS",
+        "Redis",
+        "MySQL"
+      ],
+      "link": "https://bound-app.com/",
+      "imgKey": "boundapp"
+    },
+    {
+      "name": "AI 客服與語音下注 Concierge - 高風險金流場域 PoC",
+      "content": "AI 只能產生待確認的下注意圖，實際扣款要玩家確認才會觸發，這道限制做在架構層。Python 的 RAG／STT 服務搭 Node.js Gateway，150 題評測集下 Recall@3 有 92.7%，該轉真人的 8 題全中；30 個誘導攻擊案例補上規則層後從 27/30 變成 30/30。",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Fastify",
+        "PostgreSQL",
+        "pgvector",
+        "RAG",
+        "Anthropic API",
+        "STT"
+      ],
+      "link": "",
+      "imgKey": ""
+    },
+    {
+      "name": "Coffee Chat - 一杯咖啡的聊天聚會平台",
+      "content": "用一杯咖啡的時間讓陌生人見面聊天的活動平台。產品、設計到前後端都是我一個人做，前端用 Next.js App Router 搭 Tailwind，資料和帳號系統交給 BaaS。上線網站：coffee-chat.tw。",
+      "tech": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Turbopack"
+      ],
+      "link": "https://coffee-chat.tw/",
+      "imgKey": "coffeechat"
+    }
+  ],
+  "archiveTitle": "早期專案",
+  "archiveItems": [
+    {
+      "name": "揚氏幽墨（外包）- Shopify 客製化電商",
+      "content": "茶商品牌重塑，Shopify 當後端與管理後台，前台做客製化 UI。我管專案，也一起做 UI 開發、自動化部署與 SEO。",
+      "tech": [
+        "Shopify",
+        "Liquid",
+        "JQuery",
+        "Lottie"
+      ],
+      "link": "https://goats-humor.com/"
+    },
+    {
+      "name": "iflubby（外包）- 寵物服務地圖平台後端",
+      "content": "負責後端架構規劃與開發，串接 Facebook／Google／Line／Apple SSO 與 Google API，也整理 API 文件給前端。",
+      "tech": [
+        "Node.js",
+        "NestJs",
+        "SSO",
+        "Docker",
+        "CD"
+      ],
+      "link": "https://iflubby.com/intro"
+    },
+    {
+      "name": "Anko（外包）- MessageBird 聊天整合後台",
+      "content": "把客戶的 Line@ 與 WhatsApp Business 整合成一個對話後台。我接手前一位 freelancer 的程式碼往下做，負責上線前的優化、測試、容器化與生產環境建置。",
+      "tech": [
+        "Node.js",
+        "NestJs",
+        "GraphQL",
+        "React",
+        "Docker",
+        "CD"
+      ],
+      "link": ""
+    },
+    {
       "name": "Numbers Link - 公平隨機數平台",
-      "content": "Numbers Link 利用區塊鏈不可篡改的特性，把多家數據廠商提供的數字整合運算成公平隨機數。我是這案的主要後端開發，也參與 EOS 智能合約的撰寫。",
-      "tech": ["Node.js", "NestJs", "MySQL", "EOSIO", "React", "MicroService"],
-      "link": "https://www.numbers.link/",
-      "imgKey": "numberslink"
+      "content": "用區塊鏈不可篡改的特性，把多家數據廠商的數字算成公平隨機數。我是主要後端開發，也寫了 EOS 智能合約。",
+      "tech": [
+        "Node.js",
+        "NestJs",
+        "MySQL",
+        "EOSIO",
+        "React",
+        "MicroService"
+      ],
+      "link": "https://www.numbers.link/"
     },
     {
       "name": "雙城投顧 - 借貸管理系統",
-      "content": "借貸管理系統要簡化顧客的申貸流程，但背後的業務流程很繁瑣，審核階段得提供不少文件與報表。這是我在 4idps 的最後一個專案，除了參與規劃與分析，也是第一次用 TypeScript 搭 NestJS 開發。",
-      "tech": ["Node.js", "NestJs", "MySQL", "Docker"],
-      "link": "https://www.thecoinscompany.com/",
-      "imgKey": "cashme"
+      "content": "簡化申貸流程，但背後的審核流程很繁瑣，要出不少文件與報表。我參與規劃分析與後端開發，也是第一次用 TypeScript 搭 NestJS。",
+      "tech": [
+        "Node.js",
+        "NestJs",
+        "MySQL",
+        "Docker"
+      ],
+      "link": "https://www.thecoinscompany.com/"
     },
     {
-      "name": "Banana Life - 成人影音串流平台",
-      "content": "成人影音串流平台，是我在 4idps 期間技術含量最高的專案。整套架在 AWS 上，影片的高斯模糊與轉檔用 Lambda 搭 FFmpeg 寫腳本處理。除了自己負責後端與管理後台，也和前端及外包的 App 團隊協作。",
+      "name": "Banana Life - 影音串流平台",
+      "content": "整套架在 AWS 上，影片的高斯模糊與轉檔用 Lambda 搭 FFmpeg 寫腳本處理。我負責後端與管理後台，也和前端與外包 App 團隊協作。",
       "tech": [
         "Node.js",
         "Apollo",
@@ -88,22 +176,31 @@
         "MongoDB",
         "FFMpeg"
       ],
-      "link": "https://web.appbanana.life/",
-      "imgKey": "banalife"
+      "link": "https://web.appbanana.life/"
     },
     {
       "name": "設備維護系統",
       "content": "負責系統規格文件與後端架構開發，也協助公司導入 GraphQL 風格的 API 設計。",
-      "tech": ["Node.js", "Apollo", "GraphQl", "React", "MongoDB"],
-      "link": "",
-      "imgKey": ""
+      "tech": [
+        "Node.js",
+        "Apollo",
+        "GraphQl",
+        "React",
+        "MongoDB"
+      ],
+      "link": ""
     },
     {
       "name": "賞屋接待系統",
       "content": "參與整合規劃，協助客戶導入 Salesforce 與 Line@ 聊天機器人。",
-      "tech": ["Salesforce", "Apex", "VisualForce", "Boostrap", "Linebot"],
-      "link": "https://hiyes.tw/",
-      "imgKey": "hiyes"
+      "tech": [
+        "Salesforce",
+        "Apex",
+        "VisualForce",
+        "Boostrap",
+        "Linebot"
+      ],
+      "link": "https://hiyes.tw/"
     }
   ]
 }
