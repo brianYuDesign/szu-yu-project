@@ -13,9 +13,38 @@
       "link": "tel:+886961134525",
       "primary": true
     },
-    { "label": "Location", "value": "Taipei, Taiwan", "link": "", "primary": true },
-    { "label": "Birth", "value": "1994/11/21", "link": "" },
-    { "label": "Line ID", "value": "brian831121", "link": "" },
-    { "label": "Availability", "value": "Immediately available", "link": "" }
+    {
+      "label": "Location",
+      "value": "Taipei, Taiwan",
+      "link": "",
+      "primary": true
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/brianYuDesign",
+      "link": "https://github.com/brianYuDesign",
+      "primary": true
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/brian-yu-467181171",
+      "link": "https://www.linkedin.com/in/brian-yu-467181171/",
+      "primary": true
+    },
+    {
+      "label": "Birth",
+      "value": "1994/11/21",
+      "link": ""
+    },
+    {
+      "label": "Line ID",
+      "value": "brian831121",
+      "link": ""
+    },
+    {
+      "label": "Availability",
+      "value": "Immediately available",
+      "link": ""
+    }
   ]
 }
