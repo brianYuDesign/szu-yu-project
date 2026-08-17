@@ -3,27 +3,27 @@
   "items": [
     {
       "title": "Backend Architecture & High Concurrency",
-      "description": "Designed the microservice architecture for a gaming and live-streaming platform, separating each game format into its own API, Socket, business service, and asynchronous consumer so that each scales horizontally by load. The system sustained high-concurrency traffic during draws and peak hours, with Kafka carrying cross-service event streams, Redis and Bull Queue handling caching and asynchronous settlement, and Socket.IO delivering live rounds and draw results."
+      "description": "Designed the microservice architecture for a gaming and live-streaming platform, splitting each game format into its own API, Socket, business service, and async consumer so each scales independently by load. Kafka carries cross-service event streams, Redis and Bull Queue handle caching and async settlement, Socket.IO delivers live rounds and draw results."
     },
     {
       "title": "Performance Tuning & Refactoring",
-      "description": "Locates bottlenecks through measurement before making changes. A recommendation query was reduced from 5 seconds to milliseconds by replacing runtime JSON parsing with virtual generated columns and composite indexes, and peak database connections decreased by 24%. Also responsible for MySQL index optimization, Redis caching design, and refactoring of legacy code."
+      "description": "Measures before tuning rather than guessing. One typical case: replacing runtime JSON parsing with virtual generated columns and composite indexes, which also cut peak database connections by 24%. Regular scope covers MySQL index and query-plan tuning, Redis cache design, and refactoring legacy code into layered modules."
     },
     {
       "title": "Node.js / React.js",
-      "description": "Node.js / NestJS on the backend and React / Next.js (including App Router) on the frontend, sharing a single language across both, enabling independent delivery from database and API through to interface. Frontend performance falls within the same scope: one product's first paint was reduced from 10 seconds to 1.4 seconds. Mobile experience includes Flutter."
+      "description": "Node.js / NestJS on the backend, React / Next.js (App Router) on the frontend, TypeScript across both — delivering independently from database and API through to the interface. Frontend performance sits in the same scope: first paint, code splitting, caching strategy. Mobile experience includes Flutter."
     },
     {
       "title": "Self-Built RAG and Evaluation Framework",
-      "description": "Implemented a RAG framework from scratch in Python (FastAPI) without LangChain, in order to retain full control over retrieval strategy and degradation behaviour on failure, covering hybrid retrieval with RRF fusion, LLM reranking, two-tier caching, circuit breakers, and provider failover. Evaluation is based on a golden dataset and LLM-as-a-Judge, with Recall, MRR, and Groundedness executed in CI."
+      "description": "Built a RAG framework from scratch in Python (FastAPI), no LangChain, to keep full control over retrieval strategy and failure degradation: hybrid retrieval with RRF fusion, LLM reranking, two-tier caching, circuit breakers, provider failover. Evaluation uses a golden dataset and LLM-as-a-Judge, with Recall, MRR, and Groundedness running in CI."
     },
     {
       "title": "Commercializing AI Features",
-      "description": "Developed four features on Claude — match suggestions, chat coaching, icebreakers, and bio generation — integrated as paid subscription items, growing monthly revenue by 81%. Introduced Claude Code into the development process, delivering more than ten features in a single month while maintaining two product lines in parallel."
+      "description": "Treats LLMs as revenue-bearing features, not demos. Match suggestions, chat coaching, icebreakers, and bio generation were all built on Claude and shipped as paid subscriptions, with cost control, graceful degradation, and content moderation designed in from the start. Claude Code in the development process delivered ten-plus features in one month while two product lines stayed live."
     },
     {
       "title": "Team Leadership & Development Standards",
-      "description": "Led 11 engineers through the delivery of 12 products, owning architecture design and technical decisions. After introducing design review, code review, and a release checklist, release defects decreased by 70% and problem isolation speed improved by 50%."
+      "description": "Leading the team shifted the focus from writing code to building repeatable standards: design review to settle architecture before work starts, code review to hold implementation quality, and a release checklist that turns deployment risk from individual experience into process. Troubleshooting was standardized and documented so problem isolation no longer depends on specific people."
     }
   ]
 }

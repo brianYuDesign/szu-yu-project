@@ -63,4 +63,14 @@ i18n
     }
   });
 
+// <html lang> 原本寫死 zh-TW，切到英文版時不會更新，螢幕閱讀器會用中文語音
+// 讀英文內容，搜尋引擎也會判錯語言。這裡跟著 i18n 的當前語言同步。
+const syncDocumentLang = (lng) => {
+  if (typeof document === 'undefined') return;
+  document.documentElement.lang = lng || i18n.language || 'zh-TW';
+};
+
+syncDocumentLang(i18n.language);
+i18n.on('languageChanged', syncDocumentLang);
+
 export default i18n;

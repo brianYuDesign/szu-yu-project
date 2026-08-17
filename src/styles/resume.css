@@ -971,12 +971,50 @@ a.old__n:hover {
   .job__co {
     font-size: 10pt;
   }
+  /* 拉丁字母在相同點數下可讀性高於漢字，等寬處理會讓英文版平白多出一頁。
+     依 <html lang> 對英文版單獨收斂（lang 由 i18n 於語言切換時同步）。 */
+  html[lang^="en"] .summary p,
+  html[lang^="en"] .merit p,
+  html[lang^="en"] .pts li,
+  html[lang^="en"] .work__d,
+  html[lang^="en"] .old__d {
+    font-size: 8.6pt;
+    line-height: 1.36;
+  }
+  html[lang^="en"] .head__meta dt,
+  html[lang^="en"] .head__meta dd,
+  html[lang^="en"] .skill dt,
+  html[lang^="en"] .skill dd,
+  html[lang^="en"] .edu__s,
+  html[lang^="en"] .edu__p,
+  html[lang^="en"] .kv dt,
+  html[lang^="en"] .kv dd,
+  html[lang^="en"] .work__tech,
+  html[lang^="en"] .old__t,
+  html[lang^="en"] .job__ctx {
+    font-size: 8pt;
+  }
   /* 只保護「拆開就難讀」的單位（經歷、專案、優勢）。
      其他專案/技能/學歷是短條目，允許跨頁才能把每頁底部的空白吃掉；
      全部設 avoid 會讓 3 頁的內容被撐成 4 頁。 */
-  .work,
+  /* 專案條目同理：允許跨頁，但標題列與內文不得分離。 */
+  .work {
+    break-inside: auto;
+    orphans: 2;
+    widows: 2;
+  }
+  .work__top {
+    break-after: avoid;
+  }
+  /* 優勢是「標題 + 一段文字」，跨頁不影響理解，只需保護標題不落單。
+     全部 avoid 會在頁尾留下大片空白（英文版尤其明顯）。 */
   .merit {
-    break-inside: avoid;
+    break-inside: auto;
+    orphans: 2;
+    widows: 2;
+  }
+  .merit h3 {
+    break-after: avoid;
   }
   /* 經歷條目最長（單筆 6 條 bullet），整塊不可分割會在頁尾留下大片空白。
      允許跨頁，但公司名／職稱／說明列不得與內文分離，且前後至少留 2 行。 */
