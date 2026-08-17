@@ -3,7 +3,7 @@
   "items": [
     {
       "title": "後端開發",
-      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#"
+      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#, Salesforce (Apex, VisualForce)"
     },
     {
       "title": "資料庫",
@@ -27,7 +27,7 @@
     },
     {
       "title": "開發方法論",
-      "content": "OOP, Functional Programming, SOLID, DDD, TDD, Refactoring, Code Review, MicroService"
+      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, DDD, TDD, Refactoring, Code Review, MicroService"
     },
     {
       "title": "專案管理",

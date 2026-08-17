@@ -3,5 +3,37 @@
   "subtitle": "Senior Backend Engineer / Full-Stack × AI",
   "description": {
     "intro": "Hello, I am Sheng-Yun Yu (Brian Yu), a software engineer with around 8 years of experience, working mainly on the backend with Node.js / TypeScript and NestJS. I designed the microservice architecture for a gaming and live-streaming platform, handling high-concurrency betting and order traffic, cross-service event streams, and asynchronous settlement, along with MySQL performance tuning and Redis caching design. I have also led 11 engineers through several product releases.\n\nOn the frontend I work with React / Next.js, so I can take a feature from the database and API through to the interface without waiting on another role.\n\nOver the past six months I have brought AI into both the product and the development process, working with Claude / Claude Code and building my own RAG and evaluation framework in Python + FastAPI, with retrieval quality metrics running in CI. In my current work, AI already powers match suggestions, chat coaching, icebreakers, and bio generation, and I have covered the full path from feature design and backend integration through to release.\n\nI am looking for a Senior Backend Engineer role, or one that combines backend engineering with AI."
-  }
+  },
+  "metrics": [
+    {
+      "value": "8",
+      "unit": "yrs",
+      "label": "Software engineering experience"
+    },
+    {
+      "value": "11",
+      "unit": "",
+      "label": "Engineers led"
+    },
+    {
+      "value": "12",
+      "unit": "",
+      "label": "Product lines delivered"
+    },
+    {
+      "value": "1,000",
+      "unit": "+ /s",
+      "label": "Peak bet & order throughput"
+    },
+    {
+      "value": "+81",
+      "unit": "%",
+      "label": "Monthly revenue growth"
+    },
+    {
+      "value": "−60",
+      "unit": "%",
+      "label": "Monthly cloud spend reduction"
+    }
+  ]
 }

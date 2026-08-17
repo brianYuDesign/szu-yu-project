@@ -1,14 +1,21 @@
 {
-  "title": "Info",
+  "title": "Details",
   "items": [
-    { "label": "Birth", "value": "1994/11/21", "link": "" },
-    { "label": "Phone", "value": "+886961134525", "link": "tel:+886961134525" },
     {
       "label": "Email",
       "value": "brian831121@gmail.com",
-      "link": "mailto:brian831121@gmail.com"
+      "link": "mailto:brian831121@gmail.com",
+      "primary": true
     },
-    { "label": "LineId", "value": "brian831121", "link": "" },
+    {
+      "label": "Phone",
+      "value": "+886 961 134 525",
+      "link": "tel:+886961134525",
+      "primary": true
+    },
+    { "label": "Location", "value": "Taipei, Taiwan", "link": "", "primary": true },
+    { "label": "Birth", "value": "1994/11/21", "link": "" },
+    { "label": "Line ID", "value": "brian831121", "link": "" },
     { "label": "Availability", "value": "Immediately available", "link": "" }
   ]
 }

@@ -3,7 +3,7 @@
   "items": [
     {
       "title": "Backend development",
-      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#"
+      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#, Salesforce (Apex, VisualForce)"
     },
     {
       "title": "Database",
@@ -27,7 +27,7 @@
     },
     {
       "title": "Methodologies",
-      "content": "OOP, Functional Programming, SOLID, DDD, TDD, Refactoring, Code Review, MicroService"
+      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, DDD, TDD, Refactoring, Code Review, MicroService"
     },
     {
       "title": "Project Management",

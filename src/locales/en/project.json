@@ -38,7 +38,7 @@
     },
     {
       "name": "Vertical AI Kit - RAG Solution Factory for Vertical Industries",
-      "content": "One RAG core: swap the industry pack and it serves another industry. I wrote the retrieval, evaluation, and resilience frameworks myself, without LangChain. Both packs, manufacturing and retail, were signed off against a locally hosted model with all six metrics clearing their thresholds. Two-tier caching brought a single query from 52s to 1.1s, and multi-turn query rewriting took MRR from 72.9% to 100%.",
+      "content": "A PoC I built myself, with no paying customers. One RAG core: swap the industry pack and it serves another industry. I wrote the retrieval, evaluation, and resilience frameworks myself, without LangChain. Both packs, manufacturing and retail, were evaluated offline against a locally hosted model with all six metrics clearing their thresholds. Two-tier caching brought a single query from 52s to 1.1s, and multi-turn query rewriting took MRR from 72.9% to 100%.",
       "tech": [
         "Python",
         "FastAPI",

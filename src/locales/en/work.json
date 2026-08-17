@@ -5,12 +5,12 @@
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
       "jobDesc": [
-        "Monthly revenue NT$210K → NT$380K (+81%): built subscription auto-renewal and failed-payment handling.",
-        "Shipped four paid subscription features on Claude: match suggestions, chat coaching, icebreakers, and bio generation, with a two-tier fallback so they still work when the model fails.",
-        "Performance: recommendation query 5s → milliseconds (virtual generated columns and composite indexes), API averaging 180ms, FCP 10s → 1.4s.",
-        "Introduced AI customer service: built a RAG retrieval framework in Python, embedded the FAQ and knowledge base, and handed off to a human when confidence fell short.",
-        "Monthly cloud spend US$1,200 → US$400 (-60%): routed moderation by media type and cached generated results.",
-        "Delivered the Flutter app, NestJS backend, and Docker deployment on my own, including content moderation and real-person face verification."
+        "Monthly revenue +81% (NT$210K → NT$380K): added subscription auto-renewal and failed-payment retries.",
+        "Four paid AI features shipped: match suggestions, chat coaching, icebreakers, and bio generation, with a two-tier fallback that keeps them working when the model fails.",
+        "Query 5s → milliseconds, FCP 10s → 1.4s: virtual generated columns plus composite indexes, API averaging 180ms.",
+        "Monthly cloud spend -60% (US$1,200 → US$400): moderation routed by media type, generated results stored and cached.",
+        "AI customer service live: a Python RAG stack retrieves the FAQ and knowledge base for common questions, handing off to a human when confidence falls short.",
+        "Delivered end to end on my own: Flutter app, NestJS backend, Docker deployment, including content moderation and real-person face verification."
       ],
       "period": "2026.03 ~ 2026.08"
     },
@@ -18,11 +18,11 @@
       "companyName": "Yuntong Technology - Game/Live Streaming",
       "jobTitle": "System Development Lead",
       "jobDesc": [
-        "Took a POC mini-game to production and grew it into a 12-title product line, leading 11 engineers through delivery.",
-        "Held up betting and order traffic of about a thousand requests per second during draws and peak hours: Kafka for event streams, Redis and Bull Queue for caching and asynchronous settlement.",
+        "POC mini-game taken to production and grown into a 12-title product line: led 11 engineers through delivery.",
+        "Held up a thousand bets/orders per second during draws and peak hours: Kafka for event streams, Redis and Bull Queue for caching and asynchronous settlement.",
         "Release mistakes -70%: set up a release checklist and a standard release process.",
         "Problem isolation speed +50%: standardized the troubleshooting steps and wrote them down.",
-        "Introduced design review and code review, which became the development standard reused across product lines."
+        "Introduced design review and code review: both became the development standard reused across product lines."
       ],
       "period": "2022.12 ~ 2025.12"
     },
@@ -30,8 +30,8 @@
       "companyName": "Yuntong Technology - Game/Platform",
       "jobTitle": "Backend Engineer",
       "jobDesc": [
-        "Built and operated games, lotteries, blockchain fair random numbers, crawler data, and admin dashboards.",
-        "Handled system analysis, backend implementation, and performance work, and refactored inherited legacy code into modules that are easier to maintain."
+        "Built and operated: games, lotteries, blockchain fair random numbers, crawler data, and admin dashboards.",
+        "System analysis, backend implementation, and performance work: refactored inherited legacy code into modules that are easier to maintain."
       ],
       "period": "2020.09 ~ 2022.12"
     },
@@ -39,8 +39,10 @@
       "companyName": "4idps",
       "jobTitle": "FullStack Engineer",
       "jobDesc": [
-        "Delivered commercial projects including lending systems, a video streaming platform, an equipment repair system, and e-commerce modules.",
-        "Split frontend and backend responsibilities and reworked the API design to reduce coupling, and set up unit and functional testing."
+        "Commercial projects delivered from 0 to 1: lending systems, a video streaming platform, an equipment repair system, and e-commerce modules, spanning requirements analysis, system design, and production operations.",
+        "Stack varied by project: C#, Node.js, React, and Salesforce (Apex, VisualForce), each on a separate client engagement.",
+        "Reduced module coupling: separated frontend and backend responsibilities, redesigned the API, and established unit and functional testing.",
+        "Applied Clean Code and design patterns: unified naming, layering, and responsibility boundaries into a maintainable code style."
       ],
       "period": "2018.04 ~ 2020.08"
     }

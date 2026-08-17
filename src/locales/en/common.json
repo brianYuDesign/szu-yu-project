@@ -19,5 +19,31 @@
     "light": "Light Mode",
     "dark": "Dark Mode",
     "toggle": "Toggle Theme"
+  },
+  "nav": {
+    "summary": "Summary",
+    "strengths": "Strengths",
+    "experience": "Experience",
+    "works": "Projects",
+    "archive": "Earlier",
+    "skills": "Skills",
+    "education": "Education"
+  },
+  "ui": {
+    "summaryTitle": "Summary",
+    "emailMe": "Email me",
+    "print": "Print / PDF",
+    "toDark": "Dark",
+    "toLight": "Light",
+    "language": "Language",
+    "live": "Live",
+    "poc": "Proof of concept",
+    "unpublished": "No public screenshot",
+    "showMore": "Show {{count}} more",
+    "showLess": "Show less",
+    "countItems": "{{count}} items",
+    "countGroups": "{{count}} groups",
+    "updatedAt": "Updated Aug 2026",
+    "sectionNav": "Section navigation"
   }
 }

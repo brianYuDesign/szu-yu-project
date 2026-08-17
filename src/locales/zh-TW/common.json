@@ -19,5 +19,31 @@
     "light": "亮色模式",
     "dark": "暗色模式",
     "toggle": "切換主題"
+  },
+  "nav": {
+    "summary": "自我介紹",
+    "strengths": "核心優勢",
+    "experience": "工作經歷",
+    "works": "專案作品",
+    "archive": "早期專案",
+    "skills": "技能",
+    "education": "學歷"
+  },
+  "ui": {
+    "summaryTitle": "自我介紹",
+    "emailMe": "寄信給我",
+    "print": "列印 / PDF",
+    "toDark": "深色",
+    "toLight": "淺色",
+    "language": "語言",
+    "live": "已上線",
+    "poc": "概念驗證",
+    "unpublished": "無公開截圖",
+    "showMore": "顯示其餘 {{count}} 件",
+    "showLess": "收合",
+    "countItems": "{{count}} 件",
+    "countGroups": "{{count}} 類",
+    "updatedAt": "更新於 2026 年 8 月",
+    "sectionNav": "區段導覽"
   }
 }
