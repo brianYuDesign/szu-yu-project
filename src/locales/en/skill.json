@@ -11,7 +11,7 @@
     },
     {
       "title": "System / Ops",
-      "content": "Linux, Docker, Kubernetes, CI/CD, AWS, GCP, Git, GitHub, GitLab, Sentry, Kibana, Grafana"
+      "content": "Linux, Docker, CI/CD, AWS (EC2, ECS, Lambda, SQS, Rekognition), Sentry, Kibana, Grafana, Git, GitHub, GitLab"
     },
     {
       "title": "Web development",
@@ -19,15 +19,15 @@
     },
     {
       "title": "AI / LLM Engineering",
-      "content": "Claude Code, AI-assisted Development, RAG, pgvector, Anthropic API, OpenAI API, Ollama, Prompt Engineering, LLM-as-a-Judge, Offline Evaluation"
+      "content": "Claude Code, AI-assisted Development, RAG, pgvector, Anthropic API, Ollama, Prompt Engineering, LLM-as-a-Judge, Offline Evaluation"
     },
     {
       "title": "Mobile / Cross-platform",
-      "content": "Flutter, Dart, React Native, Expo, Firebase"
+      "content": "Flutter, Dart, Firebase"
     },
     {
       "title": "Methodologies",
-      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, DDD, TDD, Refactoring, Code Review, MicroService"
+      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, Refactoring, Unit & Functional Testing, Code Review, MicroService"
     },
     {
       "title": "Project Management",

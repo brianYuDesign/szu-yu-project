@@ -3,27 +3,27 @@
   "items": [
     {
       "title": "後端架構與高併發",
-      "description": "遊戲與直播平台的微服務架構由我設計，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可以依流量各自水平擴展。開獎與熱門時段扛住每秒千筆的下注／訂單流量，跨服務事件流走 Kafka，快取與非同步結算用 Redis 和 Bull Queue，即時對局與開獎用 Socket.IO 推送。"
+      "description": "負責遊戲與直播平台的微服務架構設計，將每款玩法拆分為 API、Socket、業務服務與非同步 consumer，可依流量各自水平擴展。系統於開獎與尖峰時段承載高併發流量；跨服務事件流採用 Kafka，快取與非同步結算採用 Redis 與 Bull Queue，即時對局與開獎結果透過 Socket.IO 推送。"
     },
     {
       "title": "效能優化與重構",
-      "description": "先定位瓶頸再動手。推薦查詢從 5 秒改到毫秒級，用虛擬產生欄位加複合索引取代即時解析 JSON；資料庫連線峰值降了 24%。也做 MySQL 索引優化、Redis 快取設計與舊程式重構。"
+      "description": "以量測定位瓶頸後再進行調校。推薦查詢改以虛擬產生欄位搭配複合索引取代即時解析 JSON，回應時間自 5 秒降至毫秒級，資料庫連線峰值減少 24%。另負責 MySQL 索引優化、Redis 快取設計與既有程式重構。"
     },
     {
-      "title": "Node.js / TypeScript 全端",
-      "description": "後端 Node.js / NestJS，前端 React / Next.js（含 App Router），前後端同一套語言，能獨立完成從資料庫、API 到介面的開發。前端效能也顧，把一個產品的首屏從 10 秒壓到 1.4 秒。也寫過 Flutter 和 React Native。"
+      "title": "Node.js / React.js",
+      "description": "後端使用 Node.js / NestJS，前端使用 React / Next.js（含 App Router），前後端共用同一套語言，能獨立完成資料庫、API 至介面的開發。前端效能同樣納入負責範圍，曾將產品首屏載入時間自 10 秒縮短至 1.4 秒。行動端具備 Flutter 開發經驗。"
     },
     {
-      "title": "自己寫 RAG 與評測 pipeline",
-      "description": "用 Python（FastAPI）從頭寫 RAG 框架，沒套 LangChain，因為檢索策略和失敗時的行為我想自己控制：混合檢索加 RRF 融合、LLM 重排序、兩層快取、斷路器與供應商備援。評測做了黃金集和 LLM-as-a-Judge，Recall、MRR、Groundedness 都在 CI 裡跑。"
+      "title": "自建 RAG 與評測框架",
+      "description": "以 Python（FastAPI）自行實作 RAG 框架，未採用 LangChain，以便完整掌握檢索策略與失敗時的降級行為，內容包含混合檢索與 RRF 融合、LLM 重排序、兩層快取、斷路器與供應商備援。評測面建立黃金資料集與 LLM-as-a-Judge，Recall、MRR 與 Groundedness 等指標皆納入 CI 執行。"
     },
     {
-      "title": "把 AI 做成會賺錢的功能",
-      "description": "用 Claude 做了配對建議、聊天教練、破冰話題和個人簡介生成四項功能，接進產品當訂閱付費，單月營收成長 81%。開發流程也導入 Claude Code，單月交付十幾項功能，同時維護另外兩條產品線。"
+      "title": "AI 功能商業化",
+      "description": "以 Claude 開發配對建議、聊天教練、破冰話題與個人簡介生成四項功能，並整合為訂閱付費項目，單月營收成長 81%。開發流程導入 Claude Code，在同時維運兩條產品線的情況下完成單月十餘項功能交付。"
     },
     {
-      "title": "帶團隊與訂開發標準",
-      "description": "帶 11 位工程師完成 12 款產品，負責架構設計與技術決策。導入 design review、code review 和 release checklist 之後，上版失誤率降了 70%、問題定位效率提升 50%。"
+      "title": "團隊帶領與開發標準建立",
+      "description": "帶領 11 位工程師完成 12 款產品，負責架構設計與技術決策。導入 design review、code review 與 release checklist 後，上版失誤率下降 70%，問題定位效率提升 50%。"
     }
   ]
 }

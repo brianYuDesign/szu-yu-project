@@ -3,27 +3,27 @@
   "items": [
     {
       "title": "Backend Architecture & High Concurrency",
-      "description": "I designed the microservice architecture for a gaming and live-streaming platform, where each game format is split into its own API, Socket, business service, and asynchronous consumer so they scale horizontally on their own. It held up betting and order traffic of about a thousand requests per second during draws and peak hours, with Kafka carrying cross-service event streams, Redis and Bull Queue handling caching and asynchronous settlement, and Socket.IO pushing live rounds and draws."
+      "description": "Designed the microservice architecture for a gaming and live-streaming platform, separating each game format into its own API, Socket, business service, and asynchronous consumer so that each scales horizontally by load. The system sustained high-concurrency traffic during draws and peak hours, with Kafka carrying cross-service event streams, Redis and Bull Queue handling caching and asynchronous settlement, and Socket.IO delivering live rounds and draw results."
     },
     {
       "title": "Performance Tuning & Refactoring",
-      "description": "Locate the bottleneck before touching code. A recommendation query went from 5 seconds to milliseconds by replacing runtime JSON parsing with virtual generated columns and composite indexes, and peak database connections dropped 24%. Also MySQL index optimization, Redis caching design, and legacy refactoring."
+      "description": "Locates bottlenecks through measurement before making changes. A recommendation query was reduced from 5 seconds to milliseconds by replacing runtime JSON parsing with virtual generated columns and composite indexes, and peak database connections decreased by 24%. Also responsible for MySQL index optimization, Redis caching design, and refactoring of legacy code."
     },
     {
-      "title": "Node.js / TypeScript Full-Stack",
-      "description": "Node.js / NestJS on the backend, React / Next.js (including App Router) on the frontend, one language across both, so I can take a feature from the database and API through to the interface. Frontend performance is mine too: I took one product's first paint from 10 seconds to 1.4. I have also shipped with Flutter and React Native."
+      "title": "Node.js / React.js",
+      "description": "Node.js / NestJS on the backend and React / Next.js (including App Router) on the frontend, sharing a single language across both, enabling independent delivery from database and API through to interface. Frontend performance falls within the same scope: one product's first paint was reduced from 10 seconds to 1.4 seconds. Mobile experience includes Flutter."
     },
     {
-      "title": "My Own RAG and Evaluation Pipeline",
-      "description": "Wrote the RAG framework from scratch in Python (FastAPI). No LangChain, because I wanted control over the retrieval strategy and the failure behaviour: hybrid retrieval with RRF fusion, LLM reranking, two-tier caching, circuit breakers, and provider failover. For evaluation, a golden set and an LLM-as-a-Judge, with Recall, MRR, and Groundedness running in CI."
+      "title": "Self-Built RAG and Evaluation Framework",
+      "description": "Implemented a RAG framework from scratch in Python (FastAPI) without LangChain, in order to retain full control over retrieval strategy and degradation behaviour on failure, covering hybrid retrieval with RRF fusion, LLM reranking, two-tier caching, circuit breakers, and provider failover. Evaluation is based on a golden dataset and LLM-as-a-Judge, with Recall, MRR, and Groundedness executed in CI."
     },
     {
-      "title": "Turning AI Into Features That Sell",
-      "description": "Built four features on Claude: match suggestions, chat coaching, icebreakers, and bio generation, all shipped as paid subscription items, and monthly revenue grew 81%. I also brought Claude Code into the development process and shipped a dozen features in one month while keeping two other product lines running."
+      "title": "Commercializing AI Features",
+      "description": "Developed four features on Claude — match suggestions, chat coaching, icebreakers, and bio generation — integrated as paid subscription items, growing monthly revenue by 81%. Introduced Claude Code into the development process, delivering more than ten features in a single month while maintaining two product lines in parallel."
     },
     {
-      "title": "Leading a Team and Setting Standards",
-      "description": "Led 11 engineers through 12 products, owning architecture design and technical decisions. After introducing design review, code review, and a release checklist, release mistakes dropped 70% and problem isolation got 50% faster."
+      "title": "Team Leadership & Development Standards",
+      "description": "Led 11 engineers through the delivery of 12 products, owning architecture design and technical decisions. After introducing design review, code review, and a release checklist, release defects decreased by 70% and problem isolation speed improved by 50%."
     }
   ]
 }

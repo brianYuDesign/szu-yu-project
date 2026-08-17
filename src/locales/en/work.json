@@ -4,45 +4,53 @@
     {
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
+      "context": "Dating and social startup; maintained two product lines (Sugarbee and Bound), responsible for app development, the NestJS backend, and paid AI features",
       "jobDesc": [
-        "Monthly revenue +81% (NT$210K → NT$380K): added subscription auto-renewal and failed-payment retries.",
-        "Four paid AI features shipped: match suggestions, chat coaching, icebreakers, and bio generation, with a two-tier fallback that keeps them working when the model fails.",
-        "Query 5s → milliseconds, FCP 10s → 1.4s: virtual generated columns plus composite indexes, API averaging 180ms.",
-        "Monthly cloud spend -60% (US$1,200 → US$400): moderation routed by media type, generated results stored and cached.",
-        "AI customer service live: a Python RAG stack retrieves the FAQ and knowledge base for common questions, handing off to a human when confidence falls short.",
-        "Delivered end to end on my own: Flutter app, NestJS backend, Docker deployment, including content moderation and real-person face verification."
+        "Implemented subscription auto-renewal and failed-payment retries, increasing monthly revenue from NT$210K to NT$380K (+81%).",
+        "Developed four paid AI features — match suggestions, chat coaching, icebreakers, and bio generation — with a two-tier fallback that maintains service continuity during model failures.",
+        "Rewrote queries using virtual generated columns and composite indexes, reducing response time from 5 seconds to milliseconds with APIs averaging 180ms; first contentful paint improved from 10 seconds to 1.4 seconds.",
+        "Routed moderation by media type and cached generated results, reducing monthly cloud spend from US$1,200 to US$400 (−60%).",
+        "Built an AI support agent that retrieves FAQ and knowledge-base content through a Python RAG stack, escalating to a human agent when the confidence score falls below threshold.",
+        "Delivered the Flutter app, NestJS backend, and Docker deployment independently, integrating content moderation and real-person face verification."
       ],
       "period": "2026.03 ~ 2026.08"
     },
     {
       "companyName": "Yuntong Technology - Game/Live Streaming",
       "jobTitle": "System Development Lead",
+      "context": "Game and live-streaming platform; led 11 engineers and owned architecture and technical decisions across 12 product lines",
       "jobDesc": [
-        "POC mini-game taken to production and grown into a 12-title product line: led 11 engineers through delivery.",
-        "Held up a thousand bets/orders per second during draws and peak hours: Kafka for event streams, Redis and Bull Queue for caching and asynchronous settlement.",
-        "Release mistakes -70%: set up a release checklist and a standard release process.",
-        "Problem isolation speed +50%: standardized the troubleshooting steps and wrote them down.",
-        "Introduced design review and code review: both became the development standard reused across product lines."
+        "Advanced a proof-of-concept mini-game to production and expanded it into a 12-title product line, leading 11 engineers through delivery.",
+        "Designed a microservice architecture to sustain high-concurrency traffic during draws and peak hours, using Kafka for cross-service event streams and Redis with Bull Queue for caching and asynchronous settlement.",
+        "Established a release checklist and standardized release process, reducing release defects by 70%.",
+        "Built out monitoring and logging with Sentry, Kibana, and Grafana, and standardized and documented troubleshooting procedures, improving problem isolation speed by 50%.",
+        "Introduced design review and code review, which were subsequently adopted as the shared development standard across product lines."
       ],
       "period": "2022.12 ~ 2025.12"
     },
     {
       "companyName": "Yuntong Technology - Game/Platform",
       "jobTitle": "Backend Engineer",
+      "context": "Game and lottery platform; responsible for backend development, system analysis, and restructuring inherited systems",
       "jobDesc": [
-        "Built and operated: games, lotteries, blockchain fair random numbers, crawler data, and admin dashboards.",
-        "System analysis, backend implementation, and performance work: refactored inherited legacy code into modules that are easier to maintain."
+        "Inherited an unmaintained system and refactored it into a layered module structure, enabling new game types to be built on the existing architecture without modifying core logic.",
+        "Served as lead backend engineer on the blockchain fair-random-number platform, combining multiple data sources into verifiable random numbers and implementing EOS smart contracts for on-chain proof.",
+        "Independently owned lottery game types, the crawler data pipeline, and the operations dashboard, covering schema design, API implementation, and production operations.",
+        "Performed index and query optimization on reporting and settlement bottlenecks to improve response time."
       ],
       "period": "2020.09 ~ 2022.12"
     },
     {
       "companyName": "4idps",
       "jobTitle": "FullStack Engineer",
+      "context": "Software consultancy; delivered 7 client engagements spanning requirements analysis through production operations",
       "jobDesc": [
-        "Commercial projects delivered from 0 to 1: lending systems, a video streaming platform, an equipment repair system, and e-commerce modules, spanning requirements analysis, system design, and production operations.",
-        "Stack varied by project: C#, Node.js, React, and Salesforce (Apex, VisualForce), each on a separate client engagement.",
-        "Reduced module coupling: separated frontend and backend responsibilities, redesigned the API, and established unit and functional testing.",
-        "Applied Clean Code and design patterns: unified naming, layering, and responsibility boundaries into a maintainable code style."
+        "Delivered lending systems, a video streaming platform, an equipment repair system, and e-commerce modules from zero to one, covering requirements analysis, system design, and production operations.",
+        "Built the video streaming platform on AWS, using Lambda with FFmpeg for transcoding and image blurring, and established an automated deployment pipeline replacing manual releases.",
+        "Selected technology stacks by project requirement, including C#, Node.js, React, and Salesforce (Apex, VisualForce).",
+        "Separated frontend and backend responsibilities and redesigned APIs to reduce module coupling, while establishing unit and functional testing processes.",
+        "Applied Clean Code and design patterns, unifying naming, layering, and responsibility boundaries.",
+        "Acted as first point of contact for new hires, maintaining environment setup and project documentation to shorten onboarding time."
       ],
       "period": "2018.04 ~ 2020.08"
     }

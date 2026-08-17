@@ -1,8 +1,8 @@
 {
   "title": "Sheng-Yun Brian Yu CV",
-  "subtitle": "Senior Backend Engineer / Full-Stack × AI",
+  "subtitle": "Senior Backend / Full-Stack Engineer · Node.js × TypeScript × AI",
   "description": {
-    "intro": "Hello, I am Sheng-Yun Yu (Brian Yu), a software engineer with around 8 years of experience, working mainly on the backend with Node.js / TypeScript and NestJS. I designed the microservice architecture for a gaming and live-streaming platform, handling high-concurrency betting and order traffic, cross-service event streams, and asynchronous settlement, along with MySQL performance tuning and Redis caching design. I have also led 11 engineers through several product releases.\n\nOn the frontend I work with React / Next.js, so I can take a feature from the database and API through to the interface without waiting on another role.\n\nOver the past six months I have brought AI into both the product and the development process, working with Claude / Claude Code and building my own RAG and evaluation framework in Python + FastAPI, with retrieval quality metrics running in CI. In my current work, AI already powers match suggestions, chat coaching, icebreakers, and bio generation, and I have covered the full path from feature design and backend integration through to release.\n\nI am looking for a Senior Backend Engineer role, or one that combines backend engineering with AI."
+    "intro": "Hello, I am Sheng-Yun Yu (Brian Yu), a software engineer with around 8 years of experience, working primarily on the backend with Node.js / TypeScript and NestJS. I designed the microservice architecture for a gaming and live-streaming platform, handling high-concurrency betting and order traffic, cross-service event streams, and asynchronous settlement, together with MySQL performance tuning and Redis caching design. I have also led 11 engineers through the delivery of several products.\n\nOn the frontend I work with React / Next.js, allowing me to deliver independently from database and API through to the interface.\n\nOver the past six months I have brought AI into both product features and the development process, using Claude / Claude Code to support development and building a RAG and evaluation framework in Python + FastAPI, with retrieval quality metrics running in CI. In my most recent role, AI was applied to match suggestions, chat coaching, icebreakers, and bio generation, covering the full path from feature design and backend integration through to release.\n\nHaving concluded my most recent role, I am available immediately and am seeking a Senior Backend Engineer or Full-Stack Engineer position. Backend architecture and performance remain my core focus, and I can additionally take on AI integration where a team intends to bring it into the product."
   },
   "metrics": [
     {
@@ -21,11 +21,6 @@
       "label": "Product lines delivered"
     },
     {
-      "value": "1,000",
-      "unit": "+ /s",
-      "label": "Peak bet & order throughput"
-    },
-    {
       "value": "+81",
       "unit": "%",
       "label": "Monthly revenue growth"
@@ -34,6 +29,11 @@
       "value": "−60",
       "unit": "%",
       "label": "Monthly cloud spend reduction"
+    },
+    {
+      "value": "−70",
+      "unit": "%",
+      "label": "Release defect reduction"
     }
   ]
 }

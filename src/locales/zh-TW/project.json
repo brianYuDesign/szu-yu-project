@@ -14,7 +14,10 @@
         "Kafka",
         "Redis",
         "MySQL",
-        "Docker"
+        "Docker",
+        "Sentry",
+        "Kibana",
+        "Grafana"
       ],
       "link": "https://gamilive.com/",
       "imgKey": "gamilive"
@@ -38,7 +41,7 @@
     },
     {
       "name": "Vertical AI Kit - 垂直產業 RAG 解決方案工廠",
-      "content": "我自己建的 PoC，沒有付費客戶。一套 RAG 核心，換掉 industry pack 就能給另一個產業用。檢索、評測與韌性框架都是我自己寫的，沒套 LangChain。製造業和零售兩個 pack 用地端模型跑離線評測，六項指標全部過門檻；兩層快取讓單題回應從 52 秒降到 1.1 秒，多輪追問改寫讓 MRR 從 72.9% 上到 100%。",
+      "content": "我自己建的 PoC，沒有付費客戶。一套 RAG 核心，換掉 industry pack 就能給另一個產業用。檢索、評測與韌性框架都是我自己寫的，沒套 LangChain。製造業和零售兩個 pack 用地端模型跑離線評測，六項指標全部過門檻；兩層快取讓單題回應從 52 秒降到 1.1 秒，在該離線評測集上，多輪追問改寫使 MRR 自 72.9% 提升至 100%。",
       "tech": [
         "Python",
         "FastAPI",
@@ -101,10 +104,10 @@
       "imgKey": "coffeechat"
     }
   ],
-  "archiveTitle": "早期專案",
+  "archiveTitle": "其他專案",
   "archiveItems": [
     {
-      "name": "揚氏幽墨（外包）- Shopify 客製化電商",
+      "name": "揚氏幽墨（外包，2022）- Shopify 客製化電商",
       "content": "茶商品牌重塑，Shopify 當後端與管理後台，前台做客製化 UI。我管專案，也一起做 UI 開發、自動化部署與 SEO。",
       "tech": [
         "Shopify",
@@ -115,7 +118,7 @@
       "link": "https://goats-humor.com/"
     },
     {
-      "name": "iflubby（外包）- 寵物服務地圖平台後端",
+      "name": "iflubby（外包，2022）- 寵物服務地圖平台後端",
       "content": "負責後端架構規劃與開發，串接 Facebook／Google／Line／Apple SSO 與 Google API，也整理 API 文件給前端。",
       "tech": [
         "Node.js",
@@ -127,7 +130,7 @@
       "link": "https://iflubby.com/intro"
     },
     {
-      "name": "Anko（外包）- MessageBird 聊天整合後台",
+      "name": "Anko（外包，2022）- MessageBird 聊天整合後台",
       "content": "把客戶的 Line@ 與 WhatsApp Business 整合成一個對話後台。我接手前一位 freelancer 的程式碼往下做，負責上線前的優化、測試、容器化與生產環境建置。",
       "tech": [
         "Node.js",
