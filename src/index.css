@@ -1,17 +1,72 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+/* CSS 規範要求 @import 必須排在其他規則之前，所以元件樣式在這裡就引入。
+   resume.css 不進 layer，因此永遠贏過 Tailwind 的 preflight。 */
+@import "./styles/resume.css";
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Tailwind v4 的 dark: 預設吃 prefers-color-scheme，
+   但本站是由 themeContext 在 <html> 上掛 .dark class 控制，
+   所以必須把 dark variant 改寫成 class 策略（等同 v3 的 darkMode: "class"）。 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   設計 token — 標準專業履歷（中性藍灰）
+   用 @theme 定義，Tailwind 會同時產出 CSS 變數與對應 utility
+   （text-ink / bg-surface / border-rule …），元件 CSS 也直接吃這些變數，
+   單一來源，不會出現兩套色票。
+   ============================================================ */
+@theme {
+  --color-surface:   oklch(1 0 0);
+  --color-canvas:    oklch(0.975 0.002 250);
+  --color-raised:    oklch(0.945 0.004 250);
+  --color-ink:       oklch(0.25 0.015 250);
+  --color-ink-2:     oklch(0.4 0.012 250);
+  /* 0.47：ink-3 會同時落在 surface / canvas / raised 三種底色上，
+     取最差情況（raised）仍達 4.5:1 的值。 */
+  --color-ink-3:     oklch(0.47 0.01 250);
+  --color-rule:      oklch(0.89 0.005 250);
+  --color-rule-2:    oklch(0.94 0.004 250);
+  --color-accent:    oklch(0.45 0.1 248);
+  --color-on-accent: oklch(1 0 0);
+
+  --font-head: "IBM Plex Sans", "Noto Sans TC", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --font-body: "Noto Sans TC", "IBM Plex Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+
+  --animate-fade-in-down: fade-in-down 0.18s ease-out;
+
+  @keyframes fade-in-down {
+    from {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 深色模式覆寫同一組變數：Tailwind utility 編譯後參照的是 var(--color-*)，
+   所以這裡改一次，utility 與元件 CSS 會同步跟著變。 */
+html.dark {
+  --color-surface:   oklch(0.19 0.008 250);
+  --color-canvas:    oklch(0.225 0.009 250);
+  --color-raised:    oklch(0.265 0.01 250);
+  --color-ink:       oklch(0.95 0.005 250);
+  --color-ink-2:     oklch(0.82 0.006 250);
+  --color-ink-3:     oklch(0.71 0.006 250);
+  --color-rule:      oklch(0.34 0.01 250);
+  --color-rule-2:    oklch(0.28 0.009 250);
+  --color-accent:    oklch(0.75 0.11 245);
+  --color-on-accent: oklch(0.18 0.01 250);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-fade-in-down {
+    animation: none;
+  }
 }

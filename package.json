@@ -2,40 +2,30 @@
   "name": "szu-yu-project",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "homepage": "https://brianYuDesign.github.io/szu-yu-project",
   "dependencies": {
-    "@craco/craco": "^6.2.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "aos": "^2.3.4",
-    "autoprefixer": "^9",
-    "gh-pages": "^3.2.3",
     "i18next": "^21.6.10",
     "i18next-browser-languagedetector": "^6.1.3",
-    "postcss": "^7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.15.3",
-    "react-icons": "^4.2.0",
-    "react-scripts": "4.0.3",
-    "sass": "^1.69.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider craco start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider craco build",
-    "test": "NODE_OPTIONS=--openssl-legacy-provider craco test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "gh-pages": "^3.2.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -48,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
   }
 }
