@@ -22,5 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# 求職衝刺的私人資料（薪資底線、避雷清單、投遞紀錄）
-career-sprint/templates/
+# 求職衝刺的私人資料：面試答題稿、投遞紀錄、薪資底線，
+# 以及引用了前雇主原始碼的實證附錄。這個 repo 是 public，整包都不進版控。
+career-sprint/
