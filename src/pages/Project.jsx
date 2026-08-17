@@ -82,10 +82,16 @@ const Project = () => {
 
           <div>
             {archive.map((item, index) => (
+              // 不用 hidden 屬性：Tailwind preflight 的
+              // [hidden]{display:none!important} 位於 @layer base，而 important
+              // 宣告的層疊順序是反轉的（分層 > 未分層），resume.css 蓋不掉它，
+              // 導致列印時第 5 筆之後印不出來。改用 class 由 resume.css 控制。
               <div
-                className="old"
+                className={
+                  "old" +
+                  (!expanded && index >= ARCHIVE_PREVIEW ? " old--fold" : "")
+                }
                 key={`archive_${index}`}
-                hidden={!expanded && index >= ARCHIVE_PREVIEW}
               >
                 <div className="old__top">
                   {item.link ? (

@@ -27,6 +27,7 @@ const Work = () => {
               <span className="job__when">{item.period}</span>
             </div>
             <div className="job__role">{item.jobTitle}</div>
+            {item.context && <div className="job__ctx">{item.context}</div>}
             {Array.isArray(item.jobDesc) ? (
               <ul className="pts">
                 {item.jobDesc.map((desc, i) => (
