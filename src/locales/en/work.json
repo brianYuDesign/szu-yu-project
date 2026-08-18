@@ -4,7 +4,7 @@
     {
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
-      "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and Docker deployment, maintaining two product lines (Sugarbee and Bound)",
+      "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and deployment pipeline, maintaining two product lines (Sugarbee and Bound)",
       "jobDesc": [
         "Designed the flow and interface for the AI features and delivered four paid subscription features on the Anthropic API.",
         "Built multi-tier degradation and calibrated timeouts so service stays up when the model fails.",
@@ -14,7 +14,8 @@
         "Rewrote queries with virtual generated columns and composite indexes: 5s → milliseconds, APIs averaging 180ms.",
         "Reworked resource architecture and caching: cloud spend −60%, first paint 10s → 1.4s.",
         "Took over subscription billing with auto-renewal and failed-payment retries; monthly revenue NT$210K → NT$380K.",
-        "Packaged and deployed with Docker, and took the app through iOS App Store review to release."
+        "Built and tuned the GitHub Actions CI/CD pipeline, deploying serverless services to AWS automatically.",
+        "Built a social app and shipped it to both the iOS App Store and Google Play within about six weeks."
       ],
       "period": "2026.03 ~ 2026.08"
     },

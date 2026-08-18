@@ -4,7 +4,7 @@
     {
       "companyName": "感覺銀航（feeling-bank）",
       "jobTitle": "AI 工程師",
-      "context": "交友社群新創；一人負責 Flutter App、NestJS 後端與 Docker 部署，同時維運 Sugarbee 與 Bound 兩條產品線",
+      "context": "交友社群新創；一人負責 Flutter App、NestJS 後端與部署流程，同時維運 Sugarbee 與 Bound 兩條產品線",
       "jobDesc": [
         "負責 AI 功能的流程與介面設計，並以 Anthropic API 交付四項訂閱付費功能",
         "建立多層降級與逾時校正機制，模型異常時服務不中斷",
@@ -14,7 +14,8 @@
         "以虛擬產生欄位與複合索引重寫查詢，回應自 5 秒降至毫秒級，API 平均 180ms",
         "調整資源架構與快取策略，雲端月支出下降 60%，首屏載入自 10 秒縮短至 1.4 秒",
         "接手訂閱金流，補上自動續訂與扣款失敗重試，單月營收自 21 萬成長至 38 萬",
-        "以 Docker 打包部署，並完成 iOS App Store 送審上架"
+        "建置並優化 GitHub Actions CI/CD，將 serverless 服務自動部署至 AWS",
+        "一個半月內完成社交 App 開發，並上架 iOS 與 Android 商店"
       ],
       "period": "2026.03 ~ 2026.08"
     },
