@@ -6,14 +6,15 @@
       "jobTitle": "AI Engineer",
       "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and Docker deployment, maintaining two product lines (Sugarbee and Bound)",
       "jobDesc": [
-        "Shipped four Claude-powered features — match suggestions, chat coaching, icebreakers, bio generation — as paid subscription content, with multi-tier fallback so a model failure still returns usable output.",
-        "Took over subscription billing: added auto-renewal and failed-payment retries, and cross-referenced multiple signals to separate real cancellations from card-change interruptions so recoverable users entered a win-back flow; monthly revenue moved from NT$210K to NT$380K over that period.",
-        "Persisted generated results behind a two-tier cache so AI cost tracks generations rather than views; moved static assets to S3 + CDN and right-sized the database, cutting monthly cloud spend from US$1,200 to US$400 (−60%).",
-        "Replaced runtime JSON parsing in the recommendation query with virtual generated columns and composite indexes: 5s → milliseconds, core APIs averaging 180ms.",
-        "Traced database connections approaching the limit to pinned connections left by frozen Lambda containers; reworking reclaim cut peak connections from 1,162 to 883 (−24%).",
-        "Replaced oversized hero images and subset the Chinese webfont, served through CDN cache — FCP 10s → 1.4s.",
-        "Split content moderation by media type (images synchronous, video asynchronous) and added real-person face verification to block fake accounts.",
-        "Built a Python RAG support agent answering FAQ and knowledge-base questions, escalating to a human below a confidence threshold."
+        "Built match suggestions, chat coaching, and icebreaker generation on the Anthropic API: JSON-constrained structured output with de-identified inputs, regex filtering on the output side, and three-tier merge-based degradation (AI output, profile templates, generic copy) so results stay complete when the model fails.",
+        "Put cost and concurrency guards around LLM calls: memory + Redis two-tier cache with version-prefixed keys for batch invalidation on prompt changes, and a distributed lock (TTL longer than the model timeout) before generation so duplicate requests don't each hit — and each pay for — the model.",
+        "Set timeouts from production P95: after Sonnet shipped, P95 exceeded the original 4.5s and caused axios timeouts with empty suggestions, so it moved to 8s, aligned across AI services and bounded by the Lambda 60s budget.",
+        "Built the RAG support agent in Python (FastAPI) without LangChain: hybrid retrieval with RRF fusion, LLM reranking, two-tier caching, and circuit breakers with provider failover, escalating to a human below a confidence threshold.",
+        "Replaced runtime JSON parsing in the recommendation query with MySQL virtual generated columns and composite indexes: 5s → milliseconds, core APIs averaging 180ms.",
+        "Traced a connection-count alert to RDS Proxy losing multiplexing — frozen Lambda containers left sessions unterminated and connections pinned; shortening idle reclaim and adding connection validation and retries cut peak connections from 1,162 to 883 (−24%).",
+        "Moved static assets to S3 + CDN so Lambda no longer proxies static traffic, and with hero-image replacement and Chinese webfont subsetting took FCP from 10s to 1.4s; together with database right-sizing and caching, monthly cloud spend fell from US$1,200 to US$400 (−60%).",
+        "Split content moderation by media type — images synchronous, video through an async job queue — with real-person face verification.",
+        "Implemented subscription auto-renewal and failed-payment retries, and cross-referenced multiple signals to separate real cancellations from card-change interruptions; monthly revenue moved from NT$210K to NT$380K over that period."
       ],
       "period": "2026.03 ~ 2026.08"
     },
@@ -22,10 +23,10 @@
       "jobTitle": "System Development Lead",
       "context": "Game and live-streaming platform; led 11 engineers and owned architecture and technical decisions across 12 product lines",
       "jobDesc": [
+        "Split each game format into API, Socket, business service, and async consumer so draw and peak traffic scales at whichever tier is the bottleneck; Kafka for cross-service event streams, Redis and Bull Queue for caching and async settlement, Socket.IO for live rounds and draw results.",
         "Took a proof-of-concept mini-game to production, then reused its shared services and delivery process across later titles, leading the team to 12 shipped product lines.",
-        "Split each game format into API, Socket, business service, and async consumer so draw and peak traffic scales at whichever tier is the bottleneck; Kafka for cross-service event streams, Redis and Bull Queue for caching and async settlement.",
-        "Turned release steps into a checklist and documented process so releases no longer depended on individual memory, reducing release defects by 70%.",
         "Added monitoring and logging (Sentry, Kibana, Grafana) and turned recurring troubleshooting into docs and saved queries, cutting problem isolation time by about 50%.",
+        "Turned release steps into a checklist and documented process so releases no longer depended on individual memory, reducing release defects by 70%.",
         "Introduced design review before work starts and code review before merge so design and implementation defects are caught pre-release; both became the shared standard across product lines."
       ],
       "period": "2022.12 ~ 2025.12"
@@ -47,11 +48,10 @@
       "jobTitle": "FullStack Engineer",
       "context": "Software consultancy; delivered 7 client engagements spanning requirements analysis through production operations",
       "jobDesc": [
-        "Delivered lending, video streaming, equipment repair, and e-commerce systems from zero to one — requirements analysis, system design, through production operations.",
         "Moved transcoding and image blurring to AWS Lambda + FFmpeg as async jobs so long-running work no longer occupied application servers, and replaced manual releases with automated deployment.",
         "Split frontend/backend responsibilities and redesigned APIs to cut coupling so both sides could work in parallel, with unit and functional tests covering regression after changes.",
-        "Chose stacks by the client's existing environment and timeline (C#, Node.js, React, Salesforce), extending current systems instead of rebuilding them.",
-        "First point of contact for new hires, maintaining environment setup and project docs to shorten onboarding."
+        "Delivered lending, video streaming, equipment repair, and e-commerce systems from zero to one — requirements analysis, system design, through production operations.",
+        "Chose stacks by the client's existing environment and timeline (C#, Node.js, React, Salesforce), extending current systems instead of rebuilding them."
       ],
       "period": "2018.04 ~ 2020.08"
     }
