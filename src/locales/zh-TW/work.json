@@ -6,7 +6,7 @@
       "jobTitle": "AI 工程師",
       "context": "交友社群新創；五個月內一人負責 Flutter App、NestJS 後端（180+ API、1,066 項自動化測試）與 Docker 部署，並接手訂閱金流（單月營收 21 萬 → 38 萬），同時維運 Sugarbee 與 Bound 兩條產品線",
       "jobDesc": [
-        "AI 功能商業化與品質治理：以 Anthropic API 交付配對建議、聊天教練、破冰話題與簡介生成四項訂閱付費功能，prompt 端要求 JSON 結構化輸出並對輸入去識別化，降級採 AI 生成、profile 模板、通用文案三層合併補滿，逾時依生產環境 P95 校正；另以 Python（FastAPI）自建 RAG 客服，不依賴 LangChain，含混合檢索加 RRF 融合與斷路器供應商備援，並以黃金資料集與 LLM-as-a-Judge 將 Recall、MRR、Groundedness 納入 CI",
+        "AI 功能商業化：以 Anthropic API 交付配對建議、聊天教練、破冰話題與簡介生成四項訂閱付費功能，prompt 端要求 JSON 結構化輸出並對輸入去識別化，降級採 AI 生成、profile 模板、通用文案三層合併補滿，逾時依生產環境 P95 校正；另以 Python（FastAPI）自建 RAG 客服，不依賴 LangChain，信心分數低於門檻時自動轉接真人",
         "Serverless 架構與生產穩定性：後端跑在 AWS Lambda（生產環境 reservedConcurrency 450），資料層以 RDS Proxy 做連線多工，AI 生成與影片審核走 SQS 非同步、Firebase 即時回推，圖片審核同步進行並串接真人臉部驗證；自連線數告警追出 Lambda 容器凍結留下的 pinned 連線，調整回收後峰值自 1,162 降至 883（−24%），並訂出「容器凍結不等於程序結束」的 serverless 準則：LLM 呼叫必須 await、禁止 fire-and-forget，背景化一律走 SQS，AI 永不阻塞付款、發訊與配對",
         "效能與成本治理：推薦查詢改以 MySQL 虛擬產生欄位搭配複合索引取代執行期 JSON 解析，回應自 5 秒降至毫秒級、主要 API 平均 180ms；LLM 生成前上分散式鎖並以雙層快取讓費用綁定生成次數而非瀏覽次數，靜態流量移出 Lambda 改由 S3 加 CDN 直出、資料庫降規格，雲端月支出自 1,200 美金降至 400 美金（−60%），FCP 自 10 秒降至 1.4 秒"
       ],
