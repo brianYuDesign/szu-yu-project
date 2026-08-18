@@ -3,7 +3,7 @@
   "items": [
     {
       "name": "云桐科技 - 彩票遊戲與直播互動平台",
-      "content": "云桐的核心平台，分成遊戲和直播兩塊。遊戲用 Nx Monorepo 搭 NestJS 微服務，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可以依流量各自水平擴展。即時對局與開獎用 Socket.IO 推送，跨服務事件流走 Kafka，快取與結算靠 Redis 和 Bull Queue。上線網站：gamilive.com。",
+      "content": "云桐核心平台，分成遊戲與直播兩塊。遊戲以 Nx Monorepo 搭 NestJS 微服務，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可依流量各自水平擴展，承載開獎與熱門時段的高併發流量。上線網站：gamilive.com。",
       "tech": [
         "Node.js",
         "NestJs",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Sugarbee - 高端交友 App",
-      "content": "主打高端客群的交友配對 App，前端、後端、CMS 與營運後台都由我負責。做了配對引擎 2.0、訂閱金流與虛擬點數、即時聊天與推播，另外建了真人臉部驗證、AWS Rekognition 審核與 Redis 快取。上線網站：sugarbee.vip。",
+      "content": "主打高端客群的交友配對 App，前端、後端、CMS 與營運後台皆由我負責：配對引擎 2.0、訂閱金流與虛擬點數、即時聊天推播，以及真人臉部驗證與 Rekognition 審核。上線網站：sugarbee.vip。",
       "tech": [
         "Next.js",
         "React",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Bound - 興趣揪團社交 App",
-      "content": "用 Flutter 做的跨平台社交配對 App，主打 AI 配對、興趣社群（Circle）揪團與聊天教練。我從產品策略、UI 設計做到全端實作，AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude AI 與 AWS Rekognition。上線網站：bound-app.com。",
+      "content": "Flutter 跨平台社交配對 App，主打 AI 配對、興趣社群揪團與聊天教練。我從產品策略、UI 設計做到全端實作；AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude 與 Rekognition。上線網站：bound-app.com。",
       "tech": [
         "Flutter",
         "Dart",
@@ -107,36 +107,12 @@
   "archiveTitle": "其他專案",
   "archiveItems": [
     {
-      "name": "揚氏幽墨（外包，2022）- Shopify 客製化電商",
-      "content": "茶商品牌重塑，Shopify 當後端與管理後台，前台做客製化 UI。我管專案，也一起做 UI 開發、自動化部署與 SEO。",
-      "tech": [
-        "Shopify",
-        "Liquid",
-        "JQuery",
-        "Lottie"
-      ],
-      "link": "https://goats-humor.com/"
-    },
-    {
       "name": "iflubby（外包，2022）- 寵物服務地圖平台後端",
       "content": "負責後端架構規劃與開發，串接 Facebook／Google／Line／Apple SSO 與 Google API，也整理 API 文件給前端。",
       "tech": [
         "Node.js",
         "NestJs",
         "SSO",
-        "Docker",
-        "CD"
-      ],
-      "link": ""
-    },
-    {
-      "name": "Anko（外包，2022）- MessageBird 聊天整合後台",
-      "content": "把客戶的 Line@ 與 WhatsApp Business 整合成一個對話後台。我接手前一位 freelancer 的程式碼往下做，負責上線前的優化、測試、容器化與生產環境建置。",
-      "tech": [
-        "Node.js",
-        "NestJs",
-        "GraphQL",
-        "React",
         "Docker",
         "CD"
       ],
@@ -180,30 +156,6 @@
         "FFMpeg"
       ],
       "link": ""
-    },
-    {
-      "name": "設備維護系統",
-      "content": "負責系統規格文件與後端架構開發，也協助公司導入 GraphQL 風格的 API 設計。",
-      "tech": [
-        "Node.js",
-        "Apollo",
-        "GraphQl",
-        "React",
-        "MongoDB"
-      ],
-      "link": ""
-    },
-    {
-      "name": "賞屋接待系統",
-      "content": "參與整合規劃，協助客戶導入 Salesforce 與 Line@ 聊天機器人。",
-      "tech": [
-        "Salesforce",
-        "Apex",
-        "VisualForce",
-        "Boostrap",
-        "Linebot"
-      ],
-      "link": "https://hiyes.tw/"
     }
   ]
 }

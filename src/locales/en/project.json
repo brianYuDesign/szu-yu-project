@@ -3,7 +3,7 @@
   "items": [
     {
       "name": "Yuntong Technology - Lottery Gaming & Live Interactive Platform",
-      "content": "Yuntong's core platform, split into gaming and live streaming. The gaming side runs on an Nx monorepo with NestJS microservices, where each game format is broken into its own API, Socket, business service, and asynchronous consumer so they scale horizontally on their own. Socket.IO pushes live rounds and draws, Kafka carries cross-service event streams, and Redis with Bull Queue back caching and settlement. Live at gamilive.com.",
+      "content": "Yuntong's core platform, split into gaming and live streaming. The gaming side runs on an Nx monorepo with NestJS microservices, each game format broken into its own API, Socket, business service, and async consumer so they scale horizontally on their own under peak draw traffic. Live at gamilive.com.",
       "tech": [
         "Node.js",
         "NestJs",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Sugarbee - High-End Dating App",
-      "content": "A dating app for a high-end audience, where I owned the frontend, backend, CMS, and operations dashboard. Matching engine 2.0, subscription payments and virtual points, real-time chat and push, plus real-person face verification, AWS Rekognition moderation, and a Redis caching layer. Live at sugarbee.vip.",
+      "content": "A dating app for a high-end audience, where I owned the frontend, backend, CMS, and operations dashboard: matching engine 2.0, subscription payments and virtual points, real-time chat and push, plus real-person face verification and Rekognition moderation. Live at sugarbee.vip.",
       "tech": [
         "Next.js",
         "React",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Bound - Interest-Based Social Matching App",
-      "content": "A cross-platform social matching app in Flutter, built around AI matching, interest communities (Circles), and chat coaching. I took it from product strategy and UI design through to full-stack implementation. AI jobs run asynchronously through SQS with Firebase pushing results back, and moderation goes through tiered Claude AI and AWS Rekognition. Live at bound-app.com.",
+      "content": "A cross-platform social matching app in Flutter, built around AI matching, interest communities, and chat coaching. I took it from product strategy and UI design through to full-stack implementation; AI jobs run async through SQS with Firebase pushing results back, and moderation is tiered across Claude and Rekognition. Live at bound-app.com.",
       "tech": [
         "Flutter",
         "Dart",
@@ -107,36 +107,12 @@
   "archiveTitle": "Other Projects",
   "archiveItems": [
     {
-      "name": "Goats Humor (Outsource, 2022) - Customized Shopify E-commerce",
-      "content": "A rebranding project for a tea retailer, with Shopify as the backend and admin console and a custom storefront UI. I managed the project and worked on UI development, automated deployment, and SEO.",
-      "tech": [
-        "Shopify",
-        "Liquid",
-        "JQuery",
-        "Lottie"
-      ],
-      "link": "https://goats-humor.com/"
-    },
-    {
       "name": "iflubby (Outsource, 2022) - Pet Services Platform Backend",
       "content": "Planned and built the core backend, integrated Facebook / Google / Line / Apple SSO and Google APIs, and wrote the API documentation for the frontend team.",
       "tech": [
         "Node.js",
         "NestJs",
         "SSO",
-        "Docker",
-        "CD"
-      ],
-      "link": ""
-    },
-    {
-      "name": "Anko (Outsource, 2022) - MessageBird Chat Integration System",
-      "content": "Brought a client's Line@ and WhatsApp Business accounts into one conversation dashboard. I picked up the codebase from a previous freelancer and handled everything needed to reach production: cleanup, testing, containerization, and the production environment.",
-      "tech": [
-        "Node.js",
-        "NestJs",
-        "GraphQL",
-        "React",
         "Docker",
         "CD"
       ],
@@ -180,30 +156,6 @@
         "FFMpeg"
       ],
       "link": ""
-    },
-    {
-      "name": "Equipment Maintenance System",
-      "content": "Wrote the system specifications and built the backend architecture, and helped the company move to a GraphQL-style API design.",
-      "tech": [
-        "Node.js",
-        "Apollo",
-        "GraphQl",
-        "React",
-        "MongoDB"
-      ],
-      "link": ""
-    },
-    {
-      "name": "House Viewing Reception System",
-      "content": "Took part in integration planning and helped the client adopt Salesforce and a Line@ chatbot.",
-      "tech": [
-        "Salesforce",
-        "Apex",
-        "VisualForce",
-        "Boostrap",
-        "Linebot"
-      ],
-      "link": "https://hiyes.tw/"
     }
   ]
 }

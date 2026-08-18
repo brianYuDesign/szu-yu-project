@@ -11,27 +11,19 @@
     },
     {
       "title": "系統 / 維運",
-      "content": "Linux, Docker, CI/CD, AWS (EC2, ECS, Lambda, SQS, Rekognition), Sentry, Kibana, Grafana, Git, GitHub, GitLab"
+      "content": "Linux, Docker, CI/CD, AWS (Lambda, SQS, S3, EC2, ECS, RDS Proxy, Rekognition), Serverless 架構, CDN, Sentry, Kibana, Grafana, Git"
     },
     {
-      "title": "網站開發",
-      "content": "React, Next.js (App Router), TypeScript, SSR / CSR, Web 效能優化, Tailwind CSS, HTML/CSS"
+      "title": "前端 / 跨平台",
+      "content": "React, Next.js (App Router), TypeScript, SSR / CSR, Web 效能優化, Tailwind CSS, HTML/CSS, Flutter, Dart, Firebase"
     },
     {
       "title": "AI / LLM 工程",
       "content": "Claude Code, AI-assisted Development, RAG, pgvector, Anthropic API, Ollama, Prompt Engineering, LLM-as-a-Judge, 離線評測"
     },
     {
-      "title": "行動 / 跨平台",
-      "content": "Flutter, Dart, Firebase"
-    },
-    {
       "title": "開發方法論",
-      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, Refactoring, 單元測試與功能測試, Code Review, MicroService"
-    },
-    {
-      "title": "專案管理",
-      "content": "Jira, Linear, Scrum, WBS, UML, 需求分析, 技術文件"
+      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, Refactoring, 單元測試與功能測試, Code Review, Scrum, Jira, 需求分析與技術文件"
     }
   ]
 }
