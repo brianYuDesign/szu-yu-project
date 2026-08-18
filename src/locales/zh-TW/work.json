@@ -19,8 +19,8 @@
     },
     {
       "companyName": "云桐科技 - 遊戲/直播",
-      "jobTitle": "System Development Lead",
-      "context": "遊戲／直播平台；2020 年以後端工程師加入，2022 年底晉升帶領團隊",
+      "jobTitle": "技術主管",
+      "context": "遊戲／直播平台；2020 年以後端工程師加入，2023 年初晉升帶領團隊",
       "jobDesc": [
         "帶領 11 人跨職能技術團隊，負責產品研發、系統穩定度與交付品質",
         "主導 12 款遊戲與平台型產品，自系統設計、開發至正式上線",
@@ -30,11 +30,11 @@
         "制定 release checklist 與上版流程規範，上版失誤率下降 70%",
         "推動 design review 與 code review，統一各產品線的開發標準"
       ],
-      "period": "2022.12 ~ 2025.12"
+      "period": "2023.01 ~ 2026.01"
     },
     {
       "companyName": "云桐科技 - 遊戲/平台",
-      "jobTitle": "Backend Engineer",
+      "jobTitle": "後端工程師",
       "context": "同公司晉升前職務；遊戲／彩票平台後端開發與系統分析",
       "jobDesc": [
         "負責遊戲、彩票、公平隨機數、爬蟲數據與後台系統的開發與維運",
@@ -47,7 +47,7 @@
     },
     {
       "companyName": "4idps",
-      "jobTitle": "FullStack Engineer",
+      "jobTitle": "全端工程師",
       "context": "軟體專案公司，負責 7 項客戶案件，範圍自需求釐清至上線維運",
       "jobDesc": [
         "自零到一交付借貸、影音串流、設備叫修與電商等系統",
