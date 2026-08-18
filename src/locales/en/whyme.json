@@ -7,7 +7,7 @@
     },
     {
       "title": "Performance Tuning & Refactoring",
-      "description": "Measures before tuning rather than guessing. One typical case: replacing runtime JSON parsing with virtual generated columns and composite indexes, which also cut peak database connections by 24%. Regular scope covers MySQL index and query-plan tuning, Redis cache design, and refactoring legacy code into layered modules."
+      "description": "Measures before tuning rather than guessing. One typical case: replacing runtime JSON parsing with virtual generated columns and composite indexes, taking the query from 5s to milliseconds; another traced a connection-count alert to pinned connections left by frozen Lambda containers, where reclaim and retry changes cut peak connections by 24%. Regular scope covers MySQL index and query-plan tuning, Redis cache design, and refactoring legacy code into layered modules."
     },
     {
       "title": "Node.js / React.js",
