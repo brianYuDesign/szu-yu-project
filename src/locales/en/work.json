@@ -6,14 +6,15 @@
       "jobTitle": "AI Engineer",
       "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and Docker deployment, maintaining two product lines (Sugarbee and Bound)",
       "jobDesc": [
-        "Delivered four paid subscription AI features on the Anthropic API: match suggestions, chat coaching, icebreakers, bio generation.",
+        "Designed the flow and interface for the AI features and delivered four paid subscription features on the Anthropic API.",
         "Built multi-tier degradation and calibrated timeouts so service stays up when the model fails.",
         "Built a Python RAG support agent that escalates to a human when confidence is low.",
         "Ran the backend on AWS Lambda, with long-running work handled asynchronously through SQS.",
         "Traced connection build-up caused by frozen Lambda containers, cutting peak connections by 24%.",
         "Rewrote queries with virtual generated columns and composite indexes: 5s → milliseconds, APIs averaging 180ms.",
         "Reworked resource architecture and caching: cloud spend −60%, first paint 10s → 1.4s.",
-        "Took over subscription billing with auto-renewal and failed-payment retries; monthly revenue NT$210K → NT$380K."
+        "Took over subscription billing with auto-renewal and failed-payment retries; monthly revenue NT$210K → NT$380K.",
+        "Packaged and deployed with Docker, and took the app through iOS App Store review to release."
       ],
       "period": "2026.03 ~ 2026.08"
     },
@@ -37,7 +38,7 @@
       "jobTitle": "Backend Engineer",
       "context": "Same company, pre-promotion role; backend development and system analysis on a game and lottery platform",
       "jobDesc": [
-        "Developed and operated game, lottery, fair-random-number, crawler data, and admin systems.",
+        "Owned system analysis plus schema and API interface design across game, lottery, crawler data, and admin systems.",
         "Lead backend on the blockchain fair-random-number platform, writing EOS smart contracts for on-chain proof.",
         "Refactored an unmaintained legacy system into layered modules so new game types extend directly.",
         "Located bottlenecks from slow-query logs, adding indexes and rewriting queries to remove settlement timeouts.",
@@ -50,13 +51,24 @@
       "jobTitle": "FullStack Engineer",
       "context": "Software consultancy; delivered 7 client engagements spanning requirements analysis through production operations",
       "jobDesc": [
-        "Delivered lending, video streaming, equipment repair, and e-commerce systems from zero to one.",
-        "Handled transcoding asynchronously with AWS Lambda + FFmpeg and introduced automated deployment.",
+        "Delivered lending, video streaming, equipment repair, and e-commerce systems from zero to one, owning specs, schema, and API design.",
+        "Deployed the streaming platform on AWS EC2 / ECS with Lambda + FFmpeg for async transcoding, replacing manual releases with automated deployment.",
         "Split frontend/backend responsibilities and redesigned APIs to cut module coupling.",
         "Established unit and functional testing to cover regression after changes.",
         "Selected stacks by the client's existing environment: C#, Node.js, React, Salesforce."
       ],
       "period": "2018.04 ~ 2020.08"
+    },
+    {
+      "companyName": "Online Global",
+      "jobTitle": "Project Sales (Intern)",
+      "context": "Software sales internship; client-facing experience before moving into engineering",
+      "jobDesc": [
+        "Prospected new clients and booked meetings by phone, presenting software services to business customers.",
+        "Helped prepare client requirement documents and proposal decks.",
+        "This became the basis for later gathering requirements directly from clients and writing specifications."
+      ],
+      "period": "2017.01 ~ 2017.07"
     }
   ]
 }
