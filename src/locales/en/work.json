@@ -4,16 +4,16 @@
     {
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
-      "context": "Dating and social startup; maintained two product lines (Sugarbee and Bound), responsible for app development, the NestJS backend, and paid AI features",
+      "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and Docker deployment, maintaining two product lines (Sugarbee and Bound)",
       "jobDesc": [
-        "Took over subscription billing: added auto-renewal and failed-payment retries, and cross-referenced multiple signals to separate real cancellations from card-change payment interruptions so recoverable users entered a win-back flow; monthly revenue moved from NT$210K to NT$380K over that period.",
-        "Shipped four paid subscription features on Claude — match suggestions, chat coaching, icebreakers, bio generation. Generated results are persisted and served from a memory + Redis two-tier cache, tying cost to generations rather than views, with multi-tier fallback so a model failure still returns usable content.",
-        "Rewrote the recommendation query that parsed JSON at runtime into virtual generated columns with composite indexes: 5s → milliseconds, with core APIs averaging 180ms.",
-        "Traced database connections approaching the limit to pinned connections left by frozen Lambda containers; shortened Proxy idle reclaim and added connection validation and retries, cutting peak connections from 1,162 to 883 (−24%).",
-        "Compressed hero images, subset the Chinese webfont, and moved static assets to S3 + CDN so Lambda no longer proxies static traffic — FCP 10s → 1.4s.",
-        "Split moderation by media type (images synchronous, video asynchronous) and right-sized cloud resources, together with caching to collapse repeat calls, cutting monthly cloud spend from US$1,200 to US$400 (−60%).",
-        "Built a Python RAG support agent that answers common questions from the FAQ and knowledge base and escalates to a human below a confidence threshold, reducing repetitive manual replies.",
-        "Delivered the Flutter app, NestJS backend, and Docker deployment single-handedly, with content moderation and real-person face verification."
+        "Shipped four Claude-powered features — match suggestions, chat coaching, icebreakers, bio generation — as paid subscription content, with multi-tier fallback so a model failure still returns usable output.",
+        "Took over subscription billing: added auto-renewal and failed-payment retries, and cross-referenced multiple signals to separate real cancellations from card-change interruptions so recoverable users entered a win-back flow; monthly revenue moved from NT$210K to NT$380K over that period.",
+        "Persisted generated results behind a two-tier cache so AI cost tracks generations rather than views; moved static assets to S3 + CDN and right-sized the database, cutting monthly cloud spend from US$1,200 to US$400 (−60%).",
+        "Replaced runtime JSON parsing in the recommendation query with virtual generated columns and composite indexes: 5s → milliseconds, core APIs averaging 180ms.",
+        "Traced database connections approaching the limit to pinned connections left by frozen Lambda containers; reworking reclaim cut peak connections from 1,162 to 883 (−24%).",
+        "Replaced oversized hero images and subset the Chinese webfont, served through CDN cache — FCP 10s → 1.4s.",
+        "Split content moderation by media type (images synchronous, video asynchronous) and added real-person face verification to block fake accounts.",
+        "Built a Python RAG support agent answering FAQ and knowledge-base questions, escalating to a human below a confidence threshold."
       ],
       "period": "2026.03 ~ 2026.08"
     },
@@ -22,11 +22,11 @@
       "jobTitle": "System Development Lead",
       "context": "Game and live-streaming platform; led 11 engineers and owned architecture and technical decisions across 12 product lines",
       "jobDesc": [
-        "Took a proof-of-concept mini-game to production and grew it into 12 product lines on shared services and a shared delivery process, leading 11 engineers.",
-        "Split each game format into API, Socket, business service, and async consumer — Kafka for cross-service event streams, Redis and Bull Queue for caching and async settlement — so high-concurrency draw and peak traffic scales horizontally at whichever tier is the bottleneck.",
-        "Turned release steps into a checklist and a documented process so releases no longer depended on individual memory, reducing release defects by 70%.",
-        "Built monitoring and logging on Sentry, Kibana, and Grafana and turned recurring troubleshooting steps into docs and saved queries, cutting problem isolation time by about 50%.",
-        "Introduced design review before work starts and code review before merge so design and implementation defects are caught before release, reducing rework; both later became the shared standard across product lines."
+        "Took a proof-of-concept mini-game to production, then reused its shared services and delivery process across later titles, leading the team to 12 shipped product lines.",
+        "Split each game format into API, Socket, business service, and async consumer so draw and peak traffic scales at whichever tier is the bottleneck; Kafka for cross-service event streams, Redis and Bull Queue for caching and async settlement.",
+        "Turned release steps into a checklist and documented process so releases no longer depended on individual memory, reducing release defects by 70%.",
+        "Added monitoring and logging (Sentry, Kibana, Grafana) and turned recurring troubleshooting into docs and saved queries, cutting problem isolation time by about 50%.",
+        "Introduced design review before work starts and code review before merge so design and implementation defects are caught pre-release; both became the shared standard across product lines."
       ],
       "period": "2022.12 ~ 2025.12"
     },
@@ -35,10 +35,10 @@
       "jobTitle": "Backend Engineer",
       "context": "Game and lottery platform; responsible for backend development, system analysis, and restructuring inherited systems",
       "jobDesc": [
-        "Refactored an unmaintained inherited system into layered modules with shared logic extracted, so new game types extend the existing architecture without touching the core settlement flow.",
         "Lead backend on the blockchain fair-random-number platform: combined multiple data sources into verifiable random numbers and wrote EOS smart contracts for on-chain proof, letting players verify draw results themselves.",
-        "Sole owner of lottery game types, the crawler data pipeline, and the operations dashboard — schema design through production operations.",
-        "Used slow-query logs to locate reporting and settlement bottlenecks, then added the matching indexes and reworked queries and pagination, eliminating query timeouts during batch settlement."
+        "Refactored an unmaintained inherited system into layered modules with shared logic extracted, so new game types extend the existing architecture without touching the core settlement flow.",
+        "Used slow-query logs to locate reporting and settlement bottlenecks, then added indexes and reworked queries and pagination, eliminating query timeouts during batch settlement.",
+        "Sole owner of lottery game types, the crawler data pipeline, and the operations dashboard — schema design through production operations."
       ],
       "period": "2020.09 ~ 2022.12"
     },
@@ -47,10 +47,10 @@
       "jobTitle": "FullStack Engineer",
       "context": "Software consultancy; delivered 7 client engagements spanning requirements analysis through production operations",
       "jobDesc": [
-        "Delivered lending, video streaming, equipment repair, and e-commerce projects from zero to one — requirements analysis through production operations.",
-        "Moved transcoding and image blurring to AWS Lambda + FFmpeg as async jobs so long-running work no longer occupied application servers, and replaced manual releases with automated deployment to cut release time and human error.",
-        "Chose the stack per client's existing systems and delivery timeline (C#, Node.js, React, Salesforce Apex/VisualForce), extending the current environment instead of rebuilding it.",
-        "Applied Clean Code and design patterns to unify naming and layering, split frontend/backend responsibilities, and redesigned APIs to cut coupling — letting both sides work in parallel and lowering handover cost — with unit and functional tests covering regression after changes.",
+        "Delivered lending, video streaming, equipment repair, and e-commerce systems from zero to one — requirements analysis, system design, through production operations.",
+        "Moved transcoding and image blurring to AWS Lambda + FFmpeg as async jobs so long-running work no longer occupied application servers, and replaced manual releases with automated deployment.",
+        "Split frontend/backend responsibilities and redesigned APIs to cut coupling so both sides could work in parallel, with unit and functional tests covering regression after changes.",
+        "Chose stacks by the client's existing environment and timeline (C#, Node.js, React, Salesforce), extending current systems instead of rebuilding them.",
         "First point of contact for new hires, maintaining environment setup and project docs to shorten onboarding."
       ],
       "period": "2018.04 ~ 2020.08"
