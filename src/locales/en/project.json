@@ -58,7 +58,7 @@
     },
     {
       "name": "Bound - Interest-Based Social Matching App",
-      "content": "A cross-platform social matching app in Flutter, built around AI matching, interest communities, and chat coaching. I took it from product strategy and UI design through to full-stack implementation; AI jobs run async through SQS with Firebase pushing results back, and moderation is tiered across Claude and Rekognition. Live at bound-app.com.",
+      "content": "A cross-platform social matching app in Flutter, built around AI matching, interest communities, and chat coaching. I took it from product strategy and UI design through to full-stack implementation, shipping to both the iOS App Store and Google Play within about six weeks; AI jobs run async through SQS with Firebase pushing results back, and moderation is tiered across Claude and Rekognition. Live at bound-app.com.",
       "tech": [
         "Flutter",
         "Dart",

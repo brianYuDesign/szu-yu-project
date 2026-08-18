@@ -58,7 +58,7 @@
     },
     {
       "name": "Bound - 興趣揪團社交 App",
-      "content": "Flutter 跨平台社交配對 App，主打 AI 配對、興趣社群揪團與聊天教練。我從產品策略、UI 設計做到全端實作；AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude 與 Rekognition。上線網站：bound-app.com。",
+      "content": "Flutter 跨平台社交配對 App，主打 AI 配對、興趣社群揪團與聊天教練。我從產品策略、UI 設計做到全端實作，並在一個半月內完成 iOS 與 Android 雙平台上架；AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude 與 Rekognition。上線網站：bound-app.com。",
       "tech": [
         "Flutter",
         "Dart",
