@@ -2,7 +2,7 @@
   "title": "余勝允 Brian Yu CV",
   "subtitle": "Senior Backend / Full-Stack Engineer · Node.js × TypeScript × AI",
   "description": {
-    "intro": "您好，我是余勝允（Brian Yu），具備約 8 年軟體開發經驗，主力為 Node.js / TypeScript 與 NestJS 後端開發。過去負責遊戲與直播平台的微服務架構設計，處理高併發下注與訂單流量、跨服務事件流與非同步結算，並執行 MySQL 效能優化與 Redis 快取設計，亦曾帶領 11 位工程師完成多項產品開發。\n\n前端使用 React / Next.js，能獨立完成資料庫、API 至介面的整體開發。\n\n近半年將 AI 導入產品功能與開發流程，以 Claude / Claude Code 輔助開發，並使用 Python + FastAPI 自建 RAG 與評測框架，將檢索品質指標納入 CI。最近一份工作中，AI 應用於配對建議、聊天教練、破冰話題與個人簡介生成，涵蓋功能設計、後端整合至上線的完整流程。\n\n目前已結束上一份工作，可立即到職，尋找 Senior Backend Engineer 或 Full-Stack Engineer 職缺。專長仍以後端架構與效能為主，若團隊有意將 AI 導入產品，亦能一併承接。"
+    "intro": "您好，我是余勝允（Brian Yu），具備約 8 年軟體開發經驗，主力為 Node.js / TypeScript 與 NestJS 後端開發。過去負責遊戲與直播平台的微服務架構設計，處理高併發下注與訂單流量、跨服務事件流與非同步結算，並執行 MySQL 效能優化與 Redis 快取設計，亦曾帶領 11 位工程師完成多項產品開發。\n\n前端使用 React / Next.js，能獨立完成資料庫、API 至介面的整體開發。\n\n近半年將 AI 導入產品功能與開發流程，以 Claude / Claude Code 輔助開發，並使用 Python + FastAPI 自建 RAG 與評測框架，將檢索品質指標納入 CI。最近一份工作中，AI 應用於配對建議、聊天教練、破冰話題與個人簡介生成，涵蓋功能設計、後端整合至上線的完整流程。\n\n目前尋找 Senior Backend Engineer 或 Full-Stack Engineer 職缺。專長仍以後端架構與效能為主，若團隊有意將 AI 導入產品，亦能一併承接。"
   },
   "metrics": [
     {
