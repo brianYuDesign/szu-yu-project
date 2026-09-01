@@ -2,6 +2,40 @@
   "title": "Project Experience",
   "items": [
     {
+      "name": "AI Concierge with Voice Transactions - High-Risk Payments PoC",
+      "content": "A PoC I built myself, with no paying customers. The AI can only draft a transaction intent that waits for confirmation, and the charge fires only once the user confirms it. That limit sits in the architecture layer. A Python RAG/STT service behind a Node.js gateway scored Recall@3 of 92.7% on a 150-question evaluation set (local bge-m3, top_k=3), and routed all 8 questions the knowledge base cannot answer to a human. Adding a rule layer took 30 adversarial prompts from 27/30 to 30/30.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Fastify",
+        "PostgreSQL",
+        "pgvector",
+        "RAG",
+        "Anthropic API",
+        "STT"
+      ],
+      "link": "",
+      "imgKey": ""
+    },
+    {
+      "name": "Bound - Interest-Based Social Matching App",
+      "content": "A cross-platform social matching app in Flutter, built around AI matching, interest communities, and chat coaching. I took it from product strategy and UI design through to full-stack implementation; AI jobs run async through SQS with Firebase pushing results back, and moderation is tiered across Claude and Rekognition. Live at bound-app.com.",
+      "tech": [
+        "Flutter",
+        "Dart",
+        "NestJs",
+        "TypeScript",
+        "Claude AI",
+        "Firebase",
+        "AWS",
+        "Redis",
+        "MySQL"
+      ],
+      "link": "https://bound-app.com/",
+      "imgKey": "boundapp"
+    },
+    {
       "name": "Yuntong Technology - Lottery Gaming & Live Interactive Platform",
       "content": "Yuntong's core platform, split into gaming and live streaming. The gaming side runs on an Nx monorepo with NestJS microservices, each game format broken into its own API, Socket, business service, and async consumer so they scale horizontally on their own under peak draw traffic. Live at gamilive.com.",
       "tech": [
@@ -40,57 +74,6 @@
       "imgKey": "sugarbee"
     },
     {
-      "name": "Vertical AI Kit - RAG Solution Factory for Vertical Industries",
-      "content": "A PoC I built myself, with no paying customers. One RAG core: swap the industry pack and it serves another industry. I wrote the retrieval, evaluation, and resilience frameworks myself, without LangChain. Both packs, manufacturing and retail, were evaluated offline against a locally hosted model with all six metrics clearing their thresholds. Two-tier caching brought a single query from 52s to 1.1s, and multi-turn query rewriting raised MRR from 72.9% to 100% on that offline set.",
-      "tech": [
-        "Python",
-        "FastAPI",
-        "PostgreSQL",
-        "pgvector",
-        "RAG",
-        "Anthropic API",
-        "Ollama",
-        "pytest",
-        "Docker"
-      ],
-      "link": "",
-      "imgKey": ""
-    },
-    {
-      "name": "Bound - Interest-Based Social Matching App",
-      "content": "A cross-platform social matching app in Flutter, built around AI matching, interest communities, and chat coaching. I took it from product strategy and UI design through to full-stack implementation, shipping to both the iOS App Store and Google Play within about six weeks; AI jobs run async through SQS with Firebase pushing results back, and moderation is tiered across Claude and Rekognition. Live at bound-app.com.",
-      "tech": [
-        "Flutter",
-        "Dart",
-        "NestJs",
-        "TypeScript",
-        "Claude AI",
-        "Firebase",
-        "AWS",
-        "Redis",
-        "MySQL"
-      ],
-      "link": "https://bound-app.com/",
-      "imgKey": "boundapp"
-    },
-    {
-      "name": "AI Concierge with Voice Betting - High-Risk Payments PoC",
-      "content": "The AI can only draft a bet intent that waits for confirmation, and the charge fires only once the player confirms it. That limit sits in the architecture layer. A Python RAG/STT service behind a Node.js gateway scored Recall@3 of 92.7% on a 150-question evaluation set and got 8/8 on the cases that must go to a human; adding a rule layer took 30 adversarial prompts from 27/30 to 30/30.",
-      "tech": [
-        "Python",
-        "FastAPI",
-        "TypeScript",
-        "Fastify",
-        "PostgreSQL",
-        "pgvector",
-        "RAG",
-        "Anthropic API",
-        "STT"
-      ],
-      "link": "",
-      "imgKey": ""
-    },
-    {
       "name": "Coffee Chat - Coffee-Break Meetup Platform",
       "content": "A meetup platform where strangers meet and talk for about as long as one cup of coffee. I did the product, the design, and the full stack on my own. The frontend runs on Next.js App Router with Tailwind, and data and accounts sit on a BaaS. Live at coffee-chat.tw.",
       "tech": [
@@ -107,18 +90,6 @@
   "archiveTitle": "Other Projects",
   "archiveItems": [
     {
-      "name": "iflubby (Outsource, 2022) - Pet Services Platform Backend",
-      "content": "Planned and built the core backend, integrated Facebook / Google / Line / Apple SSO and Google APIs, and wrote the API documentation for the frontend team.",
-      "tech": [
-        "Node.js",
-        "NestJs",
-        "SSO",
-        "Docker",
-        "CD"
-      ],
-      "link": ""
-    },
-    {
       "name": "Numbers Link - Fair Random Number Platform",
       "content": "Used blockchain immutability to compute numbers from several data vendors into one fair random number. I was the main backend developer and also wrote part of the EOS smart contracts.",
       "tech": [
@@ -128,32 +99,6 @@
         "EOSIO",
         "React",
         "MicroService"
-      ],
-      "link": ""
-    },
-    {
-      "name": "Twin City Investment - Lending Management System",
-      "content": "Simplified loan applications on top of an involved review workflow that needs a lot of documents and reports. I worked on planning, analysis, and the backend, and it was my first time using TypeScript with NestJS.",
-      "tech": [
-        "Node.js",
-        "NestJs",
-        "MySQL",
-        "Docker"
-      ],
-      "link": "https://www.thecoinscompany.com/"
-    },
-    {
-      "name": "Banana Life - Video Streaming Platform",
-      "content": "Built on AWS, with Lambda and FFmpeg scripts handling video Gaussian blur and transcoding. I owned the backend and the admin console and worked with the frontend and an outsourced app team.",
-      "tech": [
-        "Node.js",
-        "Apollo",
-        "GraphQl",
-        "OAuth",
-        "AWS",
-        "React",
-        "MongoDB",
-        "FFMpeg"
       ],
       "link": ""
     }

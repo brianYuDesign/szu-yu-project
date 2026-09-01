@@ -3,27 +3,31 @@
   "items": [
     {
       "title": "後端開發",
-      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#, Salesforce (Apex, VisualForce)"
-    },
-    {
-      "title": "資料庫",
-      "content": "MySQL, PostgreSQL, Redis, MongoDB, pgvector, 索引與查詢優化, 快取策略, 連線池調校"
-    },
-    {
-      "title": "系統 / 維運",
-      "content": "Linux, Docker, CI/CD, AWS (Lambda, SQS, S3, EC2, ECS, RDS Proxy, Rekognition), Serverless 架構, CDN, Sentry, Kibana, Grafana, Git"
+      "content": "Node.js、TypeScript、NestJS、RESTful API、GraphQL、MicroService、Socket.IO、Kafka、Bull Queue、Python、FastAPI；早期經驗：C#、Salesforce (Apex、VisualForce)"
     },
     {
       "title": "前端 / 跨平台",
-      "content": "React, Next.js (App Router), TypeScript, SSR / CSR, Web 效能優化, Tailwind CSS, HTML/CSS, Flutter, Dart, Firebase"
+      "content": "React、Next.js (App Router)、TypeScript、SSR / CSR、Web 效能優化、Tailwind CSS、HTML/CSS、Flutter、Dart、Firebase"
     },
     {
       "title": "AI / LLM 工程",
-      "content": "Claude Code, AI-assisted Development, RAG, pgvector, Anthropic API, Ollama, Prompt Engineering, LLM-as-a-Judge, 離線評測"
+      "content": "Claude Code、AI 輔助開發、Agentic Development、Tool Use / Function Calling、Agent 護欄、驗收條件驅動開發、自動化驗證迴圈、RAG、pgvector、Anthropic API、Prompt Engineering、LLM-as-a-Judge 與離線評測、多 Provider Routing 與降級、Token 成本追蹤"
+    },
+    {
+      "title": "資料庫",
+      "content": "MySQL、PostgreSQL、Redis、MongoDB、pgvector、索引與查詢優化、快取策略、連線池調校"
+    },
+    {
+      "title": "系統 / 維運",
+      "content": "Linux、Docker、CI/CD、GitHub Actions、AWS (Lambda、SQS、S3、EC2、ECS、RDS Proxy、Rekognition)、Serverless 架構、CDN、Sentry、Kibana、Grafana、Prometheus、Git"
+    },
+    {
+      "title": "團隊與流程",
+      "content": "團隊帶領（11 人）、Design Review、Code Review、Release Checklist 與上版流程、監控與排查標準、需求分析、技術文件與 API 文件、Scrum、Jira、跨團隊協作"
     },
     {
       "title": "開發方法論",
-      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, Refactoring, 單元測試與功能測試, Code Review, Scrum, Jira, 需求分析與技術文件"
+      "content": "OOP、Functional Programming、SOLID、Design Patterns、Clean Code、Refactoring、單元測試與功能測試"
     }
   ]
 }

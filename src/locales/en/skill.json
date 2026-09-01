@@ -3,15 +3,7 @@
   "items": [
     {
       "title": "Backend development",
-      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI, C#, Salesforce (Apex, VisualForce)"
-    },
-    {
-      "title": "Database",
-      "content": "MySQL, PostgreSQL, Redis, MongoDB, pgvector, Index & Query Optimization, Caching Strategies, Connection Pool Tuning"
-    },
-    {
-      "title": "System / Ops",
-      "content": "Linux, Docker, CI/CD, AWS (Lambda, SQS, S3, EC2, ECS, RDS Proxy, Rekognition), Serverless architecture, CDN, Sentry, Kibana, Grafana, Git"
+      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI; earlier: C#, Salesforce (Apex, VisualForce)"
     },
     {
       "title": "Frontend / Cross-platform",
@@ -19,11 +11,23 @@
     },
     {
       "title": "AI / LLM Engineering",
-      "content": "Claude Code, AI-assisted Development, RAG, pgvector, Anthropic API, Ollama, Prompt Engineering, LLM-as-a-Judge, Offline Evaluation"
+      "content": "Claude Code, AI-assisted Development, Agentic Development, Tool Use / Function Calling, Agent Guardrails, Acceptance-Criteria-Driven Development, Automated Verification Loops, RAG, pgvector, Anthropic API, Prompt Engineering, LLM-as-a-Judge & Offline Evaluation, Multi-Provider Routing & Fallback, Token Cost Tracking"
+    },
+    {
+      "title": "Database",
+      "content": "MySQL, PostgreSQL, Redis, MongoDB, pgvector, Index & Query Optimization, Caching Strategies, Connection Pool Tuning"
+    },
+    {
+      "title": "System / Ops",
+      "content": "Linux, Docker, CI/CD, GitHub Actions, AWS (Lambda, SQS, S3, EC2, ECS, RDS Proxy, Rekognition), Serverless architecture, CDN, Sentry, Kibana, Grafana, Prometheus, Git"
+    },
+    {
+      "title": "Team & Process",
+      "content": "Team Leadership (11 engineers), Design Review, Code Review, Release Checklist & Release Process, Monitoring & Troubleshooting Standards, Requirement Analysis, Technical & API Documentation, Scrum, Jira, Cross-team Collaboration"
     },
     {
       "title": "Methodologies",
-      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, Refactoring, Unit & Functional Testing, Code Review, Scrum, Jira, Requirement Analysis & Technical Documentation"
+      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, Refactoring, Unit & Functional Testing"
     }
   ]
 }

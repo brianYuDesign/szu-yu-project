@@ -1,14 +1,14 @@
 {
   "title": "Sheng-Yun Brian Yu CV",
-  "subtitle": "Senior Backend / Full-Stack Engineer · Node.js × TypeScript × AI",
+  "subtitle": "Full-Stack Engineer · 8 years across backend, frontend, and engineering management; iterating faster with AI-assisted development",
   "description": {
-    "intro": "Hello, I am Sheng-Yun Yu (Brian Yu), a software engineer with around 8 years of experience, working primarily on the backend with Node.js / TypeScript and NestJS. I designed the microservice architecture for a gaming and live-streaming platform, handling high-concurrency betting and order traffic, cross-service event streams, and asynchronous settlement, together with MySQL performance tuning and Redis caching design. I have also led 11 engineers through the delivery of several products.\n\nOn the frontend I work with React / Next.js, allowing me to deliver independently from database and API through to the interface.\n\nOver the past six months I have brought AI into both product features and the development process, using Claude / Claude Code to support development and building a RAG and evaluation framework in Python + FastAPI, with retrieval quality metrics running in CI. In my most recent role, AI was applied to match suggestions, chat coaching, icebreakers, and bio generation, covering the full path from feature design and backend integration through to release.\n\nI am seeking a Senior Backend Engineer or Full-Stack Engineer position. Backend architecture and performance remain my core focus, and I can additionally take on AI integration where a team intends to bring it into the product."
+    "intro": "Hello, I am Sheng-Yun Yu (Brian Yu), a full-stack engineer with around 8 years of experience. Node.js / TypeScript and NestJS on the backend, React / Next.js on the frontend — able to take a product line from schema design and APIs through the interface to deployment on my own.\n\nAt a gaming and live-streaming platform I moved from backend engineer to engineering manager, owning the microservice architecture, high-concurrency traffic, and the team's development standards.\n\nOver the past six months AI-assisted development has shortened my iteration cycle: requirements start from verifiable completion criteria, implementation runs as agent iteration, and tests and code review pass through AI first. I also know what taking AI to production actually requires — guardrails, degradation paths, offline evaluation, and cost accounting. One engineer completed two product lines in six months, shipping six Claude features and a RAG support agent.\n\nI am seeking a full-stack engineer, senior backend, or engineering manager position."
   },
   "metrics": [
     {
-      "value": "8",
-      "unit": "yrs",
-      "label": "Software engineering experience"
+      "value": "1",
+      "unit": "",
+      "label": "AI-assisted: 2 product lines in 6 months"
     },
     {
       "value": "11",
@@ -31,9 +31,9 @@
       "label": "Monthly cloud spend reduction"
     },
     {
-      "value": "−70",
-      "unit": "%",
-      "label": "Release defect reduction"
+      "value": "−86",
+      "unit": "",
+      "label": "First-paint load time 10s → 1.4s"
     }
   ]
 }

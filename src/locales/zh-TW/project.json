@@ -2,6 +2,40 @@
   "title": "專案作品",
   "items": [
     {
+      "name": "AI 客服與語音交易 Concierge - 高風險金流場域 PoC",
+      "content": "我自己建的 PoC，沒有付費客戶。AI 只能產生待確認的交易意圖，實際扣款要使用者確認才會觸發，這道限制做在架構層。Python 的 RAG／STT 服務搭 Node.js Gateway；150 題評測集（地端 bge-m3、top_k=3）下 Recall@3 為 92.7%，知識庫沒有答案的 8 題全部正確轉真人；30 個誘導攻擊案例補上規則層後，自 27/30 提升至 30/30。",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Fastify",
+        "PostgreSQL",
+        "pgvector",
+        "RAG",
+        "Anthropic API",
+        "STT"
+      ],
+      "link": "",
+      "imgKey": ""
+    },
+    {
+      "name": "Bound - 興趣揪團社交 App",
+      "content": "Flutter 跨平台社交配對 App，主打 AI 配對、興趣社群揪團與聊天教練。我從產品策略、UI 設計做到全端實作；AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude 與 Rekognition。上線網站：bound-app.com。",
+      "tech": [
+        "Flutter",
+        "Dart",
+        "NestJs",
+        "TypeScript",
+        "Claude AI",
+        "Firebase",
+        "AWS",
+        "Redis",
+        "MySQL"
+      ],
+      "link": "https://bound-app.com/",
+      "imgKey": "boundapp"
+    },
+    {
       "name": "云桐科技 - 彩票遊戲與直播互動平台",
       "content": "云桐核心平台，分成遊戲與直播兩塊。遊戲以 Nx Monorepo 搭 NestJS 微服務，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可依流量各自水平擴展，承載開獎與熱門時段的高併發流量。上線網站：gamilive.com。",
       "tech": [
@@ -40,57 +74,6 @@
       "imgKey": "sugarbee"
     },
     {
-      "name": "Vertical AI Kit - 垂直產業 RAG 解決方案工廠",
-      "content": "我自己建的 PoC，沒有付費客戶。一套 RAG 核心，換掉 industry pack 就能給另一個產業用。檢索、評測與韌性框架都是我自己寫的，沒套 LangChain。製造業和零售兩個 pack 用地端模型跑離線評測，六項指標全部過門檻；兩層快取讓單題回應從 52 秒降到 1.1 秒，在該離線評測集上，多輪追問改寫使 MRR 自 72.9% 提升至 100%。",
-      "tech": [
-        "Python",
-        "FastAPI",
-        "PostgreSQL",
-        "pgvector",
-        "RAG",
-        "Anthropic API",
-        "Ollama",
-        "pytest",
-        "Docker"
-      ],
-      "link": "",
-      "imgKey": ""
-    },
-    {
-      "name": "Bound - 興趣揪團社交 App",
-      "content": "Flutter 跨平台社交配對 App，主打 AI 配對、興趣社群揪團與聊天教練。我從產品策略、UI 設計做到全端實作，並在一個半月內完成 iOS 與 Android 雙平台上架；AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude 與 Rekognition。上線網站：bound-app.com。",
-      "tech": [
-        "Flutter",
-        "Dart",
-        "NestJs",
-        "TypeScript",
-        "Claude AI",
-        "Firebase",
-        "AWS",
-        "Redis",
-        "MySQL"
-      ],
-      "link": "https://bound-app.com/",
-      "imgKey": "boundapp"
-    },
-    {
-      "name": "AI 客服與語音下注 Concierge - 高風險金流場域 PoC",
-      "content": "AI 只能產生待確認的下注意圖，實際扣款要玩家確認才會觸發，這道限制做在架構層。Python 的 RAG／STT 服務搭 Node.js Gateway，150 題評測集下 Recall@3 有 92.7%，該轉真人的 8 題全中；30 個誘導攻擊案例補上規則層後從 27/30 變成 30/30。",
-      "tech": [
-        "Python",
-        "FastAPI",
-        "TypeScript",
-        "Fastify",
-        "PostgreSQL",
-        "pgvector",
-        "RAG",
-        "Anthropic API",
-        "STT"
-      ],
-      "link": "",
-      "imgKey": ""
-    },
-    {
       "name": "Coffee Chat - 一杯咖啡的聊天聚會平台",
       "content": "用一杯咖啡的時間讓陌生人見面聊天的活動平台。產品、設計到前後端都是我一個人做，前端用 Next.js App Router 搭 Tailwind，資料和帳號系統交給 BaaS。上線網站：coffee-chat.tw。",
       "tech": [
@@ -107,18 +90,6 @@
   "archiveTitle": "其他專案",
   "archiveItems": [
     {
-      "name": "iflubby（外包，2022）- 寵物服務地圖平台後端",
-      "content": "負責後端架構規劃與開發，串接 Facebook／Google／Line／Apple SSO 與 Google API，也整理 API 文件給前端。",
-      "tech": [
-        "Node.js",
-        "NestJs",
-        "SSO",
-        "Docker",
-        "CD"
-      ],
-      "link": ""
-    },
-    {
       "name": "Numbers Link - 公平隨機數平台",
       "content": "用區塊鏈不可篡改的特性，把多家數據廠商的數字算成公平隨機數。我是主要後端開發，也寫了 EOS 智能合約。",
       "tech": [
@@ -128,32 +99,6 @@
         "EOSIO",
         "React",
         "MicroService"
-      ],
-      "link": ""
-    },
-    {
-      "name": "雙城投顧 - 借貸管理系統",
-      "content": "簡化申貸流程，但背後的審核流程很繁瑣，要出不少文件與報表。我參與規劃分析與後端開發，也是第一次用 TypeScript 搭 NestJS。",
-      "tech": [
-        "Node.js",
-        "NestJs",
-        "MySQL",
-        "Docker"
-      ],
-      "link": "https://www.thecoinscompany.com/"
-    },
-    {
-      "name": "Banana Life - 影音串流平台",
-      "content": "整套架在 AWS 上，影片的高斯模糊與轉檔用 Lambda 搭 FFmpeg 寫腳本處理。我負責後端與管理後台，也和前端與外包 App 團隊協作。",
-      "tech": [
-        "Node.js",
-        "Apollo",
-        "GraphQl",
-        "OAuth",
-        "AWS",
-        "React",
-        "MongoDB",
-        "FFMpeg"
       ],
       "link": ""
     }

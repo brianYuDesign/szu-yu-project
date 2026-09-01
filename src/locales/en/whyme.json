@@ -2,28 +2,28 @@
   "title": "Why Me",
   "items": [
     {
-      "title": "Learning & Stack Transitions",
-      "description": "Across 8 years the primary stack has shifted several times: starting in C# and Salesforce, moving into Node.js / TypeScript and NestJS, and more recently extending to Python and Flutter. New technology is always validated by something shippable — Bound was built in Flutter and released on both iOS and Android, and the RAG framework uses no off-the-shelf package, with retrieval and evaluation implemented directly."
+      "title": "End-to-End Delivery",
+      "description": "A full product line delivered alone: schema design, APIs, frontend, deployment, and CI/CD all owned directly, with no handoff between roles. Node.js / NestJS on the backend, React / Next.js on the frontend, TypeScript shared across both; frontend performance and cloud cost sit in the same scope."
     },
     {
-      "title": "Team Leadership & Development Standards",
-      "description": "Leading an 11-person cross-functional team meant turning delivery quality from individual capability into process: architecture decisions settled before work began, implementation quality held by code review, release risk controlled by a checklist and process rules, troubleshooting steps documented. Explicit rules and acceptance criteria are also what later made adopting AI possible."
-    },
-    {
-      "title": "Product Thinking",
-      "description": "Most of these products were scoped by me: Bound ran from product strategy and UI design through full-stack implementation, and Coffee Chat was product, design, and both ends built alone. Feature trade-offs answer to business outcomes — subscription billing gained auto-renewal and failed-payment retries, and AI features were designed around whether they could join a paid plan rather than built first and justified later."
+      "title": "AI Applications & AI-Assisted Development",
+      "description": "AI is both tooling and product. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges its own compliance, shortening the iteration cycle. On the product side, six Claude features shipped, two of them behind subscription tiers with guardrails, degradation paths, content moderation, and cost accounting handled alongside, and the architecture prevents AI from blocking payments or matching."
     },
     {
       "title": "Performance & Cost Awareness",
       "description": "Performance and cloud cost belong in the design, not in a fix after launch. Indexes are designed around actual query shapes and verified against slow-query logs; caching runs in two tiers, in-process memory and Redis. Reworking the resource architecture and caching cut monthly cloud spend by 60% and brought first paint from 10s to 1.4s."
     },
     {
-      "title": "AI Applications & AI-Assisted Development",
-      "description": "AI is both product and tooling. On the product side, four Claude subscription features shipped alongside a self-built RAG and evaluation framework with quality metrics running in CI. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges whether it has met them, while the architecture prevents AI from blocking payments, matching, or other critical paths."
+      "title": "Product Thinking",
+      "description": "Most of these products were scoped by me: Bound ran from product strategy and UI design through full-stack implementation, and Coffee Chat was product, design, and both ends built alone. Feature trade-offs answer to business outcomes — subscription billing gained auto-renewal and failed-payment retries, and AI features were designed around whether they could join a paid plan rather than built first and justified later."
     },
     {
-      "title": "End-to-End Delivery",
-      "description": "A full product line delivered alone: schema design, APIs, frontend, and deployment all owned directly, with no handoff between roles. Node.js / NestJS on the backend, React / Next.js on the frontend, TypeScript shared across both; frontend performance sits in the same scope."
+      "title": "Team Leadership & Development Standards",
+      "description": "Leading an 11-person cross-functional team meant turning delivery quality from individual capability into process: architecture decisions settled before work began, implementation quality held by code review, release risk controlled by a checklist and process rules, troubleshooting steps documented. Explicit rules and acceptance criteria are also what later made adopting AI possible."
+    },
+    {
+      "title": "Learning & Stack Transitions",
+      "description": "Across 8 years the primary stack has shifted several times: starting in C# and Salesforce, moving into Node.js / TypeScript and NestJS, and more recently extending to Python and Flutter. New technology is always validated by something shippable — Bound was built in Flutter and released on both iOS and Android, and the RAG framework uses no off-the-shelf package, with retrieval and evaluation implemented directly."
     }
   ]
 }
