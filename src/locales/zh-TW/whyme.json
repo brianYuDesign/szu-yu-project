@@ -2,28 +2,28 @@
   "title": "個人優勢",
   "items": [
     {
-      "title": "後端架構與高併發",
-      "description": "遊戲／直播平台的微服務架構設計：每款玩法拆為 API、Socket、業務服務與非同步 consumer，依流量各自水平擴展，承載開獎與熱門時段每秒千筆的下注／訂單流量。跨服務事件流走 Kafka，快取與非同步結算用 Redis 與 Bull Queue，即時對局以 Socket.IO 推送。"
+      "title": "學習力與技術轉換",
+      "description": "8 年間主力技術棧數次轉換：自 C# 與 Salesforce 起步，轉入 Node.js / TypeScript 與 NestJS，近年再擴及 Python 與 Flutter。新技術一律以能上線的產物驗收——Bound 以 Flutter 開發並完成 iOS 與 Android 雙平台上架，RAG 框架未採用現成套件，檢索與評測皆自行實作。"
     },
     {
-      "title": "效能優化與重構",
-      "description": "先量測再動手，不憑經驗猜測。把執行期解析 JSON 的查詢改為虛擬產生欄位搭配複合索引，回應自 5 秒降至毫秒級；另從連線數告警追到 Lambda 容器凍結造成的 pinned 連線，調整回收機制後峰值下降 24%。"
+      "title": "團隊帶領與開發標準",
+      "description": "帶領 11 人跨職能團隊期間，重心是把交付品質從個人能力轉為制度：架構決策在動工前收斂，實作品質由 code review 統一，上版風險由 release checklist 與流程規範控制，排查步驟文件化。明確的規則與驗收條件，也是後續導入 AI 的前提。"
     },
     {
-      "title": "Node.js / React.js",
-      "description": "後端 Node.js / NestJS，前端 React / Next.js（含 App Router），前後端共用 TypeScript，能自資料庫、API 到介面獨立完成。前端效能同樣納入負責範圍，首屏載入、資源切分與快取策略都會處理；行動端具 Flutter 開發經驗。"
+      "title": "產品思維",
+      "description": "參與的產品多數由自己定義範圍：Bound 自產品策略、UI 設計到全端實作，Coffee Chat 由一人完成產品、設計與前後端。功能取捨以商業結果為準——訂閱金流補上自動續訂與扣款失敗重試，AI 功能亦以能否併入付費方案來設計，而非先做再找用途。"
     },
     {
-      "title": "自建 RAG 與評測框架",
-      "description": "以 Python（FastAPI）自建 RAG 框架，未採用 LangChain：混合檢索加 RRF 融合、LLM 重排序、兩層快取、斷路器與供應商備援。評測建立黃金資料集與 LLM-as-a-Judge，Recall、MRR 與 Groundedness 納入 CI 執行。"
+      "title": "效能與成本意識",
+      "description": "效能與雲端成本在設計階段就納入，而非上線後再處理。索引依實際查詢型態設計並以慢查詢日誌驗證，快取分行程內記憶體與 Redis 兩層；資源架構與快取策略調整後，雲端月支出下降 60%，首屏載入自 10 秒縮短至 1.4 秒。"
     },
     {
-      "title": "AI 功能商業化",
-      "description": "把 LLM 當成要收費的產品功能，而非展示品：四項 Claude 功能整合進訂閱付費，設計時一併處理成本護欄、失敗降級與內容審核，並制定團隊 AI 開發規範（prompt 版本化、AI 不阻塞付款與配對等關鍵路徑）。"
+      "title": "AI 應用與協作開發",
+      "description": "AI 同時是產品與工具。產品端交付四項 Claude 訂閱付費功能，並自建 RAG 與評測框架，品質指標隨 CI 執行；開發端把規範寫成代理可讀的規則檔並搭配自動驗證迴圈，讓代理能自行判定是否達標，並於架構層限制 AI 不得阻塞付款與配對等關鍵路徑。"
     },
     {
-      "title": "團隊帶領與開發標準建立",
-      "description": "帶領 11 位工程師期間，重心從自己寫程式轉為建立可重複的開發標準：design review 讓架構決策在動工前收斂，code review 統一實作品質，release checklist 把上版風險從個人經驗轉成流程保證，排查步驟文件化讓問題定位不依賴特定成員。"
+      "title": "全端獨立交付",
+      "description": "能獨立完成一條產品線：資料表設計、API、前端介面到部署皆自行負責，不需在職能之間交接。後端 Node.js / NestJS，前端 React / Next.js，前後端共用 TypeScript；前端效能同樣納入負責範圍。"
     }
   ]
 }
