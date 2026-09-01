@@ -8,8 +8,8 @@ import coverEN from './locales/en/cover.json';
 import infoEN from './locales/en/info.json';
 import educationEN from './locales/en/education.json';
 import skillEN from './locales/en/skill.json';
-import whymeEN from './locales/en/whyme.json';
 import workEN from './locales/en/work.json';
+import whymeEN from './locales/en/whyme.json';
 import projectEN from './locales/en/project.json';
 
 import commonZH from './locales/zh-TW/common.json';
@@ -17,8 +17,8 @@ import coverZH from './locales/zh-TW/cover.json';
 import infoZH from './locales/zh-TW/info.json';
 import educationZH from './locales/zh-TW/education.json';
 import skillZH from './locales/zh-TW/skill.json';
-import whymeZH from './locales/zh-TW/whyme.json';
 import workZH from './locales/zh-TW/work.json';
+import whymeZH from './locales/zh-TW/whyme.json';
 import projectZH from './locales/zh-TW/project.json';
 
 // Translation resources
@@ -29,8 +29,8 @@ const resources = {
     info: infoEN,
     education: educationEN,
     skill: skillEN,
-    whyme: whymeEN,
     work: workEN,
+    whyme: whymeEN,
     project: projectEN
   },
   'zh-TW': {
@@ -39,8 +39,8 @@ const resources = {
     info: infoZH,
     education: educationZH,
     skill: skillZH,
-    whyme: whymeZH,
     work: workZH,
+    whyme: whymeZH,
     project: projectZH
   }
 };
