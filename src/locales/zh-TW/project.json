@@ -36,8 +36,8 @@
       "imgKey": "boundapp"
     },
     {
-      "name": "云桐科技 - 彩票遊戲與直播互動平台",
-      "content": "云桐核心平台，分成遊戲與直播兩塊。遊戲以 Nx Monorepo 搭 NestJS 微服務，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可依流量各自水平擴展，承載開獎與熱門時段的高併發流量。上線網站：gamilive.com。",
+      "name": "云桐科技 - 遊戲與直播互動平台",
+      "content": "云桐核心平台，分成遊戲與直播兩塊。遊戲以 Nx Monorepo 搭 NestJS 微服務，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可依流量各自水平擴展，承載尖峰時段的高併發流量。上線網站：gamilive.com。",
       "tech": [
         "Node.js",
         "NestJs",

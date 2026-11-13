@@ -8,7 +8,9 @@
       "jobDesc": [
         "Brought AI into the development process and shipped 6 Claude features, two of them in paid tiers.",
         "Added subscription auto-renewal and failed-payment retries; monthly revenue went from NT$210K to NT$380K.",
-        "Rewrote queries and added indexes for a 180ms API average; monthly cloud spend went from US$1,200 to US$400."
+        "Rewrote queries and added indexes for a 180ms API average; monthly cloud spend went from US$1,200 to US$400.",
+        "Moved LLM calls off the API hot path through SQS so AI can never block payments or matching.",
+        "Built a Python RAG support agent that hands off to a human when confidence is low; set up GitHub Actions CI/CD and shipped to iOS and Android in about six weeks."
       ],
       "period": "2026.03 ~ 2026.08"
     },
@@ -29,10 +31,13 @@
     {
       "companyName": "4idps",
       "jobTitle": "FullStack Engineer",
-      "context": "Software consultancy",
+      "context": "Software consultancy; responsible for 7 client systems",
       "jobDesc": [
         "Delivered seven client systems from zero — lending, video streaming, equipment dispatch, e-commerce — owning schema and API design.",
-        "Built the video platform on AWS (Lambda with FFmpeg transcoding) and replaced manual releases with automated deployment."
+        "Built the video platform on AWS (Lambda with FFmpeg transcoding) and replaced manual releases with automated deployment.",
+        "Built unit and functional tests to guard the regression surface.",
+        "Chose the stack per client environment (C#, Node.js, React, Salesforce).",
+        "Served as first point of contact for new hires, maintaining environment setup and project docs."
       ],
       "period": "2018.04 ~ 2020.08"
     }

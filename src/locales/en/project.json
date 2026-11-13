@@ -36,8 +36,8 @@
       "imgKey": "boundapp"
     },
     {
-      "name": "Yuntong Technology - Lottery Gaming & Live Interactive Platform",
-      "content": "Yuntong's core platform, split into gaming and live streaming. The gaming side runs on an Nx monorepo with NestJS microservices, each game format broken into its own API, Socket, business service, and async consumer so they scale horizontally on their own under peak draw traffic. Live at gamilive.com.",
+      "name": "Yuntong Technology - Gaming & Live Interactive Platform",
+      "content": "Yuntong's core platform, split into gaming and live streaming. The gaming side runs on an Nx monorepo with NestJS microservices, each game format broken into its own API, Socket, business service, and async consumer so they scale horizontally on their own under peak-hour traffic. Live at gamilive.com.",
       "tech": [
         "Node.js",
         "NestJs",
