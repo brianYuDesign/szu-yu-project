@@ -4,42 +4,35 @@
     {
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
-      "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and deployment, bringing AI into both the development process and the product.",
+      "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and deployment",
       "jobDesc": [
-        "Brought AI into every SDLC stage: requirements set as verifiable completion criteria, implementation run as agent iteration, tests and code review filtered by AI first, and development standards written as agent-readable rule files with automated verification loops; also built a requirement-alignment audit engine that reads 5 repos and reports gaps between spec, implementation, and verification.",
-        "Shipped 6 Claude features, with AI Coach and icebreakers behind the Pro/Elite tiers and metered by a Redis daily quota; models split by cost and quality — Haiku on the general path, Sonnet on the paid path.",
-        "Built a Python RAG support agent that escalates to a human when confidence is low.",
-        "Ran the backend on AWS Lambda, moving LLM calls off the API hot path through SQS with results pushed back via Firebase, and gave each feature its own degradation path and cache tier.",
-        "Built AI safety and moderation: input sanitisation against 10 prompt-injection patterns, per-call token and latency accounting, and content moderation branching by risk (removed / pending review / visible) with tiered Rekognition thresholds; architecturally, AI never blocks payments or matching.",
-        "Rewrote queries with matching indexes, eliminating the 5-second slow queries; APIs average 180ms.",
-        "Reworked resource architecture and caching: monthly cloud spend US$1,200 → US$400, first paint 10s → 1.4s.",
-        "Took over subscription billing with auto-renewal and failed-payment retries, lifting monthly revenue from NT$210K to NT$380K; built the GitHub Actions CI/CD pipeline for serverless deployment and shipped the app to iOS and Google Play within about six weeks."
+        "Brought AI into the development process and shipped 6 Claude features, two of them in paid tiers.",
+        "Added subscription auto-renewal and failed-payment retries; monthly revenue went from NT$210K to NT$380K.",
+        "Rewrote queries and added indexes for a 180ms API average; monthly cloud spend went from US$1,200 to US$400."
       ],
       "period": "2026.03 ~ 2026.08"
     },
     {
       "companyName": "Yuntong Technology",
       "jobTitle": "Engineering Manager",
-      "context": "Game and live-streaming platform; joined in 2020 as a backend engineer, leading an 11-person cross-functional team from 2023",
+      "context": "Game and live-streaming platform; joined in 2020 as a backend engineer, engineering manager from January 2023",
       "jobDesc": [
-        "Led an 11-person cross-functional engineering team across delivery, stability, and quality.",
-        "Owned 12 game and platform products from system design and development through launch.",
-        "Established the team's development standards: design review and code review unified across product lines, a release checklist and release process, and documented monitoring and troubleshooting steps so on-call engineers isolate problems by defined steps.",
-        "Designed the microservice architecture carrying peak-hour traffic of a thousand bets and orders per second.",
-        "Used Kafka, Redis, and Bull Queue for cross-service event streams, caching, and async settlement.",
-        "Lead backend on the blockchain fair-random-number platform, writing EOS smart contracts for on-chain proof.",
-        "Refactored an unmaintained legacy system into layered modules so new game types extend directly."
+        "Led an 11-person cross-functional team (4 backend, 5 frontend, 2 QA) and owned 12 products from design to launch.",
+        "Designed the microservice architecture carrying a peak of a thousand transactions and orders per second, event-driven with Kafka and cached in Redis.",
+        "Set up the release checklist and release process, cutting release errors by 70%.",
+        "Built monitoring and logging with troubleshooting SOPs, improving problem isolation efficiency by 50%.",
+        "Made design review and code review the shared development standard across product lines.",
+        "As a backend engineer: refactored an unmaintained legacy system into layered modules and was lead backend on a blockchain fair-random-number platform."
       ],
       "period": "2020.09 ~ 2026.01"
     },
     {
       "companyName": "4idps",
       "jobTitle": "FullStack Engineer",
-      "context": "Software consultancy; delivered 7 client engagements spanning requirements analysis through production operations",
+      "context": "Software consultancy",
       "jobDesc": [
-        "Delivered seven client systems from zero to one — lending, video streaming, equipment dispatch, e-commerce — owning specs, schema, and API design.",
-        "Deployed the video streaming platform on AWS EC2 / ECS with Lambda and FFmpeg for async transcoding, replacing manual releases with automated deployment.",
-        "Built unit and functional tests to hold the regression surface, choosing the stack per client environment (C#, Node.js, React, Salesforce)."
+        "Delivered seven client systems from zero — lending, video streaming, equipment dispatch, e-commerce — owning schema and API design.",
+        "Built the video platform on AWS (Lambda with FFmpeg transcoding) and replaced manual releases with automated deployment."
       ],
       "period": "2018.04 ~ 2020.08"
     }
