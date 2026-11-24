@@ -3,7 +3,7 @@
   "items": [
     {
       "name": "Abestar Live - Real-time AI Interpretation Platform",
-      "content": "Live interpretation for talks and meetings: as the speaker talks, listeners see subtitles in six languages on their phones. I own architecture, deployment, and AI quality: speech recognition feeding LLM translation and correction, fixed-corpus evaluation and cost measurement, and blue-green zero-downtime releases. Live site: live.abestar.com.tw.",
+      "content": "Real-time AI interpretation for events and meetings: speech is transcribed and translated into six languages live, and listeners follow along on their phones by scanning a QR code, with no app to install. I own architecture, deployment, and AI quality, covering speech recognition feeding LLM translation and correction, fixed-corpus evaluation and cost measurement, and blue-green zero-downtime releases. Live site: live.abestar.com.tw.",
       "tech": [
         "TypeScript",
         "Fastify",
@@ -17,7 +17,7 @@
         "Docker"
       ],
       "link": "https://live.abestar.com.tw",
-      "imgKey": ""
+      "imgKey": "abestarlive"
     },
     {
       "name": "Yuntong Technology - Gaming & Live Interactive Platform",

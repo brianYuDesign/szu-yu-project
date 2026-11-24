@@ -4,8 +4,9 @@ import coffeechat from "../img/coffeechat.jpg";
 import boundapp from "../img/boundapp.jpg";
 import sugarbee from "../img/sugarbee.jpg";
 import gamilive from "../img/gamilive.jpg";
+import abestarlive from "../img/abestarlive.jpg";
 
-const projectImages = { coffeechat, boundapp, sugarbee, gamilive };
+const projectImages = { coffeechat, boundapp, sugarbee, gamilive, abestarlive };
 
 const ARCHIVE_PREVIEW = 4;
 

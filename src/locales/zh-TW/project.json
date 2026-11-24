@@ -3,7 +3,7 @@
   "items": [
     {
       "name": "Abestar Live - 即時 AI 口譯平台",
-      "content": "講座與會議用的即時口譯：講者說話，聽眾在手機上即時看到六種語言的字幕。我負責架構、部署與 AI 品質：語音辨識接 LLM 翻譯與校正、固定語料評測與成本量測、藍綠部署不停機換版。上線網站：live.abestar.com.tw。",
+      "content": "活動與會議用的即時 AI 口譯平台：講者發言即時轉為字幕並翻譯為六種語言，聽眾掃描 QR Code 即可於手機觀看，無需安裝 App。我負責架構、部署與 AI 品質，涵蓋語音辨識串接 LLM 翻譯與校正、固定語料評測與成本量測，以及藍綠部署不停機換版。上線網站：live.abestar.com.tw。",
       "tech": [
         "TypeScript",
         "Fastify",
@@ -17,7 +17,7 @@
         "Docker"
       ],
       "link": "https://live.abestar.com.tw",
-      "imgKey": ""
+      "imgKey": "abestarlive"
     },
     {
       "name": "云桐科技 - 遊戲與直播互動平台",
