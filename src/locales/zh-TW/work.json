@@ -2,6 +2,19 @@
   "title": "經歷",
   "items": [
     {
+      "companyName": "太能系統",
+      "jobTitle": "技術主管 / Tech Lead",
+      "context": "AI 應用部；負責即時 AI 口譯平台 Abestar Live 與既有翻譯產品的架構、部署與 AI 品質，並設計團隊的 AI 代理協作流程",
+      "jobDesc": [
+        "主導 Abestar Live 從 POC 到正式上線：即時語音辨識接 LLM 翻譯與校正，支援六種語言；staging 壓測 10 場、每場 50 人同時可用",
+        "提示詞集中版控，改動先跑固定語料的翻譯評測與成本量測；校正改用顯式快取後，實測每場每小時成本降 58–76%",
+        "設計團隊的 AI 代理協作流程：同事在 Asana 開卡或留言，就自動派給 Claude Code 代理處理；MR 由 AI 依同一套程式標準審查並分級，低風險自動合併，敏感變更留給人審",
+        "統一 6 個專案的 CI/CD 範本：develop 自動部署 staging，正式版以版本 tag 手動觸發，搭配藍綠部署不停機換版",
+        "建置 Grafana 集中監控（指標、日誌、探測與 23 條告警），並對四個 repo 做 OWASP 安全掃描"
+      ],
+      "period": "2026.09 ~ 至今"
+    },
+    {
       "companyName": "感覺銀航（feeling-bank）",
       "jobTitle": "AI 工程師",
       "context": "交友社群新創，一人負責 Flutter App、NestJS 後端與部署",

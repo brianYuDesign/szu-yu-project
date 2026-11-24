@@ -2,20 +2,21 @@
   "title": "專案作品",
   "items": [
     {
-      "name": "AI 客服與語音交易 Concierge - 高風險金流場域 PoC",
-      "content": "我自己建的 PoC，沒有付費客戶。AI 只能產生待確認的交易意圖，實際扣款要使用者確認才會觸發，這道限制做在架構層。Python 的 RAG／STT 服務搭 Node.js Gateway；150 題評測集（地端 bge-m3、top_k=3）下 Recall@3 為 92.7%，知識庫沒有答案的 8 題全部正確轉真人；30 個誘導攻擊案例補上規則層後，自 27/30 提升至 30/30。",
+      "name": "Abestar Live - 即時 AI 口譯平台",
+      "content": "講座與會議用的即時口譯：講者說話，聽眾在手機上即時看到六種語言的字幕。我負責架構、部署與 AI 品質：語音辨識接 LLM 翻譯與校正、固定語料評測與成本量測、藍綠部署不停機換版。上線網站：live.abestar.com.tw。",
       "tech": [
-        "Python",
-        "FastAPI",
         "TypeScript",
         "Fastify",
-        "PostgreSQL",
-        "pgvector",
-        "RAG",
-        "Anthropic API",
-        "STT"
+        "Socket.IO",
+        "Redis",
+        "Prisma",
+        "MySQL",
+        "Next.js",
+        "React",
+        "Gemini (Vertex AI)",
+        "Docker"
       ],
-      "link": "",
+      "link": "https://live.abestar.com.tw",
       "imgKey": ""
     },
     {
@@ -85,10 +86,24 @@
       ],
       "link": "https://coffee-chat.tw/",
       "imgKey": "coffeechat"
-    }
-  ],
-  "archiveTitle": "其他專案",
-  "archiveItems": [
+    },
+    {
+      "name": "AI 客服與語音交易 Concierge - 高風險金流場域 PoC",
+      "content": "我自己建的 PoC，沒有付費客戶。AI 只能產生待確認的交易意圖，實際扣款要使用者確認才會觸發，這道限制做在架構層。Python 的 RAG／STT 服務搭 Node.js Gateway；150 題評測集（地端 bge-m3、top_k=3）下 Recall@3 為 92.7%，知識庫沒有答案的 8 題全部正確轉真人；30 個誘導攻擊案例補上規則層後，自 27/30 提升至 30/30。",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Fastify",
+        "PostgreSQL",
+        "pgvector",
+        "RAG",
+        "Anthropic API",
+        "STT"
+      ],
+      "link": "",
+      "imgKey": ""
+    },
     {
       "name": "Numbers Link - 公平隨機數平台",
       "content": "用區塊鏈不可篡改的特性，把多家數據廠商的數字算成公平隨機數。我是主要後端開發，也寫了 EOS 智能合約。",
@@ -102,5 +117,7 @@
       ],
       "link": ""
     }
-  ]
+  ],
+  "archiveTitle": "其他專案",
+  "archiveItems": []
 }

@@ -2,20 +2,21 @@
   "title": "Project Experience",
   "items": [
     {
-      "name": "AI Concierge with Voice Transactions - High-Risk Payments PoC",
-      "content": "A PoC I built myself, with no paying customers. The AI can only draft a transaction intent that waits for confirmation, and the charge fires only once the user confirms it. That limit sits in the architecture layer. A Python RAG/STT service behind a Node.js gateway scored Recall@3 of 92.7% on a 150-question evaluation set (local bge-m3, top_k=3), and routed all 8 questions the knowledge base cannot answer to a human. Adding a rule layer took 30 adversarial prompts from 27/30 to 30/30.",
+      "name": "Abestar Live - Real-time AI Interpretation Platform",
+      "content": "Live interpretation for talks and meetings: as the speaker talks, listeners see subtitles in six languages on their phones. I own architecture, deployment, and AI quality: speech recognition feeding LLM translation and correction, fixed-corpus evaluation and cost measurement, and blue-green zero-downtime releases. Live site: live.abestar.com.tw.",
       "tech": [
-        "Python",
-        "FastAPI",
         "TypeScript",
         "Fastify",
-        "PostgreSQL",
-        "pgvector",
-        "RAG",
-        "Anthropic API",
-        "STT"
+        "Socket.IO",
+        "Redis",
+        "Prisma",
+        "MySQL",
+        "Next.js",
+        "React",
+        "Gemini (Vertex AI)",
+        "Docker"
       ],
-      "link": "",
+      "link": "https://live.abestar.com.tw",
       "imgKey": ""
     },
     {
@@ -85,10 +86,24 @@
       ],
       "link": "https://coffee-chat.tw/",
       "imgKey": "coffeechat"
-    }
-  ],
-  "archiveTitle": "Other Projects",
-  "archiveItems": [
+    },
+    {
+      "name": "AI Concierge with Voice Transactions - High-Risk Payments PoC",
+      "content": "A PoC I built myself, with no paying customers. The AI can only draft a transaction intent that waits for confirmation, and the charge fires only once the user confirms it. That limit sits in the architecture layer. A Python RAG/STT service behind a Node.js gateway scored Recall@3 of 92.7% on a 150-question evaluation set (local bge-m3, top_k=3), and routed all 8 questions the knowledge base cannot answer to a human. Adding a rule layer took 30 adversarial prompts from 27/30 to 30/30.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Fastify",
+        "PostgreSQL",
+        "pgvector",
+        "RAG",
+        "Anthropic API",
+        "STT"
+      ],
+      "link": "",
+      "imgKey": ""
+    },
     {
       "name": "Numbers Link - Fair Random Number Platform",
       "content": "Used blockchain immutability to compute numbers from several data vendors into one fair random number. I was the main backend developer and also wrote part of the EOS smart contracts.",
@@ -102,5 +117,7 @@
       ],
       "link": ""
     }
-  ]
+  ],
+  "archiveTitle": "Other Projects",
+  "archiveItems": []
 }

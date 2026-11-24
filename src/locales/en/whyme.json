@@ -3,27 +3,15 @@
   "items": [
     {
       "title": "End-to-End Delivery",
-      "description": "A full product line delivered alone: schema design, APIs, frontend, deployment, and CI/CD all owned directly, with no handoff between roles. Node.js / NestJS on the backend, React / Next.js on the frontend, TypeScript shared across both; frontend performance and cloud cost sit in the same scope."
+      "description": "A full product line delivered alone: schema design, APIs, frontend, deployment, and CI/CD all owned directly, with no handoff between roles. Bound ran from product strategy and UI design through full-stack implementation; Coffee Chat was product, design, and both ends built alone. Performance and cloud cost sit in the same scope — indexes designed around actual query shapes, caching split across in-process memory and Redis."
     },
     {
       "title": "AI Applications & AI-Assisted Development",
-      "description": "AI is both tooling and product. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges its own compliance, shortening the iteration cycle. On the product side, six Claude features shipped, two of them behind subscription tiers with guardrails, degradation paths, content moderation, and cost accounting handled alongside, and the architecture prevents AI from blocking payments or matching."
-    },
-    {
-      "title": "Performance & Cost Awareness",
-      "description": "Performance and cloud cost belong in the design, not in a fix after launch. Indexes are designed around actual query shapes and verified against slow-query logs; caching runs in two tiers, in-process memory and Redis. Reworking the resource architecture and caching cut monthly cloud spend by 60% and brought first paint from 10s to 1.4s."
-    },
-    {
-      "title": "Product Thinking",
-      "description": "Most of these products were scoped by me: Bound ran from product strategy and UI design through full-stack implementation, and Coffee Chat was product, design, and both ends built alone. Feature trade-offs answer to business outcomes — subscription billing gained auto-renewal and failed-payment retries, and AI features were designed around whether they could join a paid plan rather than built first and justified later."
+      "description": "AI is both tooling and product. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges its own compliance, shortening the iteration cycle. On the product side, six Claude features shipped with two behind subscription tiers, handling guardrails, degradation, content moderation, and cost accounting, while the architecture prevents AI from blocking payments or matching. At Pacificsmart I extended this into a team workflow: an Asana card dispatches work to an agent automatically, and MRs are AI-reviewed and merged by risk tier."
     },
     {
       "title": "Team Leadership & Development Standards",
-      "description": "Leading an 11-person cross-functional team meant turning delivery quality from individual capability into process: architecture decisions settled before work began, implementation quality held by code review, release risk controlled by a checklist and process rules, troubleshooting steps documented. Explicit rules and acceptance criteria are also what later made adopting AI possible."
-    },
-    {
-      "title": "Learning & Stack Transitions",
-      "description": "Across 8 years the primary stack has shifted several times: starting in C# and Salesforce, moving into Node.js / TypeScript and NestJS, and more recently extending to Python and Flutter. New technology is always validated by something shippable — Bound was built in Flutter and released on both iOS and Android, and the RAG framework uses no off-the-shelf package, with retrieval and evaluation implemented directly."
+      "description": "Leading an 11-person cross-functional team meant turning delivery quality from individual capability into process: architecture decisions settled before work begins, implementation quality held by code review, release risk controlled by a checklist, troubleshooting steps documented. Explicit rules and acceptance criteria are also what later made adopting AI possible."
     }
   ]
 }

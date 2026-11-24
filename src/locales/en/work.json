@@ -2,6 +2,19 @@
   "title": "Experience",
   "items": [
     {
+      "companyName": "Pacificsmart",
+      "jobTitle": "Tech Lead",
+      "context": "AI Applications department; owns architecture, deployment, and AI quality for the real-time AI interpretation platform Abestar Live and existing translation products, and designed the team's AI-agent workflow",
+      "jobDesc": [
+        "Led Abestar Live from POC to production: real-time speech recognition feeding LLM translation and correction across six languages; staging load test held 10 concurrent sessions of 50 listeners each.",
+        "Prompts are versioned in one place and every change runs a fixed-corpus translation eval and cost measurement first; switching correction to explicit caching cut measured cost per session-hour by 58–76%.",
+        "Designed the team's AI-agent workflow: a card or comment in Asana is dispatched to a Claude Code agent automatically, and MRs are reviewed by AI against one shared code standard, then tiered so low-risk changes auto-merge and sensitive ones wait for a human.",
+        "Unified CI/CD templates across 6 projects: develop auto-deploys to staging, production releases are triggered manually from version tags, with blue-green deploys for zero-downtime switches.",
+        "Built centralized Grafana monitoring (metrics, logs, probes, 23 alert rules) and ran OWASP security scans across four repos."
+      ],
+      "period": "2026.09 ~ Present"
+    },
+    {
       "companyName": "Feeling Bank (feeling-bank)",
       "jobTitle": "AI Engineer",
       "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and deployment",

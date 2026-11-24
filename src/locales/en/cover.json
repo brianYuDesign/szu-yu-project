@@ -2,7 +2,7 @@
   "title": "Sheng-Yun Brian Yu CV",
   "subtitle": "Tech Lead · 8 years in backend and platform engineering; led an 11-person cross-functional team; iterating faster with AI-assisted development",
   "description": {
-    "intro": "Hello, I am Sheng-Yun Yu (Brian Yu), a tech lead with around 8 years of experience. Node.js / TypeScript and NestJS on the backend, React / Next.js on the frontend — able to take a product line from schema design and APIs through the interface to deployment on my own.\n\nAt a gaming and live-streaming platform I moved from backend engineer to engineering manager, owning the microservice architecture, high-concurrency traffic, and the team's development standards.\n\nOver the past six months AI-assisted development has shortened my iteration cycle: requirements start from verifiable completion criteria, implementation runs as agent iteration, and tests and code review pass through AI first. I also know what taking AI to production actually requires — guardrails, degradation paths, offline evaluation, and cost accounting. One engineer completed two product lines in six months, shipping six Claude features and a RAG support agent.\n\nI am seeking a tech lead or engineering manager role."
+    "intro": "Hello, I am Sheng-Yun Yu (Brian Yu), a tech lead with around 8 years of experience. Node.js / TypeScript and NestJS on the backend, React / Next.js on the frontend — able to take a product line from schema design and APIs through the interface to deployment on my own.\n\nI am currently tech lead at Pacificsmart, owning the real-time AI interpretation platform Abestar Live and wiring AI agents into the team's task dispatch, code review, and deployment.\n\nAt a gaming and live-streaming platform I moved from backend engineer to engineering manager, owning the microservice architecture, high-concurrency traffic, and the team's development standards.\n\nOver the past six months AI-assisted development has shortened my iteration cycle: requirements start from verifiable completion criteria, implementation runs as agent iteration, and tests and code review pass through AI first. I also know what taking AI to production actually requires — guardrails, degradation paths, offline evaluation, and cost accounting. One engineer completed two product lines in six months, shipping six Claude features and a RAG support agent.\n\nI am seeking a tech lead or engineering manager role."
   },
   "metrics": [
     {
@@ -16,24 +16,14 @@
       "label": "Engineers led"
     },
     {
-      "value": "12",
-      "unit": "",
-      "label": "Product lines delivered"
-    },
-    {
       "value": "+81",
       "unit": "%",
       "label": "Monthly revenue growth"
     },
     {
-      "value": "−60",
-      "unit": "%",
-      "label": "Monthly cloud spend reduction"
-    },
-    {
       "value": "−86",
-      "unit": "",
-      "label": "First-paint load time 10s → 1.4s"
+      "unit": "%",
+      "label": "First paint 10s → 1.4s"
     }
   ]
 }

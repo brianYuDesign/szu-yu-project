@@ -9,7 +9,6 @@ const SECTIONS = [
   "strengths",
   "experience",
   "works",
-  "archive",
   "skills",
   "education",
 ];

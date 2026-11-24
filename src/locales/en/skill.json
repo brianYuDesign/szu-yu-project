@@ -3,27 +3,27 @@
   "items": [
     {
       "title": "Backend development",
-      "content": "Node.js, TypeScript, NestJS, RESTful API, GraphQL, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI; earlier: C#, Salesforce (Apex, VisualForce)"
+      "content": "Node.js, TypeScript, NestJS, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI; earlier: C#, Salesforce (Apex, VisualForce)"
     },
     {
       "title": "Frontend / Cross-platform",
-      "content": "React, Next.js (App Router), TypeScript, SSR / CSR, Web Performance Optimization, Tailwind CSS, HTML/CSS, Flutter, Dart, Firebase"
+      "content": "React, Next.js (App Router), SSR / CSR, Web Performance Optimization, Tailwind CSS, Flutter, Dart, Firebase"
     },
     {
       "title": "AI / LLM Engineering",
-      "content": "Claude Code, AI-assisted Development, Agentic Development, Tool Use / Function Calling, Agent Guardrails, Acceptance-Criteria-Driven Development, Automated Verification Loops, RAG, pgvector, Anthropic API, Prompt Engineering, LLM-as-a-Judge & Offline Evaluation, Multi-Provider Routing & Fallback, Token Cost Tracking"
+      "content": "Claude Code, AI-assisted Development, Agentic Development, Tool Use / Function Calling, Agent Guardrails, RAG, Anthropic API, LLM-as-a-Judge & Offline Evaluation, Multi-Provider Routing & Fallback, Token Cost Tracking, Multi-agent Workflow (Asana Dispatch, Tiered AI Code Review)"
     },
     {
       "title": "Database",
-      "content": "MySQL, PostgreSQL, Redis, MongoDB, pgvector, Index & Query Optimization, Caching Strategies, Connection Pool Tuning"
+      "content": "MySQL, PostgreSQL, Redis, pgvector, Index & Query Optimization, Caching Strategies, Connection Pool Tuning"
     },
     {
       "title": "System / Ops",
-      "content": "Linux, Docker, CI/CD, GitHub Actions, AWS (Lambda, SQS, S3, EC2, ECS, RDS Proxy, Rekognition), Serverless architecture, CDN, Sentry, Kibana, Grafana, Prometheus, Git"
+      "content": "Linux, Docker, CI/CD, GitHub Actions, AWS (Lambda, SQS, S3, ECS, Rekognition), Serverless architecture, Sentry, Kibana, Grafana, Git"
     },
     {
       "title": "Team & Process",
-      "content": "Team Leadership (11 engineers), Design Review, Code Review, Release Checklist & Release Process, Monitoring & Troubleshooting Standards, Requirement Analysis, Technical & API Documentation, Scrum, Jira, Cross-team Collaboration"
+      "content": "Team Leadership (11 engineers), Design Review, Code Review, Release Checklist & Release Process, Monitoring & Troubleshooting Standards, Requirement Analysis, Technical Documentation, Scrum, Jira"
     },
     {
       "title": "Methodologies",
