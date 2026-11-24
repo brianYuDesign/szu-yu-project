@@ -20,23 +20,6 @@
       "imgKey": ""
     },
     {
-      "name": "Bound - 興趣揪團社交 App",
-      "content": "Flutter 跨平台社交配對 App，主打 AI 配對、興趣社群揪團與聊天教練。我從產品策略、UI 設計做到全端實作；AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude 與 Rekognition。上線網站：bound-app.com。",
-      "tech": [
-        "Flutter",
-        "Dart",
-        "NestJs",
-        "TypeScript",
-        "Claude AI",
-        "Firebase",
-        "AWS",
-        "Redis",
-        "MySQL"
-      ],
-      "link": "https://bound-app.com/",
-      "imgKey": "boundapp"
-    },
-    {
       "name": "云桐科技 - 遊戲與直播互動平台",
       "content": "云桐核心平台，分成遊戲與直播兩塊。遊戲以 Nx Monorepo 搭 NestJS 微服務，每款玩法拆成 API、Socket、業務服務與非同步 consumer，可依流量各自水平擴展，承載尖峰時段的高併發流量。上線網站：gamilive.com。",
       "tech": [
@@ -56,6 +39,23 @@
       ],
       "link": "https://gamilive.com/",
       "imgKey": "gamilive"
+    },
+    {
+      "name": "Bound - 興趣揪團社交 App",
+      "content": "Flutter 跨平台社交配對 App，主打 AI 配對、興趣社群揪團與聊天教練。我從產品策略、UI 設計做到全端實作；AI job 走 SQS 非同步、Firebase 即時回推，內容審核分級接 Claude 與 Rekognition。上線網站：bound-app.com。",
+      "tech": [
+        "Flutter",
+        "Dart",
+        "NestJs",
+        "TypeScript",
+        "Claude AI",
+        "Firebase",
+        "AWS",
+        "Redis",
+        "MySQL"
+      ],
+      "link": "https://bound-app.com/",
+      "imgKey": "boundapp"
     },
     {
       "name": "Sugarbee - 高端交友 App",

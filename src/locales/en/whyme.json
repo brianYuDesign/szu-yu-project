@@ -2,16 +2,16 @@
   "title": "Why Me",
   "items": [
     {
-      "title": "End-to-End Delivery",
-      "description": "A full product line delivered alone: schema design, APIs, frontend, deployment, and CI/CD all owned directly, with no handoff between roles. Bound ran from product strategy and UI design through full-stack implementation; Coffee Chat was product, design, and both ends built alone. Performance and cloud cost sit in the same scope — indexes designed around actual query shapes, caching split across in-process memory and Redis."
+      "title": "Team Leadership & Development Standards",
+      "description": "Leading an 11-person cross-functional team meant turning delivery quality from individual capability into process: architecture decisions settled before work begins, implementation quality held by code review, release risk controlled by a checklist, troubleshooting steps documented. Explicit rules and acceptance criteria are also what later made adopting AI possible."
     },
     {
       "title": "AI Applications & AI-Assisted Development",
       "description": "AI is both tooling and product. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges its own compliance, shortening the iteration cycle. On the product side, six Claude features shipped with two behind subscription tiers, handling guardrails, degradation, content moderation, and cost accounting. At Pacificsmart I extended this into a team workflow: an Asana card dispatches work to an agent automatically, and MRs are AI-reviewed and merged by risk tier."
     },
     {
-      "title": "Team Leadership & Development Standards",
-      "description": "Leading an 11-person cross-functional team meant turning delivery quality from individual capability into process: architecture decisions settled before work begins, implementation quality held by code review, release risk controlled by a checklist, troubleshooting steps documented. Explicit rules and acceptance criteria are also what later made adopting AI possible."
+      "title": "End-to-End Delivery",
+      "description": "A full product line delivered alone: schema design, APIs, frontend, deployment, and CI/CD all owned directly, with no handoff between roles. Bound ran from product strategy and UI design through full-stack implementation; Coffee Chat was product, design, and both ends built alone. Performance and cloud cost sit in the same scope — indexes designed around actual query shapes, caching split across in-process memory and Redis."
     }
   ]
 }

@@ -6,14 +6,14 @@
   },
   "metrics": [
     {
-      "value": "1",
-      "unit": "",
-      "label": "AI-assisted: 2 product lines in 6 months"
-    },
-    {
       "value": "11",
       "unit": "",
       "label": "Engineers led"
+    },
+    {
+      "value": "1",
+      "unit": "",
+      "label": "AI-assisted: 2 product lines in 6 months"
     },
     {
       "value": "+81",
