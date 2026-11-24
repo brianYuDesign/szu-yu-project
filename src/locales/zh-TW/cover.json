@@ -2,7 +2,7 @@
   "title": "余勝允 Brian Yu CV",
   "subtitle": "技術主管 / Tech Lead · 8 年後端與平台開發，曾帶 11 人跨職能團隊，善用 AI 協作開發加速迭代",
   "description": {
-    "intro": "您好，我是余勝允（Brian Yu），技術主管，約 8 年開發經驗。後端 Node.js / TypeScript 與 NestJS，前端 React / Next.js，能自資料表設計、API、前端介面到部署獨立完成一條產品線。\n\n目前在太能系統擔任技術主管，負責即時 AI 口譯平台 Abestar Live，並把 AI 代理接進團隊的派工、code review 與部署流程。\n\n過去在遊戲／直播平台自後端工程師晉升至技術主管，負責微服務架構、高併發流量處理與團隊開發標準的建立。\n\n近半年以 AI 協作開發加速迭代：需求先訂出可驗收的完成標準，實作交由代理迭代，測試與 code review 先經 AI 過濾；並清楚 AI 進 production 需要什麼——護欄、降級、離線評測與成本計量。一人在六個月內完成兩條產品線，交付六項 Claude 功能與 RAG 客服。\n\n目前尋找技術主管或 Tech Lead 職位。"
+    "intro": "您好，我是余勝允（Brian Yu），技術主管，約 8 年開發經驗。後端 Node.js / TypeScript 與 NestJS，前端 React / Next.js，能自資料表設計、API、前端介面到部署獨立完成一條產品線。\n\n過去在遊戲／直播平台自後端工程師晉升至技術主管，負責微服務架構、高併發流量處理與團隊開發標準的建立。\n\n這一年我和 AI 一起完成的事：在感覺銀航，我一個人搭配 AI 代理，六個月內交付兩條產品線（Bound 從零開發、Sugarbee 接手維運），上線六項 Claude 功能，iOS 與 Android 一個半月內上架。到了太能系統，我和代理一起把即時 AI 口譯平台 Abestar Live 從 POC 推到正式上線，也把團隊的派工、code review 與部署接上代理，同事開一張卡就能交給代理處理。\n\n我的做法是先把完成標準寫成能自動檢查的條件，再讓代理去迭代，速度變快，品質也有底線。AI 功能上 production 時，護欄、降級、離線評測與成本計量我會一起處理。\n\n目前尋找技術主管或 Tech Lead 職位。"
   },
   "metrics": [
     {
