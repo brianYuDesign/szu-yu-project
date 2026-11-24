@@ -6,11 +6,11 @@
       "jobTitle": "Tech Lead",
       "context": "AI Applications department; owns architecture, deployment, and AI quality for the real-time AI interpretation platform Abestar Live and existing translation products, and designed the team's AI-agent workflow",
       "jobDesc": [
-        "Led Abestar Live from POC to production: real-time speech recognition feeding LLM translation and correction across six languages; staging load test held 10 concurrent sessions of 50 listeners each.",
-        "Prompts are versioned in one place and every change runs a fixed-corpus translation eval and cost measurement first; switching correction to explicit caching cut measured cost per session-hour by 58–76%.",
-        "Designed the team's AI-agent workflow: a card or comment in Asana is dispatched to a Claude Code agent automatically, and MRs are reviewed by AI against one shared code standard, then tiered so low-risk changes auto-merge and sensitive ones wait for a human.",
-        "Unified CI/CD templates across 6 projects: develop auto-deploys to staging, production releases are triggered manually from version tags, with blue-green deploys for zero-downtime switches.",
-        "Built centralized Grafana monitoring (metrics, logs, probes, 23 alert rules) and ran OWASP security scans across four repos."
+        "Drove the AI interpretation product Abestar Live from POC to production and set the standards for its architecture, deployment, and AI quality.",
+        "Drove an eval-first practice: every prompt or model change runs a fixed evaluation and cost measurement first, so release decisions rest on data.",
+        "Drove the team's adoption of AI-agent collaboration: task dispatch, code review, and merging run through agents, with clear rules for the split between people and AI: agents handle low-risk changes, people own sensitive ones.",
+        "Drove deployment standardization: projects moved onto one shared CI/CD template and release process with zero-downtime switches.",
+        "Drove an observability and security baseline: centralized monitoring and alerting plus regular security scans became the shared floor for every project."
       ],
       "period": "2026.09 ~ Present"
     },
