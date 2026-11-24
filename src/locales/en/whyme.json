@@ -10,8 +10,8 @@
       "description": "AI is both tooling and product. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges its own compliance, shortening the iteration cycle. On the product side, six Claude features shipped with two behind subscription tiers, handling guardrails, degradation, content moderation, and cost accounting. At Pacificsmart I extended this into a team workflow: an Asana card dispatches work to an agent automatically, and MRs are AI-reviewed and merged by risk tier."
     },
     {
-      "title": "End-to-End Delivery",
-      "description": "A full product line delivered alone: schema design, APIs, frontend, deployment, and CI/CD all owned directly, with no handoff between roles. Bound ran from product strategy and UI design through full-stack implementation; Coffee Chat was product, design, and both ends built alone. Performance and cloud cost sit in the same scope — indexes designed around actual query shapes, caching split across in-process memory and Redis."
+      "title": "Hands-on Engineering & Architecture Judgment",
+      "description": "I still build hands-on and can take schema, APIs, frontend, and deployment end to end on my own; Bound was mine from product strategy and UI design through full-stack implementation. Architecture decisions rest on actual query shapes and cost, such as indexes designed around real queries and caching split between in-process memory and Redis. As a tech lead, this keeps technical decisions grounded in executable detail."
     }
   ]
 }
