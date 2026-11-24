@@ -341,6 +341,15 @@ html.dark .btn:hover {
 .main {
   padding: clamp(1.5rem, 3vw, 2rem) var(--pad);
 }
+@media (max-width: 939px) {
+  .main {
+    order: -1;
+  }
+  .side {
+    border-bottom: 0;
+    border-top: 1px solid var(--color-rule);
+  }
+}
 
 /* ---------- 區段 ---------- */
 .sec {

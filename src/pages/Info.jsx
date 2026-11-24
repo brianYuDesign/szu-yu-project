@@ -6,6 +6,7 @@ const Info = () => {
   const items = t("items", { returnObjects: true }) || [];
   // primary 的欄位已經在頁首出現，側欄只列剩下的
   const rest = items.filter((i) => !i.primary);
+  if (rest.length === 0) return null;
 
   return (
     <section className="sec">

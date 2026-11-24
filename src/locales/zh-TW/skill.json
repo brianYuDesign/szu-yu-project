@@ -3,31 +3,27 @@
   "items": [
     {
       "title": "後端開發",
-      "content": "Node.js、TypeScript、NestJS、MicroService、Socket.IO、Kafka、Bull Queue、Python、FastAPI；早期經驗：C#、Salesforce (Apex、VisualForce)"
-    },
-    {
-      "title": "前端 / 跨平台",
-      "content": "React、Next.js (App Router)、SSR / CSR、Web 效能優化、Tailwind CSS、Flutter、Dart、Firebase"
+      "content": "Node.js、TypeScript、NestJS、Fastify、Python、FastAPI、微服務、Kafka、Socket.IO；早期經驗：C#、Salesforce"
     },
     {
       "title": "AI / LLM 工程",
-      "content": "Claude Code、AI 輔助開發、Agentic Development、Tool Use / Function Calling、Agent 護欄、RAG、Anthropic API、LLM-as-a-Judge 與離線評測、多 Provider Routing 與降級、Token 成本追蹤、多代理工作流（Asana 派工、AI Code Review 分級合併）"
+      "content": "Claude Code、Agentic Development、多代理工作流（Asana 派工、AI Code Review 分級合併）、RAG、LLM-as-a-Judge 與離線評測、多 Provider 降級、Token 成本追蹤"
     },
     {
-      "title": "資料庫",
-      "content": "MySQL、PostgreSQL、Redis、pgvector、索引與查詢優化、快取策略、連線池調校"
+      "title": "前端 / 跨平台",
+      "content": "React、Next.js、Tailwind CSS、Flutter、Firebase、Web 效能優化"
     },
     {
       "title": "系統 / 維運",
-      "content": "Linux、Docker、CI/CD、GitHub Actions、AWS (Lambda、SQS、S3、ECS、Rekognition)、Serverless 架構、Sentry、Kibana、Grafana、Git"
+      "content": "Docker、GitLab CI、GitHub Actions、藍綠部署、AWS、GCP、Grafana、Sentry"
+    },
+    {
+      "title": "資料庫",
+      "content": "MySQL、PostgreSQL、Redis、pgvector、索引與查詢優化"
     },
     {
       "title": "團隊與流程",
-      "content": "團隊帶領（11 人）、Design Review、Code Review、Release Checklist 與上版流程、監控與排查標準、需求分析、技術文件、Scrum、Jira"
-    },
-    {
-      "title": "開發方法論",
-      "content": "OOP、Functional Programming、SOLID、Design Patterns、Clean Code、Refactoring、單元測試與功能測試"
+      "content": "團隊帶領（11 人）、Design Review、Code Review、上版流程、監控與排查標準、Scrum"
     }
   ]
 }

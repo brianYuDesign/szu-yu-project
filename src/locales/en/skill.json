@@ -3,31 +3,27 @@
   "items": [
     {
       "title": "Backend development",
-      "content": "Node.js, TypeScript, NestJS, MicroService, Socket.IO, Kafka, Bull Queue, Python, FastAPI; earlier: C#, Salesforce (Apex, VisualForce)"
-    },
-    {
-      "title": "Frontend / Cross-platform",
-      "content": "React, Next.js (App Router), SSR / CSR, Web Performance Optimization, Tailwind CSS, Flutter, Dart, Firebase"
+      "content": "Node.js, TypeScript, NestJS, Fastify, Python, FastAPI, Microservices, Kafka, Socket.IO; earlier: C#, Salesforce"
     },
     {
       "title": "AI / LLM Engineering",
-      "content": "Claude Code, AI-assisted Development, Agentic Development, Tool Use / Function Calling, Agent Guardrails, RAG, Anthropic API, LLM-as-a-Judge & Offline Evaluation, Multi-Provider Routing & Fallback, Token Cost Tracking, Multi-agent Workflow (Asana Dispatch, Tiered AI Code Review)"
+      "content": "Claude Code, Agentic Development, Multi-agent Workflow (Asana Dispatch, Tiered AI Code Review), RAG, LLM-as-a-Judge & Offline Evaluation, Multi-Provider Fallback, Token Cost Tracking"
     },
     {
-      "title": "Database",
-      "content": "MySQL, PostgreSQL, Redis, pgvector, Index & Query Optimization, Caching Strategies, Connection Pool Tuning"
+      "title": "Frontend / Cross-platform",
+      "content": "React, Next.js, Tailwind CSS, Flutter, Firebase, Web Performance Optimization"
     },
     {
       "title": "System / Ops",
-      "content": "Linux, Docker, CI/CD, GitHub Actions, AWS (Lambda, SQS, S3, ECS, Rekognition), Serverless architecture, Sentry, Kibana, Grafana, Git"
+      "content": "Docker, GitLab CI, GitHub Actions, Blue-green Deployment, AWS, GCP, Grafana, Sentry"
+    },
+    {
+      "title": "Database",
+      "content": "MySQL, PostgreSQL, Redis, pgvector, Index & Query Optimization"
     },
     {
       "title": "Team & Process",
-      "content": "Team Leadership (11 engineers), Design Review, Code Review, Release Checklist & Release Process, Monitoring & Troubleshooting Standards, Requirement Analysis, Technical Documentation, Scrum, Jira"
-    },
-    {
-      "title": "Methodologies",
-      "content": "OOP, Functional Programming, SOLID, Design Patterns, Clean Code, Refactoring, Unit & Functional Testing"
+      "content": "Team Leadership (11 engineers), Design Review, Code Review, Release Process, Monitoring & Troubleshooting Standards, Scrum"
     }
   ]
 }
