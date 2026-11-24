@@ -7,7 +7,7 @@
     },
     {
       "title": "AI Applications & AI-Assisted Development",
-      "description": "AI is both tooling and product. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges its own compliance, shortening the iteration cycle. On the product side, six Claude features shipped with two behind subscription tiers, handling guardrails, degradation, content moderation, and cost accounting, while the architecture prevents AI from blocking payments or matching. At Pacificsmart I extended this into a team workflow: an Asana card dispatches work to an agent automatically, and MRs are AI-reviewed and merged by risk tier."
+      "description": "AI is both tooling and product. On the development side, standards are written as agent-readable rule files with automated verification loops so the agent judges its own compliance, shortening the iteration cycle. On the product side, six Claude features shipped with two behind subscription tiers, handling guardrails, degradation, content moderation, and cost accounting. At Pacificsmart I extended this into a team workflow: an Asana card dispatches work to an agent automatically, and MRs are AI-reviewed and merged by risk tier."
     },
     {
       "title": "Team Leadership & Development Standards",

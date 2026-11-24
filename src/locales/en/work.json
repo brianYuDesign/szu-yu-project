@@ -19,9 +19,9 @@
       "jobTitle": "AI Engineer",
       "context": "Dating and social startup; sole engineer across the Flutter app, NestJS backend, and deployment",
       "jobDesc": [
-        "Brought AI into both the product and the development process: shipped several Claude features into paid tiers, and worked with agents through rule files and automated verification loops.",
-        "Stabilized subscription revenue by completing auto-renewal and failed-payment retries to reduce churn from failed charges.",
-        "Made performance and cloud cost part of routine ownership, tuning queries, indexes, and cloud architecture together.",
+        "Brought AI into both the product and the development process: shipped six Claude features, two of them in paid tiers, and worked with agents through rule files and automated verification loops.",
+        "Stabilized subscription revenue by completing auto-renewal and failed-payment retries; monthly revenue went from NT$210K to NT$380K.",
+        "Made performance and cloud cost part of routine ownership, tuning queries, indexes, and cloud architecture together for a 180ms API average and monthly cloud spend down from US$1,200 to US$400.",
         "Built the delivery pipeline alone, from development to store release: CI/CD, iOS and Android launches, and a RAG support agent with human handoff."
       ],
       "period": "2026.03 ~ 2026.08"
@@ -32,7 +32,7 @@
       "context": "Game and live-streaming platform; joined in 2020 as a backend engineer, engineering manager from January 2023",
       "jobDesc": [
         "Led an 11-person cross-functional team (backend, frontend, QA) and owned multiple products from design to launch.",
-        "Led the microservice and event-driven architecture (Kafka, Redis) behind high-concurrency transaction and order traffic.",
+        "Led the microservice and event-driven architecture (Kafka, Redis) carrying a peak of a thousand transactions and orders per second.",
         "Turned releases into a process: a release checklist moved release risk from individual habit to a process check.",
         "Established monitoring, logging, and troubleshooting standards so on-call engineers could isolate problems by following set steps.",
         "Made design review and code review the shared development standard across product lines.",
