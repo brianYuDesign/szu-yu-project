@@ -6,8 +6,8 @@ import DownloadPdfButton from "./DownloadPdfButton";
 
 const SECTIONS = [
   "summary",
-  "strengths",
   "experience",
+  "strengths",
   "works",
   "skills",
   "education",

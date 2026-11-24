@@ -55,8 +55,8 @@ function App() {
 
           <main className="main">
             <Summary />
-            <WhyMe />
             <Work />
+            <WhyMe />
             <Project />
           </main>
         </div>
