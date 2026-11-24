@@ -22,7 +22,6 @@
         "Brought AI into both the product and the development process: shipped several Claude features into paid tiers, and worked with agents through rule files and automated verification loops.",
         "Stabilized subscription revenue by completing auto-renewal and failed-payment retries to reduce churn from failed charges.",
         "Made performance and cloud cost part of routine ownership, tuning queries, indexes, and cloud architecture together.",
-        "Set the architectural rule that AI must never block core transactions: every LLM call goes through an async queue, away from payments and matching.",
         "Built the delivery pipeline alone, from development to store release: CI/CD, iOS and Android launches, and a RAG support agent with human handoff."
       ],
       "period": "2026.03 ~ 2026.08"
