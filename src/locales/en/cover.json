@@ -21,9 +21,9 @@
       "label": "Monthly revenue growth"
     },
     {
-      "value": "−86",
-      "unit": "%",
-      "label": "First paint 10s → 1.4s"
+      "value": "6",
+      "unit": "",
+      "label": "Projects on one CI/CD & release process"
     }
   ]
 }

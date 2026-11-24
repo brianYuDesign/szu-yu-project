@@ -86,36 +86,6 @@
       ],
       "link": "https://coffee-chat.tw/",
       "imgKey": "coffeechat"
-    },
-    {
-      "name": "AI 客服與語音交易 Concierge - 高風險金流場域 PoC",
-      "content": "我自己建的 PoC，沒有付費客戶。AI 只能產生待確認的交易意圖，實際扣款要使用者確認才會觸發，這道限制做在架構層。Python 的 RAG／STT 服務搭 Node.js Gateway；150 題評測集（地端 bge-m3、top_k=3）下 Recall@3 為 92.7%，知識庫沒有答案的 8 題全部正確轉真人；30 個誘導攻擊案例補上規則層後，自 27/30 提升至 30/30。",
-      "tech": [
-        "Python",
-        "FastAPI",
-        "TypeScript",
-        "Fastify",
-        "PostgreSQL",
-        "pgvector",
-        "RAG",
-        "Anthropic API",
-        "STT"
-      ],
-      "link": "",
-      "imgKey": ""
-    },
-    {
-      "name": "Numbers Link - 公平隨機數平台",
-      "content": "用區塊鏈不可篡改的特性，把多家數據廠商的數字算成公平隨機數。我是主要後端開發，也寫了 EOS 智能合約。",
-      "tech": [
-        "Node.js",
-        "NestJs",
-        "MySQL",
-        "EOSIO",
-        "React",
-        "MicroService"
-      ],
-      "link": ""
     }
   ],
   "archiveTitle": "其他專案",
